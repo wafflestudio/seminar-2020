@@ -1,8 +1,8 @@
-최한결
+최한결 frontend, backend, android
 이세원
 이민제
 손현달
-신규섭
+신규섭 backend
 정지민
 최준호
 김호균
@@ -35,22 +35,22 @@
 정덕인
 남우성
 전형민
-김유진
+김유진 frontend, backend, android
 고영현
 류남규
 김진욱
-임중빈
+임중빈 Backend, Android
 강민준 frontend, android
 정대용
-김홍균
+김홍균 frontend, backend
 윤형석
 김승효
-이성민
+이성민	frontend, backend
 김민찬
-최형욱
+최형욱 frontend
 최종현
 허수현
-우현민
+우현민 frontend, backend
 박현
 최신혁
 박명훈
