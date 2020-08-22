@@ -48,7 +48,7 @@
 이성민	frontend, backend
 김민찬 backend, android
 최형욱 frontend
-최종현
+최종현 backend
 허수현
 우현민 frontend, backend
 박현	backend, frontend
