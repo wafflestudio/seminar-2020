@@ -20,7 +20,7 @@
 정우근 android
 김건희 backend
 류명현
-이상규
+이상규 backend
 박윤수
 문서윤 backend
 김미승
