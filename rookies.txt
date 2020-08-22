@@ -46,7 +46,7 @@
 윤형석
 김승효
 이성민	frontend, backend
-김민찬
+김민찬 backend, android
 최형욱 frontend
 최종현
 허수현
