@@ -9,7 +9,7 @@
 임종원
 이유빈
 박선재
-함태원 frontend, backend
+함태원 frontend
 이지민
 김민영
 정민수
