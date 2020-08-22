@@ -1,57 +1,57 @@
-최한결
+최한결 frontend, backend, android
 이세원
 이민제
-손현달
-신규섭
+손현달 Backend / Web FrontEnd
+신규섭 backend
 정지민
 최준호
 김호균
 임종원
-이유빈
+이유빈 안드로이드
 박선재
 함태원
 이지민
 김민영
 정민수
-정명구
+정명구 backend android
 김정환
 임유진
 박은천
-정우근
-김건희
+정우근 android
+김건희 backend
 류명현
 이상규
 박윤수
-문서윤
+문서윤 backend
 김미승
-박범규
+박범규 backend, android
 안유리
 박도현
 유병규
 한진우
-김지원
+김지원 frontend
 정다운
 정승빈
 정덕인
 남우성
 전형민
-김유진
+김유진 frontend, backend, android
 고영현
 류남규
 김진욱
-임중빈
-강민준
+임중빈 Backend, Android
+강민준 frontend, android
 정대용
-김홍균
+김홍균 frontend, backend
 윤형석
 김승효
-이성민
+이성민	frontend, backend
 김민찬 backend, android
-최형욱
+최형욱 frontend
 최종현
 허수현
-우현민
-박현
+우현민 frontend, backend
+박현	backend, frontend
 최신혁
 박명훈
 정희수
