@@ -45,7 +45,7 @@
 김홍균 frontend, backend
 윤형석
 김승효
-이성민
+이성민	frontend, backend
 김민찬
 최형욱 frontend
 최종현
