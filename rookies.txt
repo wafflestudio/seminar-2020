@@ -33,7 +33,7 @@
 정다운 frontend, backend
 정승빈
 정덕인 frontend
-남우성
+남우성 frontend, backend
 전형민 backend
 김유진 frontend, backend, android
 고영현
