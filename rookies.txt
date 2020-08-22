@@ -38,7 +38,7 @@
 김유진 frontend, backend, android
 고영현
 류남규
-김진욱
+김진욱 frontend, backend, android
 임중빈 Backend, Android
 강민준 frontend, android
 정대용
