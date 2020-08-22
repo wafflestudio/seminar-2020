@@ -51,7 +51,7 @@
 최종현
 허수현
 우현민 frontend, backend
-박현
+박현	backend, frontend
 최신혁
 박명훈
 정희수
