@@ -11,7 +11,7 @@
 박선재
 함태원
 이지민
-김민영
+김민영 backend
 정민수
 정명구 backend android
 김정환
