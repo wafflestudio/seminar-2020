@@ -14,7 +14,7 @@
 김민영
 정민수
 정명구 backend android
-김정환
+김정환 backend
 임유진
 박은천
 정우근 android
