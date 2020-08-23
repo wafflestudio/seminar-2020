@@ -25,7 +25,7 @@
 문서윤 backend
 김미승
 박범규 backend, android
-안유리
+안유리 frontend, backend
 박도현 backend
 유병규 backend
 한진우 frontend, backend
