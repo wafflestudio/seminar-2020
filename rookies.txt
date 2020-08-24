@@ -5,7 +5,7 @@
 신규섭 backend
 정지민 backend, android
 최준호
-김호균
+김호균 backend
 임종원
 이유빈 안드로이드
 박선재 frontend, backend
