@@ -16,7 +16,7 @@
 정명구 backend android
 김정환
 임유진
-박은천 backend
+박은천 frontend, backend
 정우근 android
 김건희 backend
 류명현 backend
