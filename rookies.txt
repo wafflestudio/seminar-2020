@@ -1,7 +1,7 @@
 최한결 frontend, backend, android
 이세원 backend, android
 이민제
-손현달 Backend / Web FrontEnd
+손현달 Backend
 신규섭 backend
 정지민
 최준호
