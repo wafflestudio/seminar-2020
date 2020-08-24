@@ -35,7 +35,7 @@
 정덕인 frontend
 남우성 frontend, backend
 전형민 backend
-김유진 frontend, backend, android
+김유진 frontend, backend
 고영현 backend, frontend
 류남규
 김진욱 frontend, backend, android
