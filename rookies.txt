@@ -54,5 +54,5 @@
 박현	backend, frontend
 최신혁
 박명훈 backend
-정희수
+정희수 backend
 조승한 backend
