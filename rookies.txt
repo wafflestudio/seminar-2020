@@ -31,7 +31,7 @@
 한진우 frontend, backend
 김지원 frontend
 정다운 frontend, backend
-정승빈
+정승빈 frontend, backend, android
 정덕인 frontend
 남우성 frontend, backend
 전형민 backend
