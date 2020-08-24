@@ -21,7 +21,7 @@
 김건희 backend
 류명현 backend
 이상규 backend
-박윤수
+박윤수 frontend, backend
 문서윤 backend
 김미승
 박범규 backend, android
