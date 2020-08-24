@@ -4,7 +4,7 @@
 손현달 Backend
 신규섭 backend
 정지민 backend, android
-최준호
+최준호 backend
 김호균
 임종원
 이유빈 안드로이드
