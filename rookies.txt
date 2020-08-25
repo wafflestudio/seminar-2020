@@ -7,7 +7,7 @@
 최준호 backend
 김호균 backend
 임종원 backend
-이유빈 안드로이드
+이유빈 android
 박선재 frontend, backend
 함태원 frontend
 이지민 frontend
