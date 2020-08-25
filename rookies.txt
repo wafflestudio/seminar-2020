@@ -56,3 +56,4 @@
 박명훈 backend
 정희수 backend
 조승한 backend
+이승민 frontend, android
