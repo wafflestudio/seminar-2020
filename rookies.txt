@@ -10,7 +10,7 @@
 이유빈 안드로이드
 박선재 frontend, backend
 함태원 frontend
-이지민
+이지민 frontend
 김민영 backend
 정민수 backend
 정명구 backend android
