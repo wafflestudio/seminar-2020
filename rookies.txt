@@ -12,7 +12,7 @@
 함태원 frontend
 이지민
 김민영 backend
-정민수
+정민수 backend
 정명구 backend android
 김정환 backend
 임유진 backend
