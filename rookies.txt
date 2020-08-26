@@ -52,7 +52,7 @@
 허수현 backend
 우현민 frontend, backend
 박현	backend, frontend
-최신혁 frontend
+최신혁 frontend, backend
 박명훈 backend
 정희수 backend
 조승한 backend
