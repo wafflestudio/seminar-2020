@@ -26,7 +26,7 @@
 ---
 
 ## Body
-- 곧 추가될 예정입니다.
+https://docs.google.com/presentation/d/1dlnpX7fOU4tdkiQjlkzJh6ctAmmrSKjK7sjHKdaApzo/edit?usp=sharing
 
 ---
 
