@@ -1,12 +1,15 @@
 from django.core.management.base import BaseCommand
-import os
 
 from survey.models import OperatingSystem, SurveyResult
 
-TSV_FILE = '$HOME'
 
 def download_survey():
-    tsv_file = f"{os.getenv('HOME')}/Documents/Wafflestudio 18.5 Rookies Backend 세미나를 위한 설문(응답) - 설문지 응답 시트.tsv"
+    # NOTE: if you run this command multiple times, rows of 'survey_surveyresult' table will be added repeatedly.
+
+    path = ''  # NOTE: you should assign proper directory path
+    if not path:
+        raise Exception("Please specify path of directory including 'example_surveyresult.tsv'!")
+    tsv_file = f"{path}/example_surveyresult.tsv"
 
     OperatingSystem.objects.get_or_create(name='Windows', price=200000, description="Most favorite OS in South Korea")
     OperatingSystem.objects.get_or_create(name='MacOS', price=300000, description="Most favorite OS of Seminar Instructors")
