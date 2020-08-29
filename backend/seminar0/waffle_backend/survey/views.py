@@ -6,7 +6,7 @@ from survey.serializers import SurveyResultSerializer
 from survey.models import SurveyResult
 
 
-class SurveyViewSet(viewsets.GenericViewSet):
+class SurveyResultViewSet(viewsets.GenericViewSet):
     queryset = SurveyResult.objects.all()
     serializer_class = SurveyResultSerializer
 
@@ -15,8 +15,7 @@ class SurveyViewSet(viewsets.GenericViewSet):
         surveys = self.get_queryset()
         return Response(self.get_serializer(surveys, many=True).data)
 
-    # GET /api/v1/survey/{survey_id}/
+    # GET /api/v1/survey/{surveyresult_id}/
     def retrieve(self, request, pk=None):
         survey = get_object_or_404(SurveyResult, pk=pk)
         return Response(self.get_serializer(survey).data)
-
