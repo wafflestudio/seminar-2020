@@ -15,7 +15,8 @@
 
 ### 과제 내용
 1. [seminar0](.)에 포함된 waffle_backend 서버를 자신의 로컬 환경을 잘 갖춰 동작 시키는 데에 성공시켜야 합니다. `python manage.py
-runsever`를 통해 서버가 실행된 화면이 포함된 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요.
+runsever`를 통해 서버가 실행된 화면이 포함된 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요. 4. 이후 정도까지는 진행하신 후에야
+서버를 완전히 정상 동작시킬 수 있을 것이고, 스크린샷도 이때 이후로 부탁드립니다.
 
 2. 로컬 환경에 Python을 설치하고, Python 3.8.3이며 waffle_backend만을 위한 '가상환경'을 activate 시킨 상태로
 [requirements.txt](./requirements.txt) 의 패키지들을 설치해야 합니다. 가상환경을 activate 시킨 것을 확인할 수 있고,
@@ -63,15 +64,15 @@ API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적�
 ## 제출 방식
 1. 자신의 GitHub 개인 계정에 `waffle-rookies-18.5-backend-0`라는 이름으로 private repository를 개설합니다.
 
-![스크린샷 2020-08-30 02 12 24](https://user-images.githubusercontent.com/35535636/91642533-097dec80-ea67-11ea-96e4-ab0dfa757187.png)
+![스크린샷 2020-08-30 02 12 24](https://user-images.githubusercontent.com/35535636/91642533-097dec80-ea67-11ea-96e4-ab0dfa757187.png)
 
 2. 개설 후 Settings > Manage access 로 들어갑니다.
 
-![스크린샷 2020-08-30 02 13 52](https://user-images.githubusercontent.com/35535636/91642567-5eb9fe00-ea67-11ea-9382-89fcce03be70.png)
+![스크린샷 2020-08-30 02 13 52](https://user-images.githubusercontent.com/35535636/91642567-5eb9fe00-ea67-11ea-9382-89fcce03be70.png)
 
 3. collaborator로, 세미나 운영진들을 초대합니다.
 
-![스크린샷 2020-08-30 02 14 59](https://user-images.githubusercontent.com/35535636/91642588-87da8e80-ea67-11ea-9d5a-60a3596463c9.png)
+![스크린샷 2020-08-30 02 14 59](https://user-images.githubusercontent.com/35535636/91642588-87da8e80-ea67-11ea-9d5a-60a3596463c9.png)
 
 - [@davin111](https://github.com/davin111) (아래 스크린샷에는 저 자신이라 포함이 안 되어있는 것이고, 당연히 추가하셔야 합니다.)
 - [@sanggggg](https://github.com/sanggggg)
@@ -79,7 +80,7 @@ API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적�
 - [@Hank-Choi](https://github.com/Hank-Choi)
 - [@veldic](https://github.com/veldic)
 
-![스크린샷 2020-08-30 02 16 17](https://user-images.githubusercontent.com/35535636/91642619-cbcd9380-ea67-11ea-84ea-1a0729103755.png)
+![스크린샷 2020-08-30 02 16 17](https://user-images.githubusercontent.com/35535636/91642619-cbcd9380-ea67-11ea-84ea-1a0729103755.png)
 
 4. 아래 스크린샷과 같은 directory 구조를 갖추어야 합니다.
 
@@ -91,9 +92,9 @@ API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적�
 /results/
 ```
 
-![스크린샷 2020-08-30 03 16 21](https://user-images.githubusercontent.com/35535636/91643553-3b934c80-ea6f-11ea-8e5c-c20b1e6e42a3.png)
+![스크린샷 2020-08-30 03 16 21](https://user-images.githubusercontent.com/35535636/91643553-3b934c80-ea6f-11ea-8e5c-c20b1e6e42a3.png)
 
-![스크린샷 2020-08-30 03 16 29](https://user-images.githubusercontent.com/35535636/91643554-3cc47980-ea6f-11ea-9ade-087b4845df11.png)
+![스크린샷 2020-08-30 03 16 29](https://user-images.githubusercontent.com/35535636/91643554-3cc47980-ea6f-11ea-9ade-087b4845df11.png)
 
 ### 참고하면 좋은 것들
 - https://education.github.com/pack 에서 학생 인증하여 education pack을 받으시면 무료로 좀 더 많은 GitHub 기능들을 이용할 수 있습니다.
