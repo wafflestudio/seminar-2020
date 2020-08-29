@@ -26,7 +26,8 @@ runsever`를 통해 서버가 실행된 화면이 포함된 스크린샷을 `/re
 이 과정을 통해 database에 table들이 추가됩니다. Django migration을 이용해 table을 추가하는 과정임을 확인하세요.
 5. 이미 준비된 download_survey [command](https://docs.djangoproject.com/en/3.1/howto/custom-management-commands/) 를 이용해
 [예시 데이터](./waffle_backend/example_surveyresult.tsv)를 survey_surveyresult 테이블에 저장시켜야 합니다. 예시 데이터는 실제 여러분이 참여해주신 설문 결과이며,
-사적인 내용이 포함되었을 수 있는 주관식 응답은 모두 제외했습니다.
+사적인 내용이 포함되었을 수 있는 주관식 응답은 모두 제외했습니다. `python manage.py help`를 이용해 manage.py 를 통해 실행할 수 있는 command들을 확인할 수 있습니다.
+기본 command들 외에, 제가 미리 추가해둔 `download_survey`를 확인할 수 있을 것입니다.
 이 과정을 통해 database의 `survey_surveyresult`, `survey_operatingsystem` table에 row들을 insert하게 됩니다. Django command를 이용해 row를 추가하는 과정임을 확인하세요.
 `RuntimeWarning: DateTimeField SurveyResult.timestamp received a naive datetime (2020-08-25 21:58:47) while time zone support is active.
   warnings.warn("DateTimeField %s received a naive datetime (%s)"` 이와 같은 warning은 일단 무시하셔도 좋습니다.
