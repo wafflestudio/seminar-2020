@@ -126,6 +126,12 @@
 
 ---
 
+## 과제
+- [assignment.md](assignment.md) 참고.
+- due: 2020.09.04.(금) 23:59
+
+---
+
 ## 피드백
 > Backend 세미나를 진행해나가는 과정에서 feedback 주시면 지속적으로 참고하도록 하겠습니다. 물론 익명이고, 여러 번 남겨주실 수도 있습니다.
 > < [참여하러 가기](https://forms.gle/3K2NK2uge8aABDB66) >
