@@ -60,7 +60,7 @@ database를 선택하고 해당 database에 속한 table들을 출력하세요. 
 Exception을 처리해 이 경우 별도의 data 없이 response의 status code가 `404 NOT FOUND`가 되도록 하세요. 일부러 존재하지 않는 id에 대해 Postman으로
 API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적절한 이름으로 포함시켜 주세요.
 
-10. `waffle-rookies-18.5-backend-0`의 `README.md`에 과제 관려 하고 싶은 말, 어려웠던 점 등을 남겨주세요. 물론 적극적으로 해결되어야 할 피드백이나
+10. `waffle-rookies-18.5-backend-0`의 `README.md`에 과제 관련 하고 싶은 말, 어려웠던 점 등을 남겨주세요. 물론 적극적으로 해결되어야 할 피드백이나
 질문 사항은 [Issues](https://github.com/davin111/waffle-rookies-18.5-backend-0/issues) 등을 이용해주세요!
 
 ## 제출 방식
