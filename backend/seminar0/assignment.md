@@ -105,6 +105,7 @@ API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적�
 어차피 대부분의 기능들에 있어서는 거의 차이를 느낄 부분이 없긴 하지만, 미리 해두는 것이 좋습니다. 안 해두신 분들은 가급적 이번 과제 진행하시며 같이 완료하세요.
 - Django의 모든 공식 문서. 위에 명시되지 않은 링크이면서 과제와 직접적으로 관련해 읽으면 좋을 내용들은 [DATABASES](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-DATABASES),
 [QuerySet](https://docs.djangoproject.com/en/3.1/ref/models/querysets/), [urls](https://docs.djangoproject.com/en/3.1/ref/urls/) 등일 것 같네요.
+- Django와 관련해 기본적인 것부터 너무 막막하다면, [Django tutorial](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)을 따라가보시기 바랍니다. [한국어 버전](https://docs.djangoproject.com/ko/3.1/intro/tutorial01/)도 있습니다. 다만, 우리는 DRF를 프로젝트에 결합해서 사용하고 있음을 잊지마세요!
 - [views.py](waffle_backend/survey/views.py)의 `list()`, `retrieve()`만으로 어떻게 API endpoint가 만들어지는지가 어려울 수 있습니다.
 이것은 Django가 아닌 DRF에 해당하는 부분입니다. https://www.django-rest-framework.org/api-guide/viewsets/ 을 참고하세요.
 - 앞으로도 늘 그렇겠지만, 과제를 진행하며 모르는 것들과 여러 난관에 부딪히리라 생각됩니다. 당연히 그 지점을 기대하고 과제를 드리는 것이고, 기본적으로 스스로 구글링을
