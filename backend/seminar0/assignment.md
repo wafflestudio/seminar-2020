@@ -21,7 +21,7 @@ runsever`를 통해 서버가 실행된 화면이 포함된 스크린샷을 `/re
 2. 로컬 환경에 Python을 설치하고, Python 3.8.3이며 waffle_backend만을 위한 '가상환경'을 activate 시킨 상태로
 [requirements.txt](./requirements.txt) 의 패키지들을 설치해야 합니다. 가상환경을 activate 시킨 것을 확인할 수 있고,
 `pip list` 등을 통해 설치된 패키지와 버전을 확인할 수 있는 스크린샷들을 `/results`에 적절한 이름으로 포함시켜 주세요.
-(사후 추가된 부분이라 필수는 아니지만) 가급적 `python --version` 등을 통해 버전을 확인하는 과정도 포함되어 있다면 좋겠습니다.
+그리고 (사후 추가된 부분이라 필수는 아니지만) 가급적 `python --version` 등을 통해 Python 버전을 확인하는 과정도 포함되어 있다면 좋겠습니다.
 
 3. 로컬 환경에 MySQL을 설치하여 waffle_backend의 [settings.py](./waffle_backend/waffle_backend/settings.py) 에 명시된 DATABASES 설정대로 서버가 DB와 연결을 맺도록 해야합니다.
 이 과정을 통해 로컬 MySQL에 올바른 password를 가진 user, database를 생성하고 user가 해당 database에 대한 권한(privileges)을 갖도록 할 것입니다.
@@ -60,7 +60,8 @@ database를 선택하고 해당 database에 속한 table들을 출력하세요. 
 Exception을 처리해 이 경우 별도의 data 없이 response의 status code가 `404 NOT FOUND`가 되도록 하세요. 일부러 존재하지 않는 id에 대해 Postman으로
 API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적절한 이름으로 포함시켜 주세요.
 
-10. `waffle-rookies-18.5-backend-0`의 `README.md`에 하고 싶은 말, 어려웠던 점 등을 남겨주세요.
+10. `waffle-rookies-18.5-backend-0`의 `README.md`에 과제 관려 하고 싶은 말, 어려웠던 점 등을 남겨주세요. 물론 적극적으로 해결되어야 할 피드백이나
+질문 사항은 [Issues](https://github.com/davin111/waffle-rookies-18.5-backend-0/issues) 등을 이용해주세요!
 
 ## 제출 방식
 1. 자신의 GitHub 개인 계정에 `waffle-rookies-18.5-backend-0`라는 이름으로 private repository를 개설합니다.
