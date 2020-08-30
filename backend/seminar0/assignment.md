@@ -50,7 +50,7 @@ database를 선택하고 해당 database에 속한 table들을 출력하세요. 
 `GET /api/v1/os/{operatingsystem_id}/`를 개발하세요. `OperatingSystemViewSet`을 새로 생성하시는 방식을 권장드립니다. 이미 [serializers.py](waffle_backend/survey/serializers.py)
 에 `OperatingSystemSerializer`를 정의해두었기에, 굳이 새로 [Serializer](https://www.django-rest-framework.org/api-guide/serializers/) 를 만들거나, response 형식에 대해 고민할 필요는 없습니다.
 `GET /api/v1/os/`는 DB의 모든 `survey_operatingsystem`을 클라이언트/프론트엔드에게 전달하는 API입니다. `GET /api/v1/os/{operatingsystem_id}/`는
-같은 table에서 `operatingsystem_id`에 해당하는 primary key를 가진 row이 정보만 전달하는 API입니다. 두 API의 status code는 정상적인 경우 `200 OK`로 해주세요.
+같은 table에서 `operatingsystem_id`에 해당하는 primary key를 가진 row의 정보만 전달하는 API입니다. 두 API의 status code는 정상적인 경우 `200 OK`로 해주세요.
 여기까지 개발한 내용을 아래 '제출 방식'에서 설명하는 repository에 waffle_backend directory로 포함시켜 주세요. 또한 개발한 두 API 역시 7.에서처럼 Postman을
 통해 확인한 후 해당 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요.
 
@@ -95,6 +95,10 @@ API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적�
 ![스크린샷 2020-08-30 03 16 21](https://user-images.githubusercontent.com/35535636/91643553-3b934c80-ea6f-11ea-8e5c-c20b1e6e42a3.png)
 
 ![스크린샷 2020-08-30 03 16 29](https://user-images.githubusercontent.com/35535636/91643554-3cc47980-ea6f-11ea-9ade-087b4845df11.png)
+
+5. 마감 시점에 master branch를 기준으로 collaborator로 지정된 세미나 운영진들이 확인할 것입니다. GitHub repository에 반영되도록 commit, push해두는 것을 잊지 마세요.
+
+6. 가급적 repository 생성과 collaborator 지정은 미리 해둬주세요! 제출 방식을 다들 올바로 이해하고 계신지와 함께, 가능하다면 대략적인 진행상황을 보면서 필요하면 몇 가지 말씀을 더 드릴 수도 있습니다.
 
 ### 참고하면 좋은 것들
 - https://education.github.com/pack 에서 학생 인증하여 education pack을 받으시면 무료로 좀 더 많은 GitHub 기능들을 이용할 수 있습니다.
