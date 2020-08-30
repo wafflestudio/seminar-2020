@@ -16,11 +16,12 @@
 ### 과제 내용
 1. [seminar0](.)에 포함된 waffle_backend 서버를 자신의 로컬 환경을 잘 갖춰 동작 시키는 데에 성공시켜야 합니다. `python manage.py
 runsever`를 통해 서버가 실행된 화면이 포함된 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요. 4. 이후 정도까지는 진행하신 후에야
-서버를 완전히 정상 동작시킬 수 있을 것이고, 스크린샷도 이때 이후로 부탁드립니다.
+서버를 완전히 정상 동작시킬 수 있을 것이고, 스크린샷도 이때 이후로 부탁드립니다. 참고로 터미널 등의 콘솔에 `runserver`를 시킨 직후의 화면 정도면 충분합니다.
 
 2. 로컬 환경에 Python을 설치하고, Python 3.8.3이며 waffle_backend만을 위한 '가상환경'을 activate 시킨 상태로
 [requirements.txt](./requirements.txt) 의 패키지들을 설치해야 합니다. 가상환경을 activate 시킨 것을 확인할 수 있고,
 `pip list` 등을 통해 설치된 패키지와 버전을 확인할 수 있는 스크린샷들을 `/results`에 적절한 이름으로 포함시켜 주세요.
+(사후 추가된 부분이라 필수는 아니지만) 가급적 `python --version` 등을 통해 버전을 확인하는 과정도 포함되어 있다면 좋겠습니다.
 
 3. 로컬 환경에 MySQL을 설치하여 waffle_backend의 [settings.py](./waffle_backend/waffle_backend/settings.py) 에 명시된 DATABASES 설정대로 서버가 DB와 연결을 맺도록 해야합니다.
 이 과정을 통해 로컬 MySQL에 올바른 password를 가진 user, database를 생성하고 user가 해당 database에 대한 권한(privileges)을 갖도록 할 것입니다.
@@ -103,14 +104,14 @@ API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적�
 ### 참고하면 좋은 것들
 - https://education.github.com/pack 에서 학생 인증하여 education pack을 받으시면 무료로 좀 더 많은 GitHub 기능들을 이용할 수 있습니다.
 어차피 대부분의 기능들에 있어서는 거의 차이를 느낄 부분이 없긴 하지만, 미리 해두는 것이 좋습니다. 안 해두신 분들은 가급적 이번 과제 진행하시며 같이 완료하세요.
-- Django의 모든 공식 문서. 위에 명시되지 않은 링크이면서 과제와 직접적으로 관련해 읽으면 좋을 내용들은 [DATABASES](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-DATABASES),
+- Django의 모든 [공식 문서](https://docs.djangoproject.com/en/3.1/). 위에 명시되지 않은 링크이면서 과제와 직접적으로 관련해 읽으면 좋을 내용들은 [DATABASES](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-DATABASES),
 [QuerySet](https://docs.djangoproject.com/en/3.1/ref/models/querysets/), [urls](https://docs.djangoproject.com/en/3.1/ref/urls/) 등일 것 같네요.
 - Django와 관련해 기본적인 것부터 너무 막막하다면, [Django tutorial](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)을 따라가보시기 바랍니다. [한국어 버전](https://docs.djangoproject.com/ko/3.1/intro/tutorial01/)도 있습니다. 다만, 우리는 DRF를 프로젝트에 결합해서 사용하고 있음을 잊지마세요!
 - [views.py](waffle_backend/survey/views.py)의 `list()`, `retrieve()`만으로 어떻게 API endpoint가 만들어지는지가 어려울 수 있습니다.
 이것은 Django가 아닌 DRF에 해당하는 부분입니다. https://www.django-rest-framework.org/api-guide/viewsets/ 을 참고하세요.
+- JSON이 생소하신 분들은 [이 글](https://velog.io/@surim014/JSON이란-무엇인가) 등 관련 검색해서 읽어보시길 바라요.
 - 앞으로도 늘 그렇겠지만, 과제를 진행하며 모르는 것들과 여러 난관에 부딪히리라 생각됩니다. 당연히 그 지점을 기대하고 과제를 드리는 것이고, 기본적으로 스스로 구글링을
 통해 여러 내용을 확인하고 적절한 수준까지 익숙해지실 수 있도록 하면 좋겠습니다.
-- JSON이 생소하신 분들은 [이 글](https://velog.io/@surim014/JSON이란-무엇인가) 등 관련 검색해서 읽어보시길 바라요.
 - [Issues](https://github.com/davin111/waffle-rookies-18.5-backend-0/issues) 에 질문하는 것을 어려워하지 마시길 바랍니다!
 다만 질문할 때에는 필요하다면 본인의 환경에 대한 정보를 잘 포함시켜주세요. 특히 이번에는 환경 구축을 시작하는 과정이 포함되므로 중요합니다.
 - 문제를 해결하기 위해 질문하는 경우라면, 질문을 통해 기대하는 바, (가급적 스크린샷 등을 포함한) 실제 문제 상황, 이를 해결하기 위해 시도해본 것, 예상해본 원인 등을 포함시켜 주시는 것이 자신과 질문을 답변하는 사람, 제3자 모두에게 좋습니다.
