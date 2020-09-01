@@ -9,13 +9,13 @@
 
 ### 주의할 점
 - 이 repository를 이미 로컬에 clone해두었다면, pull을 통해 과제 시작 전 최신화하는 것을 잊지마세요.
-- 이 repo를 clone하여 로컬에 생성된 [waffle_backend](waffle_backend)에서 바로 작업하지 마세요.
+- 이 repo를 clone하되 로컬에 생성된 [waffle_backend](waffle_backend)에서 바로 작업하지 마세요.
 아래 '제출 방식'을 통해 생성한 본인의 `waffle-rookies-18.5-backend-0` repo를 로컬에 clone하고, 그 directory 바로 하위에 [waffle_backend](waffle_backend)
 를 복붙하여 작업을 시작하세요.
 
 ### 과제 내용
 1. [seminar0](.)에 포함된 waffle_backend 서버를 자신의 로컬 환경을 잘 갖춰 동작 시키는 데에 성공시켜야 합니다. `python manage.py
-runsever`를 통해 서버가 실행된 화면이 포함된 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요. 4. 이후 정도까지는 진행하신 후에야
+runserver`를 통해 서버가 실행된 화면이 포함된 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요. 4. 이후 정도까지는 진행하신 후에야
 서버를 완전히 정상 동작시킬 수 있을 것이고, 스크린샷도 이때 이후로 부탁드립니다. 참고로 터미널 등의 콘솔에 `runserver`를 시킨 직후의 화면 정도면 충분합니다.
 
 2. 로컬 환경에 Python을 설치하고, Python 3.8.3이며 waffle_backend만을 위한 '가상환경'을 activate 시킨 상태로
