@@ -9,3 +9,4 @@ Waffle Studio Frontend Seminar
 
 | 링크 | 주제 | 날짜 | 장소 |
 | --- | --- | --- | --- |
+| [semniar1](seminar-1) | HTML/CSS | 2020.09.05 | zoom |
