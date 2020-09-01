@@ -58,9 +58,9 @@ Waffle Studio Frontend Assignment - 1
 
 ![스크린샷 2020-08-30 02 16 17](https://user-images.githubusercontent.com/35535636/91642619-cbcd9380-ea67-11ea-84ea-1a0729103755.png)
 
-1. 마감 시점에 master branch를 기준으로 collaborator로 지정된 세미나 운영진들이 확인할 것입니다. GitHub repository에 반영되도록 commit, push해두는 것을 잊지 마세요.
+4. 마감 시점에 master branch를 기준으로 collaborator로 지정된 세미나 운영진들이 확인할 것입니다. GitHub repository에 반영되도록 commit, push해두는 것을 잊지 마세요.
 
-2. 가급적 repository 생성과 collaborator 지정은 미리 해둬주세요! 제출 방식을 다들 올바로 이해하고 계신지와 함께, 가능하다면 대략적인 진행상황을 보면서 필요하면 몇 가지 말씀을 더 드릴 수도 있습니다.
+5. 가급적 repository 생성과 collaborator 지정은 미리 해둬주세요! 제출 방식을 다들 올바로 이해하고 계신지와 함께, 가능하다면 대략적인 진행상황을 보면서 필요하면 몇 가지 말씀을 더 드릴 수도 있습니다.
 
 
 ## 참고하면 좋은 것들
@@ -74,6 +74,4 @@ Waffle Studio Frontend Assignment - 1
   - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) 
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- 현재 재직 중인 관계로 질문에 대한 빠른 답변은 어려울 수도 있습니다. 또한 세미나 진행자들이 아니어도, 참여자 분들 모두가 자신이 아는 선에서 서로 답변을 하고 도우시려고 하면 아주 좋을 것 같습니다.
-- '참고하면 좋을 것들'에는 추가 자료들을 첨부할 수도 있습니다. 때문에 종종 이 repository를 pull 하거나, 이 페이지를 종종 확인해주시기 바랍니다.
 
