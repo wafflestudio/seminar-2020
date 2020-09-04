@@ -15,7 +15,7 @@ TBA
 ------------------
 
 ## 세미나 자료
-
+[세미나 자료](https://docs.google.com/presentation/d/1iWDLL6U5kKB_I0Y0UXtMthJC7Q6aWv0xb3BwXSKd2co/edit#slide=id.g941de893ac_0_10)
 ------------------
 
 ## 세미나 중 질문
