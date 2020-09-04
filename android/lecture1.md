@@ -1,4 +1,4 @@
-# Wafflestudio Android Seminar #0
+# Wafflestudio Android Seminar #1
 
 > Instructor 김상민(@sanggggg)
 
