@@ -11,7 +11,7 @@ class SurveyResultViewSet(viewsets.GenericViewSet):
     serializer_class = SurveyResultSerializer
 
     def list(self, request):
-        surveys = self.get_queryset().prefetch_related('os')
+        surveys = self.get_queryset().select_related('os')
         return Response(self.get_serializer(surveys, many=True).data)
 
     def retrieve(self, request, pk=None):
