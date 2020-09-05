@@ -20,8 +20,8 @@
 ### 과제 내용
 1. `survey_surveyresult` table에 `user_id` column을 추가하세요. 이미 `survey_surveyresult`에 `user_id`가 없는 데이터들이 들어가있으므로,
 `user_id`는 당연히 nullable해야 하며, 연결되어있는 user row가 삭제된다고 해도 survey_surveyresult의 해당 row까지 같이 삭제되면 안 됩니다.
-해당 ForeignKey의 `related_name`은 `'surveys'`로 지정해주세요.(related_name이 무엇인지는 한 번씩 따로 찾아보시고 이해하려 노력하시면 좋겠습니다.)
-덧붙여, CharField들엔 1번째 세미나에서 언급했듯 모두 `blank`만 `True`로 설정하시고, timestamp에는 이후 이 table의 row가 추가될 때마다 그 시점을 나타내는 값이
+해당 `ForeignKey`의 `related_name`은 `'surveys'`로 지정해주세요.(related_name이 무엇인지는 한 번씩 따로 찾아보시고 이해하려 노력하시면 좋겠습니다.)
+덧붙여, `CharField`들엔 1번째 세미나에서 언급했듯 모두 `blank`만 `True`로 설정하시고, `timestamp`에는 이후 이 table의 row가 추가될 때마다 그 시점을 나타내는 값이
 자동으로 들어가도록 관련 변경을 포함하시기 바랍니다. 이 조건들을 모두 충족하는 migration 파일이 하나로 이뤄져야 합니다.
 migrate가 정상적으로 완료되었다면 Django `showmigrations` 명령어를 통해 console에 출력한 결과와 원하는 도구를 이용해
 MySQL에 직접 `desc survey_surveyresult;`를 실행한 결과의 텍스트 또는 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요.
@@ -32,7 +32,7 @@ MySQL에 직접 `desc survey_surveyresult;`를 실행한 결과의 텍스트 또
 
 2. 이미 정의되어 있는 `POST /api/v1/user/`와 `PUT /api/v1/user/login/`을 이용해 Postman으로 User의 회원가입과 로그인을 각각 진행하고 해당
 request, response가 모두 보이는 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요. 회원가입과 로그인 API 모두 내부적으로 Django `login()`을
-포함하고 있기에, 둘 중 어떤 것이라고 정상 진행되는 시점에 [Django CSRF 문서](https://docs.djangoproject.com/en/3.1/ref/csrf/#how-it-works)에도 나와있듯
+포함하고 있기에, 두 API 중 어떤 것이라도 정상 처리되는 시점에 [Django CSRF 문서](https://docs.djangoproject.com/en/3.1/ref/csrf/#how-it-works)에도 나와있듯
 csrftoken이 변경되어 이를 신경 써야함을 알 수 있습니다. 이후 POST, PUT, DELETE 같은 method의 API 요청이 동작하지 못하면 이를 고려해야하는 것을 잊지마세요.
 (관련 이슈 [#105 issue](https://github.com/wafflestudio/rookies/issues/105) 참고)
 
@@ -78,7 +78,7 @@ timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또�
 설문 결과가 정상 생성되어 요청이 완료된 경우, `201 CREATED`와 함께, `GET /api/v1/survey/{surveyresult_id}/`에 해당하는 body와 동일하게 처리하면 됩니다.
 한 유저가 여러 번 설문 결과를 제출할 수 있는 것은 정상적인 동작입니다. Postman으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 
-9. SurveyResultSerializer가 자신의 내부에 `'os'`처럼 `'user'`에 대한 내용도 포함해 serialize하도록 하세요. 이미 정의되어 있는 UserSerializer를 이용하시기 바랍니다.
+9. `SurveyResultSerializer`가 자신의 내부에 `'os'`처럼 `'user'`에 대한 내용도 포함해 serialize하도록 하세요. 이미 정의되어 있는 `UserSerializer`를 이용하시기 바랍니다.
 해당 `survey_surveyresult`에 연결된 user가 없는 경우(직접 개발한 API를 통해 생성된 설문 결과 외에 `download_survey` command를 이용해 생성했던 경우)에는,
 `'user'`의 값이 null로 response body에 포함되어야 합니다. Postman으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 
