@@ -3,6 +3,7 @@
 
 ## 과제의 목표
 - ViewModel + Databinding + LiveData 를 실제 코드를 작성하며 이해한다
+- View 와 ViewModel 의 분리로 Presentation의 책임과 Logic + Data fetch 의 로직을 분리하는 코드를 작성해 본다
 
 ## 과제 상세
 - [TicTacToe](https://ko.wikipedia.org/wiki/%ED%8B%B1%ED%83%9D%ED%86%A0) 게임을 Android Application 으로 구현한다
