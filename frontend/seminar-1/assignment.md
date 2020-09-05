@@ -76,4 +76,9 @@ Waffle Studio Frontend Assignment - 1
   - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) 
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- HTML 태그를 하나하나 `<a src="이미지주소" alt="대체텍스트" /> ` 이렇게 적기엔 귀찮잖아요?    
+심지어 기본 구조까지 하나하나 다 적기엔 너무 귀찮습니다... 이런 분들을 위해서 `Emmet 문법`을 소개해드리려 합니다!   
+아래 사이트로 들어가 보시면 에디터가 알아서 닫는 태그뿐만 아니라 원하는 class까지 적어서 완성시켜주는 편한 문법입니다!   
+과제하는 데 귀찮음과 함꼐 걸리는 시간이 많이 줄어들거에요!
+  - [Emmet 문법](https://nachwon.github.io/How_to_use_emmet/)
 
