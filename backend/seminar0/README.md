@@ -4,7 +4,8 @@
 > 2020.08.29.(토) 13:00
 
 ## 배울 내용
-> 슬라이드(wafflestudio 18.5 Rookies Backend Seminar 0.pdf) 참고
+서버와 DB의 역할과 RDB, ORM의 개념
+> [슬라이드](https://github.com/wafflestudio/rookies/blob/master/backend/seminar0/wafflestudio%2018.5%20Rookies%20Backend%20Seminar%200.pdf) 참고
 
 ---
 
