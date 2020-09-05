@@ -3,9 +3,9 @@
 ### due: 2020.09.11.(금) 23:59
 
 ### 과제 목적
-- Django model을 수정하고 DB에 migrate하는 경험을 통해, ORM의 기본 개념을 익힌다.
-- CSRF 방어에 대한 개념을 이해한 채로, Django User 관련 기본 API들을 이해 및 개발한다.
-- 여러 table에 걸친 기본적인 로직을 갖춘 API를 개발하며, request의 body를 처리하고 response의 body에 적절한 데이터를 넣는 방식을 익힌다.
+- Django model을 수정하고 DB에 migrate하는 경험을 통해, ORM의 기본 개념을 익힙니다.
+- CSRF 방어에 대한 개념을 이해한 채로, Django User 관련 기본 API들을 이해 및 개발합니다.
+- 여러 table에 걸친 기본적인 로직을 갖춘 API를 개발하며, request의 body를 처리하고 response의 body에 적절한 데이터를 넣는 방식을 익힙니다.
 
 ### 주의할 점
 - 이 repository를 이미 로컬에 clone해두었다면, pull을 통해 과제 시작 전 최신화한 버전을 이용하는 것을 잊지마세요.
@@ -53,16 +53,16 @@ first_name과 last_name만 수정할 수도 있고, 셋 다 동시에 수정할 
 변경 요청에 포함되거나, 둘 중 어느 것에라도 숫자가 포함되어 있다면 `400 BAD REQUEST`가 되어야 합니다. 로그인하지 않은 유저가 해당 API를 요청하면 `403 FORBIDDEN`처리해야 합니다.
 username은 `desc auth_user;`를 MySQL에 실행해보면 알 수 있듯, unique 조건이 있습니다. 때문에 DB에 존재하던 username으로 바꾸려는 request는
 아무 처리가 없으면 `500 INTERNAL SERVER ERROR`가 발생할 것입니다. 그런 경우가 발생하지 않도록 `409 CONFLICT` 처리하세요.
-이 API에 대해서는 물론 Postman으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
+이 API에 대해서는 물론 Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 response는 정상 처리되는 경우에만 `200 OK`와 함께 로그인 API의 body와 동일하게 처리하면 됩니다.
 
 6. 유저가 로그아웃할 수 있도록 내부적으로 Django의 `logout()`을 활용한 `GET /api/v1/user/logout/` API를 개발하세요. 로그인되어있지 않은 유저가
 로그아웃 시도하면 `403 FORBIDDEN` 처리해야 합니다. 정상 처리되는 경우에는 `200 OK`와 함께 body는 비어있도록 하세요.
-Postman으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
+Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 
 7. 유저가 자신의 정보를 확인할 수 있도록 `GET /api/v1/user/` API를 개발하세요. 로그인되어있지 않은 유저가
 로그아웃 시도하면 `403 FORBIDDEN` 처리해야 합니다. 정상 처리되는 경우에는 `200 OK`와 함께 로그인 API의 body와 동일하게 처리하면 됩니다.
-Postman으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
+Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 
 8. 이제 드디어 서비스상 유의미한 기능을 추가할 수 있습니다. 유저가 `POST /api/v1/survey/` API를 통해 설문조사에 참여할 수 있도록 하세요. 비교적 자유롭게
 구현하셔도 되는데, python, rdb, programming, os는 request의 body에 key 이름으로서 빈 str 등이 아닌 값을 가진 채 필수로 포함되어야 하고
@@ -70,17 +70,17 @@ Postman으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 
 1 이상 5 이하의 int로 변환되어 저장될 수 있어야 하며, 그렇지 않으면 마찬가지로 `400`입니다. body의 os에 대해서는 OperatingSystem의 id를 바로 받는 방식이 아니라,
 OperatingSystem의 name에 해당하는 str을 받아 처리해야합니다. 기존에 `survey_operatingsystem`에 존재하는 name인 경우 그 OperatingSystem의 id를, 기존에 없는 name인 경우 새로운 OperatingSystem도 생성하여 그
 id를 가져와 새로 생성되는 `survey_surveyresult`에 os_id로서 포함해 저장해야 합니다. 이에 대해서는 0번째 과제에서 사용한 `download_survey`에 해당하는 코드가 힌트입니다.
-seminar1의 waffle_backend 서버에도 해당 코드가 마찬가지로 포함되어 있습니다. 1.에서 진행한 migration 덕분에, SurveyResult 하나를 새로 생성할 때,
+seminar1의 waffle_backend 서버에도 [해당 코드](waffle_backend/survey/management/commands/download_survey.py) 가 마찬가지로 포함되어 있습니다. 1.에서 진행한 migration 덕분에, SurveyResult 하나를 새로 생성할 때,
 timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또한 요청한 user의 id가 user_id로서 포함되어 저장되어야 합니다.(로그인 안 한 요청의 경우 `403`)
 정리하자면, 이 API가 정상 처리되는 경우 항상 `survey_surveyresult`에 python, rdb, programming, os_id, user_id, timestamp에 null이 아닌 올바른 값이 포함되어
 새로운 row가 insert되어야 합니다. `survey_operatingsystem`에는 request body의 os가 이미 존재하던 name에 해당하는지 아닌지에 따라 insert가 될 수도 안 될 수도 있습니다.
 `survey_operatingsystem`에 insert할 때, description, price는 고려하지 않고 비워서 처리하면 됩니다.
 설문 결과가 정상 생성되어 요청이 완료된 경우, `201 CREATED`와 함께, `GET /api/v1/survey/{surveyresult_id}/`에 해당하는 body와 동일하게 처리하면 됩니다.
-한 유저가 여러 번 설문 결과를 제출할 수 있는 것은 정상적인 동작입니다. Postman으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
+한 유저가 여러 번 설문 결과를 제출할 수 있는 것은 정상적인 동작입니다. Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 
 9. `SurveyResultSerializer`가 자신의 내부에 `'os'`처럼 `'user'`에 대한 내용도 포함해 serialize하도록 하세요. 이미 정의되어 있는 `UserSerializer`를 이용하시기 바랍니다.
 해당 `survey_surveyresult`에 연결된 user가 없는 경우(직접 개발한 API를 통해 생성된 설문 결과 외에 `download_survey` command를 이용해 생성했던 경우)에는,
-`'user'`의 값이 null로 response body에 포함되어야 합니다. Postman으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
+`'user'`의 값이 null로 response body에 포함되어야 합니다. Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 
 10. `waffle-rookies-18.5-backend-1`의 `README.md`에 과제 관련 하고 싶은 말, 어려웠던 점 등을 남겨주세요. 물론 적극적으로 해결되어야 할 피드백이나
 질문 사항은 [Issues](https://github.com/wafflestudio/rookies/issues) 등을 이용해주세요!
@@ -125,4 +125,22 @@ timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또�
 6. 가급적 repository 생성과 collaborator 지정은 미리 해둬주세요! 제출 방식을 다들 올바로 이해하고 계신지와 함께, 가능하다면 대략적인 진행상황을 보면서 필요하면 몇 가지 말씀을 더 드릴 수도 있습니다.
 
 ### 참고하면 좋은 것들
-- 추후 점진적으로 추가 예정
+- 추후 점진적으로 추가 예정입니다.
+- Django의 모든 [공식 문서](https://docs.djangoproject.com/en/3.1/). 1번째 세미나에서도 강조한 문서들인
+[QuerySet](https://docs.djangoproject.com/en/3.1/ref/models/querysets/), [Django auth system](https://docs.djangoproject.com/en/3.1/topics/auth/default/) 가
+이번 과제에서도 특히 중요합니다.
+- migration 관련해서는 model, field, migrate 관련해 여러 내용을 찾아보시고 신중히 진행해보시면 좋겠습니다!
+- Django와 관련해 기본적인 것부터 너무 막막하다면, [Django tutorial](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)을 따라가보시기 바랍니다. [한국어 버전](https://docs.djangoproject.com/ko/3.1/intro/tutorial01/)도 있습니다.
+다만, 우리는 DRF를 프로젝트에 결합해서 사용하고 있음을 잊지마세요!
+- [views.py](waffle_backend/survey/views.py)의 `list()`, `retrieve()`만으로 API endpoint가 만들어졌던 것처럼,
+DRF의 [ViewSets](https://www.django-rest-framework.org/api-guide/viewsets/) 등 관련 문서를 참고하시면
+어떤 식으로 POST, PUT method에 해당하는 view function을 정의할 수 있는지, logout에 해당하는 endpoint는 어떻게 만들 수 있는지 알 수 있습니다.
+- 앞으로도 늘 그렇겠지만, 과제를 진행하며 모르는 것들과 여러 난관에 부딪히리라 생각됩니다. 당연히 그 지점을 기대하고 과제를 드리는 것이고, 기본적으로 스스로 구글링을
+통해 여러 내용을 확인하고 적절한 수준까지 익숙해지실 수 있도록 하면 좋겠습니다.
+- [Issues](https://github.com/wafflestudio/rookies/issues) 에 질문하는 것을 어려워하지 마시길 바랍니다. 필요하다면 본인의 환경에 대한 정보를 잘 포함시켜주세요.
+또한 Issue 제목에 과제 내용의 번호 등을 사용하시기보다, 궁금한 내용의 키워드가 포함되도록 해주세요.
+- 문제를 해결하기 위해 질문하는 경우라면, 질문을 통해 기대하는 바, (가급적 스크린샷 등을 포함한) 실제 문제 상황, 이를 해결하기 위해 시도해본 것, 예상해본 원인 등을 포함시켜 주시는 것이 자신과 질문을 답변하는 사람, 제3자 모두에게 좋습니다.
+- 저는 직장을 다니고 있으므로 아주 빠른 답변은 어려울 수 있고, 특히 과제 마감 직전에 여러 질문이 올라오거나 하면 마감 전에 모든 답변을 드릴 수 있다는 것은
+보장하기 어렵다는 점 이해해주시면 좋겠습니다. 그리고 세미나 진행자들이 아니어도, 참여자 분들 모두가 자신이 아는 선에서 서로 답변을 하고 도우시려고 하면 아주 좋을 것 같습니다.
+- 과제의 핵심적인 스펙은 바뀌지 않을 것이며 설령 있다면 공지를 따로 드릴 것입니다. 하지만 문구나 오타 수정 등의 변경은 수시로 있을 수 있고,
+특히 '참고하면 좋을 것들'에는 추가 자료들을 첨부할 수도 있습니다. 때문에 종종 이 repository를 pull 받아주시거나, 이 페이지를 GitHub에서 종종 다시 확인해주시기 바랍니다.
