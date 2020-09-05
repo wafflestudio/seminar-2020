@@ -5,7 +5,7 @@
 
 ## 배울 내용
 Model 및 QuerySet과 안전한 서버 개발
-> 슬라이드(wafflestudio 18.5 Rookies Backend Seminar 1.pdf) 참고
+> [슬라이드](https://github.com/wafflestudio/rookies/blob/master/backend/seminar1/wafflestudio%2018.5%20Rookies%20Backend%20Seminar%201.pdf) 참고
 
 ---
 
