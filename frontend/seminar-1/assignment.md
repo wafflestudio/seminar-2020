@@ -68,6 +68,8 @@ Waffle Studio Frontend Assignment - 1
   - [한눈에 보는 HTML 요소(Elements & Attributes) 총정리](https://heropy.blog/2019/05/26/html-elements/) 
   - [CSS 개요](https://happy-noether-c87ffa.netlify.app/presentations/level1/css/summary/)
   - [CSS 속성](https://happy-noether-c87ffa.netlify.app/presentations/level1/css/properties/)
+- 아래 사이트는 원하는 태그의 속성, 예시 등을 더 자세히 볼 수 있는 사이트 입니다
+  - [MDN]((https://developer.mozilla.org/en-US/)
 - 아래는 과제를 좀 더 편리하게 할 수 있는 vscode extension 입니다.
   - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) 
   - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
