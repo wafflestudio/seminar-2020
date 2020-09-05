@@ -61,7 +61,7 @@ Exception을 처리해 이 경우 별도의 data 없이 response의 status code�
 API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적절한 이름으로 포함시켜 주세요.
 
 10. `waffle-rookies-18.5-backend-0`의 `README.md`에 과제 관련 하고 싶은 말, 어려웠던 점 등을 남겨주세요. 물론 적극적으로 해결되어야 할 피드백이나
-질문 사항은 [Issues](https://github.com/davin111/waffle-rookies-18.5-backend-0/issues) 등을 이용해주세요!
+질문 사항은 [Issues](https://github.com/wafflestudio/rookies/issues) 등을 이용해주세요!
 
 ## 제출 방식
 1. 자신의 GitHub 개인 계정에 `waffle-rookies-18.5-backend-0`라는 이름으로 private repository를 개설합니다.

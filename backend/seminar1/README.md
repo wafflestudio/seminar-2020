@@ -4,7 +4,7 @@
 > 2020.09.05.(토) 13:00
 
 ## 배울 내용
-Django Model 및 QuerySet과 안전한 서버 개발
+Model 및 QuerySet과 안전한 서버 개발
 > 슬라이드(wafflestudio 18.5 Rookies Backend Seminar 1.pdf) 참고
 
 ---
