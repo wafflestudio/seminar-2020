@@ -23,7 +23,8 @@
 해당 ForeignKey의 `related_name`은 `'surveys'`로 지정해주세요.(related_name이 무엇인지는 한 번씩 따로 찾아보시고 이해하려 노력하시면 좋겠습니다.)
 덧붙여, CharField들엔 1번째 세미나에서 언급했듯 모두 `blank`만 `True`로 설정하시고, timestamp에는 이후 이 table의 row가 추가될 때마다 그 시점을 나타내는 값이
 자동으로 들어가도록 관련 변경을 포함하시기 바랍니다. 이 조건들을 모두 충족하는 migration 파일이 하나로 이뤄져야 합니다.
-migrate가 정상적으로 완료되었다면 Django `showmigrations` 명령어를 통해 console에 출력한 결과의 텍스트 또는 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요.
+migrate가 정상적으로 완료되었다면 Django `showmigrations` 명령어를 통해 console에 출력한 결과와 원하는 도구를 이용해
+MySQL에 직접 `desc survey_surveyresult;`를 실행한 결과의 텍스트 또는 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요.
 절대 DB에 직접 query를 실행해 column을 추가 또는 수정하지 말고, Django의 해당 model을
 수정해 migration 파일을 생성하여 이를 적용시키는 방식으로 진행하세요. 만일, migration 파일을 잘못 추가하기만 한 경우에는 그냥 해당 Python 파일을 삭제하고 다시 생성하면 됩니다.
 하지만 이미 DB에 migrate까지 진행했다면, 다시 model을 수정하여 또 새로운 migration 파일을 생성하지 말고, 잘못 진행했던 migrate를 Django 명령어를 이용해
