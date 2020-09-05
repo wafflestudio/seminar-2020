@@ -25,7 +25,7 @@ Model 및 QuerySet과 안전한 서버 개발
 세미나 진행도 잘 해보도록 노력하겠습니다.
 
 - 당연히 함부로 외부 공유는 하시면 안됩니다! 화면 켜셨던 사람들의 초상권 문제도 있을 수 있습니다. 이번 영상은 약 1시간 30분의 내용이 하나에 모두 포함되어 있습니다.
-세미나 내용에 대해 궁금하신 부분 있으면 고민하고 찾아보신 후 또 [Issues](https://github.com/wafflestudio/rookies/issues) 에 자유롭게 공유해주세요!
+뒤에 시간이 초과된 5분 정도가 살짝 잘린 것 같네요. 세미나 내용에 대해 궁금하신 부분 있으면, 고민하고 찾아보신 후 또 [Issues](https://github.com/wafflestudio/rookies/issues) 에 자유롭게 공유해주세요!
 - [seminar 1](https://youtu.be/VY90znVH4q4)
 
 ## 세미나 중 질문
