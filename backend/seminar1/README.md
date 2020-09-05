@@ -26,6 +26,12 @@ Model 및 QuerySet과 안전한 서버 개발
 
 - 당연히 함부로 외부 공유는 하시면 안됩니다! 화면 켜셨던 사람들의 초상권 문제도 있을 수 있습니다. 이번 영상은 약 1시간 30분의 내용이 하나에 모두 포함되어 있습니다.
 뒤에 시간이 초과된 5분 정도가 살짝 잘린 것 같네요. 세미나 내용에 대해 궁금하신 부분 있으면, 고민하고 찾아보신 후 또 [Issues](https://github.com/wafflestudio/rookies/issues) 에 자유롭게 공유해주세요!
+
+- 영상 기준 1시간 24분 경에 제가 CSRF 관련 동작을 보여드리려고 `SurveyResultViewSet`에 POST API를 간단히 파는 장면이 나오는데요.
+만들어놓고 왜 `405 METHOD NOT ALLOWED`이지 하면서 고통받는 장면이 있습니다. 해당 에러는 `POST /api/v1/survey/` 요청을 보낼 때,
+`/api/v1/survey/`라는 endpoint 자체는 존재하지만 `POST`를 위해 만들어진 view function은 없다는 것인데요.
+뒤이어진 질의응답 시간에 계신 분들은 제가 늦게 자각한 내용을 들으셨겠지만, 저기서 제가 seminar0의 waffle_backend에다가 코드를 적고 있었습니다.
+그런데 서버는 seminar1의 waffle_backend를 실행하고 있었으니, 당연히 `def create()`를 만들든 말든 `POST`를 위한 view function이 없는 것으로 취급되었겠지요.
 - [seminar 1](https://youtu.be/VY90znVH4q4)
 
 ## 세미나 중 질문
