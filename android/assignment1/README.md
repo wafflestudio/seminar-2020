@@ -32,11 +32,21 @@ waffle-android-assign
     .
 ```
 - 이후 과제를 완료한 후 `git add .`, `git commit`, `git push` 를 통해 github 에 업로드 한다.
+
+> 뼈대 코드를 사용할 시, 코드의 `activity_main.xml`, `TicTacToeViewModel.kt`, `MainActivity.kt` 에서 어떤 식으로 코드를 작성하면 되는가를 TODO 로 명시해 놓았습니다.
+> 이 TODO 를 따라가시면서 코드를 작성하면 좋을 것 같습니다.
+
 #### 뼈대 코드 미사용 시 (hard)
 - 본인의 github 에 새로운 private repository를 생성한다. (이름은 waffle-android-assign 으로)
 - 만들었던 private repository 를 clone 받는다.
 - Android Studio 를 통해 `waffle-android-assign` 폴더안에 TicTacToe 라는 이름의 프로젝트를 만든다
 - 이후 과제를 완료한 후 `git add .`, `git commit`, `git push` 를 통해 github 에 업로드 한다.
+
+> 뼈대 코드를 미사용할 시, google codelab 의 viewModel, DataBinding, LiveData 등과 뼈대 코드 TicTacToe 를 참고하여 내가 직접 a-z 를 작성하게 됩니다.
+> 뼈대 코드에 따라 작성하는 것 보다 더 많은 부분을 배울 수 있습니다. (뇌절도 많이 할 가능성이 높습니다.)
   
 ## 제출 방식
 - 완성된 과제가 있는 Private Repository(waffle-android-assign)에서 [Backend assign](https://github.com/wafflestudio/rookies/blob/master/backend/seminar0/assignment.md)의 **제출 방식** 을 참고하여 collaborator 로 세미나 운영진들을 초대한다.
+
+## 더 해보면 좋은 것들
+- 누구의 턴인지 (Boolean 값) 체크하면서 화면 상단에 띄워주는 UI 를 추가해도 좋습니다.
