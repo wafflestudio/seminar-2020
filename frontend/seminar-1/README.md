@@ -7,12 +7,12 @@ Waffle Studio Frontend Seminar - 1
 ## 배울 내용
 1. 프론트엔드란??
 2. HTML
-  - HTML 기본 문법
-  - HTML 문서의 기본 구조
-  - HTML 태그 예시
+    - HTML 기본 문법
+    - HTML 문서의 기본 구조
+    - HTML 태그 예시
 3. CSS
-  - CSS 기본 문법
-  - margin/padding/position
+    - CSS 기본 문법
+    - margin/padding/position
 
 ------------------
 
