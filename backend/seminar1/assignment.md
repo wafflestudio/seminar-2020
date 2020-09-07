@@ -56,7 +56,7 @@ username은 `desc auth_user;`를 MySQL에 실행해보면 알 수 있듯, unique
 이 API에 대해서는 물론 Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 response는 정상 처리되는 경우에만 `200 OK`와 함께 로그인 API의 body와 동일하게 처리하면 됩니다.
 
-6. 유저가 로그아웃할 수 있도록 내부적으로 Django의 `logout()`을 활용한 `GET /api/v1/user/logout/` API를 개발하세요. 로그인되어있지 않은 유저가
+6. 유저가 로그아웃할 수 있도록 내부적으로 Django의 `logout()`을 활용한 `GET` 또는 `POST` `/api/v1/user/logout` API를 개발하세요.(`POST`에 대한 내용은 사후 추가되었습니다. [#118 issue](https://github.com/wafflestudio/rookies/issues/118)를 참고해주세요.) 로그인되어있지 않은 유저가
 로그아웃 시도하면 `403 FORBIDDEN` 처리해야 합니다. 정상 처리되는 경우에는 `200 OK`와 함께 body는 비어있도록 하세요.
 Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 
