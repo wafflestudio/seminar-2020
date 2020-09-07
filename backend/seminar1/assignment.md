@@ -113,6 +113,7 @@ timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또�
 /waffle_backend/manage.py
 /waffle_backend/waffle_backend/*
 /waffle_backend/survey/*
+/waffle_backend/user/*
 /results/
 ```
 
