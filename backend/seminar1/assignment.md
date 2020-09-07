@@ -138,6 +138,7 @@ timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또�
 - [views.py](waffle_backend/survey/views.py)의 `list()`, `retrieve()`만으로 API endpoint가 만들어졌던 것처럼,
 DRF의 [ViewSets](https://www.django-rest-framework.org/api-guide/viewsets/) 등 관련 문서를 참고하시면
 어떤 식으로 POST, PUT method에 해당하는 view function을 정의할 수 있는지, logout에 해당하는 endpoint는 어떻게 만들 수 있는지 알 수 있습니다.
+- https://docs.djangoproject.com/en/3.1/topics/auth/ 의 MIDDLEWARE 관련 설명을 보시면, `login()`을 했을 때 Django가 이후 요청에 대해서 어떻게 그 user를 아는 것인지 참고하시 수 있습니다. 
 - 앞으로도 늘 그렇겠지만, 과제를 진행하며 모르는 것들과 여러 난관에 부딪히리라 생각됩니다. 당연히 그 지점을 기대하고 과제를 드리는 것이고, 기본적으로 스스로 구글링을
 통해 여러 내용을 확인하고 적절한 수준까지 익숙해지실 수 있도록 하면 좋겠습니다.
 - [Issues](https://github.com/wafflestudio/rookies/issues) 에 질문하는 것을 어려워하지 마시길 바랍니다. 필요하다면 본인의 환경에 대한 정보를 잘 포함시켜주세요.
