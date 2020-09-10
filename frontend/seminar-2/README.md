@@ -14,7 +14,7 @@ TBA
   windows: https://baengsu.tistory.com/12
   MacOS: https://pliss.tistory.com/133
   ```
- - [자바스크립트 공부](https://learnjs.vlpt.us/)
+- [자바스크립트 공부](https://learnjs.vlpt.us/)
   ```
   React를 하면서 필수적으로 사용하게 될 javascript입니다.
   이번 세미나에서 모른다고 강의를 이해 못하거나 하지는 않지만, 
