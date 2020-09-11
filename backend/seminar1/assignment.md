@@ -132,7 +132,7 @@ timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또�
 이번 과제에서도 특히 중요합니다.
 - [세미나 슬라이드](https://github.com/wafflestudio/rookies/blob/master/backend/seminar1/wafflestudio%2018.5%20Rookies%20Backend%20Seminar%201.pdf) 의
 각 우측 상단에 포함된 링크들. 파일을 다운로드하시면 클릭 가능합니다.
-- migration 관련해서는 model, field, migrate 관련해 여러 내용을 찾아보시고 신중히 진행해보시면 좋겠습니다!
+- migration 관련해서는 model, field, migrate 관련해 여러 내용을 찾아보시고 신중히 진행해보시면 좋겠습니다! 특히 공식 문서의 [migrations](https://docs.djangoproject.com/en/3.1/topics/migrations/)와 [migrate](https://docs.djangoproject.com/en/3.1/ref/django-admin/#migrate)는 필수입니다.
 - Django와 관련해 기본적인 것부터 너무 막막하다면, [Django tutorial](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)을 따라가보시기 바랍니다. [한국어 버전](https://docs.djangoproject.com/ko/3.1/intro/tutorial01/)도 있습니다.
 다만, 우리는 DRF를 프로젝트에 결합해서 사용하고 있음을 잊지마세요!
 - [views.py](waffle_backend/survey/views.py)의 `list()`, `retrieve()`만으로 API endpoint가 만들어졌던 것처럼,
