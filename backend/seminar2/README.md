@@ -4,7 +4,7 @@
 > 2020.09.12.(토) 13:00
 
 ## 배울 내용
-RDB 설계와 Django Model&View, Auth
+RDB 설계와 Model & View 및 Auth
 > [슬라이드](https://github.com/wafflestudio/rookies/blob/master/backend/seminar2/wafflestudio%2018.5%20Rookies%20Backend%20Seminar%202.pdf) 참고
 
 ---
