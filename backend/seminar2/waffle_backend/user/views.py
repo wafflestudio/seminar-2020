@@ -2,6 +2,7 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.models import User
 from django.db import IntegrityError
 from rest_framework import status, viewsets
+from rest_framework.authtoken.models import Token
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
@@ -28,11 +29,17 @@ class UserViewSet(viewsets.GenericViewSet):
         except IntegrityError:  # 중복된 username
             return Response(status=status.HTTP_409_CONFLICT)
 
+        # User에 해당하는 Token 만들어주기
+        Token.objects.create(user=user)
+
         # 가입했으니 바로 로그인 시켜주기
-        login(request, user)
         # login을 하면 Response의 Cookies에 csrftoken이 발급됨
         # 이후 요청을 보낼 때 이 csrftoken을 Headers의 X-CSRFToken의 값으로 사용해야 POST, PUT 등의 method 사용 가능
-        return Response(self.get_serializer(user).data, status=status.HTTP_201_CREATED)
+        login(request, user)
+
+        data = self.get_serializer(user).data
+        data['token'] = user.auth_token.key
+        return Response(data, status=status.HTTP_201_CREATED)
 
     # PUT /api/v1/user/login/
     @action(detail=False, methods=['PUT'])
@@ -46,6 +53,16 @@ class UserViewSet(viewsets.GenericViewSet):
             login(request, user)
             # login을 하면 Response의 Cookies에 csrftoken이 발급됨 (반복 로그인 시 매번 값이 달라짐)
             # 이후 요청을 보낼 때 이 csrftoken을 Headers의 X-CSRFToken의 값으로 사용해야 POST, PUT 등의 method 사용 가능
-            return Response(self.get_serializer(user).data)
+            data = self.get_serializer(user).data
+
+            # User에 해당하는 Token 없으면 만들어주기
+            try:
+                data['token'] = user.auth_token.key
+            except User.auth_token.RelatedObjectDoesNotExist:
+                Token.objects.create(user=user)
+                data['token'] = user.auth_token.key
+            # client에게 Token 값을 함께 넘기기
+            return Response(data)
+
         # 존재하지 않는 사용자이거나 비밀번호가 틀린 경우
         return Response(status=status.HTTP_403_FORBIDDEN)
