@@ -35,5 +35,5 @@ TBA
 ------------------
 
 ## 과제
-TBA
-
+- [assignment.md](assignment.md)
+- due: 2020.09.27(일) 23:59
