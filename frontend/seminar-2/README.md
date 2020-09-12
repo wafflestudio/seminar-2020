@@ -6,7 +6,12 @@ Waffle Studio Frontend Seminar - 2
 
 ## 배울 내용
 ------------------
-TBA
+1. DOM
+2. React
+  - Virtual DOM
+  - Component
+  - JSX
+  - useState, useEffect
 ## 준비 사항
 ------------------
 - React 설치
