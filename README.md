@@ -1,5 +1,8 @@
 # 와플스튜디오 Rookies Repository
-18.5 
+18.5 기 세미나는 다음 학기 개발 프로젝트 참여 가능한 Programmers 양성을 목표로 합니다.
+* 프론트엔드 - React(javascript)
+* 백엔드 - Django(Python) + Database
+* 모바일 - Android(Kotlin)
 
 ## 세미나
 
@@ -12,3 +15,5 @@
 | seminar3 | 2020.09.26.(토) 13:00~14:30<br>14:30\~16:00<br>16:00\~17:30  | TBD | 준비중| 준비중|
 | seminar4 | 2020.10.10.(토) 13:00~14:30<br>14:30\~16:00<br>16:00\~17:30  | TBD | 준비중| 준비중|
 | seminar5 | 2020.11.07.(토) 13:00~14:30<br>14:30\~16:00<br>16:00\~17:30  | TBD | 준비중| 준비중|
+
+![wafflestudio](wafflestudio.png)
