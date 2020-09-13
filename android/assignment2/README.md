@@ -23,7 +23,8 @@
   
 ## 과제 진행 방법
 #### 뼈대 코드 사용 시 (easy)
-- 이전 과제에서 만들었던 private repository 를 clone 받는다.
+- 이전 과제에서 만들었던 private repository(waffle-android-assign) 를 clone 받는다.
+- **`git checkout -b simpletodo` 로 이번 과제를 진행할 새로운 브랜치를 만들고 이동한다**
 - 본 레포지토리 (rookies) 를 git clone 받는다.
 - 본 레포지토리의 rookies/android/assignment1/SimpleTodo 파일을 복사하여 방금 만들었던 private repository 안에 옮긴다
   - 파일 구조는 아래와 같아야 한다
@@ -37,28 +38,19 @@ waffle-android-assign
     .
     .
 ```
-- 이후 과제를 완료한 후 `git add .`, `git commit`, `git push` 를 통해 github 에 업로드 한다.
+- 이후 과제를 완료한 후 `git add .`, `git commit`, `git push origin simpletodo` 를 통해 repository 의 **simpletodo 브랜치** 에 업로드 한다.
 
 > 뼈대 코드를 사용할 시, 코드에서 어떤 식으로 작성하면 되는가를 TODO 로 명시해 놓았습니다.
 > 이 TODO 를 따라가시면서 코드를 작성하면 좋을 것 같습니다.
 
 #### 뼈대 코드 미사용 시 (hard)
-- 본인의 github 에 새로운 private repository를 생성한다. (이름은 waffle-android-assign 으로)
-- 만들었던 private repository 를 clone 받는다.
+- 이전 과제에서 만들었던 private repository(waffle-android-assign) 를 clone 받는다.
+- **`git checkout -b simpletodo` 로 이번 과제를 진행할 새로운 브랜치를 만들고 이동한다**
 - Android Studio 를 통해 `waffle-android-assign` 폴더안에 SimpleTodo 라는 이름의 프로젝트를 만든다
-- 이후 과제를 완료한 후 `git add .`, `git commit`, `git push` 를 통해 github 에 업로드 한다.
+- 이후 과제를 완료한 후 `git add .`, `git commit`, `git push origin simpletodo` 를 통해 repository 의 **simpletodo 브랜치** 에 업로드 한다.
 
 > 뼈대 코드를 미사용할 시, google codelab 의 viewModel, DataBinding, LiveData, room database, Repository pattern 등과 뼈대 코드 SimpleTodo 를 참고하여 내가 직접 a-z 를 작성하게 됩니다.
 > 뼈대 코드에 따라 작성하는 것 보다 더 많은 부분을 배울 수 있습니다. (뇌절도 많이 할 가능성이 높습니다.)
   
 ## 제출 방식
-- 과제 완료 후, sanggggg@wafflestudio.com 으로 과제를 완료한 repository 주소와 github id, 이름을 보낸다, Grace Day 사용시 사용한 Grace Day 도 같이 적는다
-- 이메일 포맷
-```kotlin
-<Title>
-waffle android assign2 ${이름}
-<Body>
-${레포 주소}
-${깃헙 아이디}
-${본인 이름}
-```
+- 자신의 waffle-android-assign 의 simpletodo branch에 파일을 성공적으로 올렸다면 해당 브랜치(simpletodo) 에서 master 브랜치로 pull request 를 날린다. 이때, assignee 에 `sanggggg` 를 꼭 기입한다.
