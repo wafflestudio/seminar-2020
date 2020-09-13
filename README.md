@@ -1,10 +1,10 @@
 # 와플스튜디오 Rookies Repository
-![wafflestudio_logo](wafflestudio_logo.png)
+<br><br><br><br>![wafflestudio_logo](wafflestudio_logo.png)<br><br><br><br><br>
 18.5 기 세미나는 다음 학기 개발 프로젝트 참여 가능한 Programmers 양성을 목표로 합니다.
 * 프론트엔드 - React(javascript)
 * 백엔드 - Django(Python) + Database
 * 모바일 - Android(Kotlin)
-
+<br><br>
 ## 세미나
 
 
