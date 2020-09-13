@@ -35,7 +35,7 @@ grace day 3일을 고려한 9/14(월)이 지나면 이 rookies repository에도 
   Django가 migration 관리가 번거로워질 수 있습니다. 때문에 [settings.py](waffle_backend/waffle_backend/settings.py)를
   보면 아실 수 있듯, 연결하는 MySQL의 database 이름을 `waffle_backend_assignment_2`으로 바꾸었습니다.
   - 이에 따라, 자신의 로컬 MySQL에 root user 등으로 접속하여 해당 database를 새로 생성하고, `waffle-backend` user에게 `grant privileges` 하셔야 합니다.
-- 이 서버 코드를 기반으로 과제 2.를 진행할 예정입니다. 미리 '제출 방식'을 고려해,
+- 이 서버 코드를 기반으로 과제 2를 진행할 예정입니다. 미리 '제출 방식'을 고려해,
 이전과 마찬가지로 해당 repository를 만들고 `waffle_backend` directory를 최상위에 위치시켜두세요.
 
 ## 제출 방식

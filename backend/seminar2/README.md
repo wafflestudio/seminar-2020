@@ -48,7 +48,8 @@ RDB 설계와 Model & View 및 Auth
 ---
 
 ## 과제
-- 곧 추가될 예정입니다.
+- [assignment.md](assignment.md) 참고.
+- due: -
 
 ---
 
