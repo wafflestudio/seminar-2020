@@ -32,7 +32,7 @@ grace day 3일을 고려한 9/14(월)이 지나면 이 rookies repository에도 
 9/15(화) 오전 중에 공유될 예정입니다. 내용과 마감 시한은 해당 시작 시점을 고려하여, 이전과 마찬가지로 적절히 설정할 것입니다.
 - 특히, 이 코드의 [0002_auto_20200912_0149.py](waffle_backend/survey/migrations/0002_auto_20200912_0149.py)는
   여러분이 과제 1을 진행하며 직접 생성해 migration하신 파일 이름과 달라서, 과제 1의 migration 부분을 정상적으로 진행하셨든 그렇지 않든,
-  Django의 migration 관리가 번거로워질 수 있습니다. 때문에 [settings.py](waffle_backend/waffle_backend/settings.py)를
+  Django의 migration 관리가 번거로워질 수 있습니다. 때문에 [settings.py](https://github.com/davin111/waffle-rookies-18.5-backend-1/blob/master/waffle_backend/waffle_backend/settings.py) 를
   보면 아실 수 있듯, 연결하는 MySQL의 database 이름을 `waffle_backend_assignment_2`으로 바꾸었습니다.
   - 이에 따라, 자신의 로컬 MySQL에 root user 등으로 접속하여 해당 database를 새로 생성하고, `waffle-backend` user에게 `grant privileges` 하셔야 합니다.
 - 이 서버 코드를 기반으로 과제 2를 진행할 예정입니다. 미리 '제출 방식'을 고려해,
