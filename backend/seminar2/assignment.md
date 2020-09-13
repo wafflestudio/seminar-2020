@@ -9,8 +9,8 @@
 - ...
 
 ### 주의할 점
-- https://github.com/davin111/waffle-rookies-18.5-backend-1 를 clone하되 로컬에 생성된 [waffle_backend](waffle_backend)에서 바로 작업하지 마세요.
-아래 '제출 방식'을 통해 생성한 본인의 `waffle-rookies-18.5-backend-2` repo를 로컬에 clone하고, 그 directory 바로 하위에 [waffle_backend](waffle_backend)
+- https://github.com/davin111/waffle-rookies-18.5-backend-1 를 clone하되 로컬에 생성된 [waffle_backend](https://github.com/davin111/waffle-rookies-18.5-backend-1/tree/master/waffle_backend) 에서 바로 작업하지 마세요.
+아래 '제출 방식'을 통해 생성한 본인의 `waffle-rookies-18.5-backend-2` repo를 로컬에 clone하고, 그 directory 바로 하위에 [waffle_backend](https://github.com/davin111/waffle-rookies-18.5-backend-1/tree/master/waffle_backend)
 를 복붙하여 작업을 시작하세요.
 - [seminar1](../seminar1) 내부의 waffle_backend와 착각하지 마세요! 또한 본인이 1번째 과제를 위해 기존에 작업했던 서버를 그대로 사용하지 마세요!
 - 일반적인 경우 서로 다른 서버면 다른 Python 가상 환경을 쓰는 것이 맞고, 1번째 과제와 별도로 지금의 과제에 대해서는 별개의 Python 가상 환경을 구축하는 것이
@@ -30,7 +30,7 @@ grace day 3일을 고려한 9/14(월)이 지나면 이 rookies repository에도 
 분명 존재하리라 생각합니다.
 - 이 코드를 잘 살펴보고 이해하려 노력하는 것 자체가 과제 2에 포함되며, 시작점이라고 생각해주시면 됩니다. 물론, 과제 2에도 서버를 직접 구현할 사항들이 존재하며
 9/15(화) 오전 중에 공유될 예정입니다. 내용과 마감 시한은 해당 시작 시점을 고려하여, 이전과 마찬가지로 적절히 설정할 것입니다.
-- 특히, 이 코드의 [0002_auto_20200912_0149.py](waffle_backend/survey/migrations/0002_auto_20200912_0149.py)는
+- 특히, 이 코드의 [0002_auto_20200912_0149.py](https://github.com/davin111/waffle-rookies-18.5-backend-1/blob/master/waffle_backend/survey/migrations/0002_auto_20200912_0149.py) 는
   여러분이 과제 1을 진행하며 직접 생성해 migration하신 파일 이름과 달라서, 과제 1의 migration 부분을 정상적으로 진행하셨든 그렇지 않든,
   Django의 migration 관리가 번거로워질 수 있습니다. 때문에 [settings.py](https://github.com/davin111/waffle-rookies-18.5-backend-1/blob/master/waffle_backend/waffle_backend/settings.py) 를
   보면 아실 수 있듯, 연결하는 MySQL의 database 이름을 `waffle_backend_assignment_2`으로 바꾸었습니다.
