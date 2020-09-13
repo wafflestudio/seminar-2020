@@ -16,16 +16,15 @@ Waffle Studio Frontend Assignment - 2
 
 - 리액트를 사용하여 구현을 완료한 후에, **HTML과 Javascript만을** 이용하여, 동일한 사이트를 만드시면 됩니다.
 
-
-![image](https://user-images.githubusercontent.com/48665265/92991843-45ae5400-f521-11ea-80f4-961cae6eb2af.png)
-![image](https://user-images.githubusercontent.com/48665265/92991890-9920a200-f521-11ea-87ee-42ac8f8e0aeb.png)
-
+![image](https://im.ezgif.com/tmp/ezgif-1-22d9b960d4e8.gif)
 
 
 ## 주의사항
-1. 위의 두 사진 처럼 **추가하기**는 부분은 버튼을 클릭하면 나타나고, 추가를 하면 자동으로 사라져야 합니다. 사진처럼 모달로 구현해도 괜찮고, 어느 방식이든 사라져있던게 보이기만 하면 됩니다.
-2. 디자인은 신경쓰지 않을 것 입니다. ~~그래도 예쁘면 좋아요~~ 
-3.  **커밋은 되도록이면 최대한 잘게 쪼개서 해주세요.** 커밋 내용을 지켜보고, 전체적인 진행 상황에 따라 과제 due나 명세를 수정할 수 있습니다. 커밋 메시지도 상세할수록 좋습니다.
+1. 위의 gif처럼 **추가하기**는 부분은 버튼을 클릭하면 나타나고, 추가를 하면 자동으로 사라져야 합니다. 사진처럼 모달로 구현해도 괜찮고, 어느 방식이든 사라져있던게 보이기만 하면 됩니다.
+2. 초기 데이터가 **최소한 3개**는 있어야 합니다.  
+3. App.js를 제외한 **2개 이상의 Component**를 만들어 주세요.
+4. 디자인은 신경쓰지 않을 것 입니다. ~~그래도 예쁘면 좋아요~~ 
+5.  **커밋은 되도록이면 최대한 잘게 쪼개서 해주세요.** 커밋 내용을 지켜보고, 전체적인 진행 상황에 따라 과제 due나 명세를 수정할 수 있습니다. 커밋 메시지도 상세할수록 좋습니다.
 
 
 ## 제출 방식
@@ -53,20 +52,27 @@ Waffle Studio Frontend Assignment - 2
    git push origin version-react
    git push origin version-js
    ```
+   **단, `create-react-app`은 `master`브랜치에서 실행해주세요.**
+
+
 
 5. 세미나 신청하셨을 때와 마찬가지로 브랜치마다 풀 리퀘를 작성하시면 됩니다.
    ```
     base: master <- compare: version-react
     base: master <- compare: version-js
    ```
-![image](https://user-images.githubusercontent.com/48665265/92992132-8909c200-f523-11ea-97a0-744ea519cad7.png)
+   ![image](https://user-images.githubusercontent.com/48665265/93014268-ae153800-f5ea-11ea-82aa-59f4efcf40b7.png)
+
+   ![image](https://user-images.githubusercontent.com/48665265/93014281-d00eba80-f5ea-11ea-8f17-da028bd1ad60.png)
+
 
 6. 풀리퀘를 생성하신 후에 commit을 해도 자동으로 풀리퀘에 반영 되므로, 가급적 일찍 생성해주시면 좋겠습니다. 각 브랜치마다 마감 시점의 최종 commit을 확인할 것입니다. 
 
 7. 가급적 repository 생성과 collaborator 지정은 미리 해둬주세요! 제출 방식을 다들 올바로 이해하고 계신지와 함께, 가능하다면 대략적인 진행상황을 보면서 필요하면 몇 가지 말씀을 더 드릴 수도 있습니다.
 
+**두 개의 브랜치 모두 `master`브랜치를 기준으로 생성해 주세요.**   
+**지금까지의 과제와 달리 `master` 브랜치를 확인하는 것이 아닌 생성된 각 풀리퀘를 확인할 것입니다. `merge`는 하지 말아주세요**    
 **혹시 브랜치 생성 및 풀리퀘 생성에 문제가 있으면 꼭 질문해주시기 바랍니다**
-
 
 ## 참고하면 좋은 것들
 - [JS 문법](https://learnjs.vlpt.us/)
