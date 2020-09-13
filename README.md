@@ -1,4 +1,5 @@
-# 와플스튜디오 18.5 Rookies Repository
+# 와플스튜디오 Rookies Repository
+18.5 
 
 ## 세미나
 
