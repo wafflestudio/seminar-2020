@@ -280,6 +280,8 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
 
 7. 마감 시점에 PR을 기준으로 collaborator로 지정된 세미나 운영진들이 확인할 것입니다. GitHub repository에 반영되도록 commit, push해두는 것을 잊지 마세요.
 
+8. Master branch의 상태는 반드시 [waffle_backend](skeleton code)와 동일해야합니다. 
+
 ### 참고하면 좋은 것들
 - 추후 점진적으로 추가 예정입니다.
 - https://github.com/davin111/waffle-rookies-18.5-backend-1 의 README.md 또는 [waffle_backend_README.md](waffle_backend_README.md) 참고
