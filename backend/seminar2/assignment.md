@@ -22,15 +22,14 @@
 ### 1
 - 정답이 있는 것은 아니지만 [과제 1](https://github.com/wafflestudio/rookies/blob/master/backend/seminar1/assignment.md) 을
 https://github.com/davin111/waffle-rookies-18.5-backend-1 에 구현하고, 과제 1을 완료하신 분들께 invitation을 보냈습니다.
-grace day 3일을 고려한 9/14(월)이 지나면 이 rookies repository에도 해당 코드를 옮길 예정입니다.(옮겨서 [waffle_backend](waffle_backend)에도 동일한 코드가 있습니다.)
+grace day 3일을 고려한 9/14(월)이 지난 후 이 rookies repository에도 해당 코드를 [waffle_backend](waffle_backend)에 동일하게 옮겼습니다.
 - [과제 2](https://github.com/wafflestudio/rookies/blob/master/backend/seminar2/assignment.md) 의 본격적인 시작에 앞서,
 과제 1을 더 깊이 있게 살펴볼 필요가 있습니다.
 - 과제 2의 구현에 바로 뛰어드는 것보다, 과제 1에 대해 받으신 피드백을 살필 시간을 갖고, 비교적 색다른 구현 방식을 이해하며 기본을 다지도록 하면
 좋겠다고 생각했습니다.
 - 특히, 이 코드는 의도적으로 Django REST framework를 이용해 구현한 부분이 많으므로, 과제 1을 어느 정도 잘 완료하신 분들도 새롭게 익히실 만한 부분이
 분명 존재하리라 생각합니다.
-- 이 코드를 잘 살펴보고 이해하려 노력하는 것 자체가 과제 2에 포함되며, 시작점이라고 생각해주시면 됩니다. 물론, 과제 2에도 서버를 직접 구현할 사항들이 존재하며
-9/15(화) 오전 중에 공유될 예정입니다. 내용과 마감 시한은 해당 시작 시점을 고려하여, 이전과 마찬가지로 적절히 설정할 것입니다.
+- 이 코드를 잘 살펴보고 이해하려 노력하는 것 자체가 과제 2에 포함되며, 시작점이라고 생각해주시면 됩니다.
 - 이 코드의 [0002_auto_20200912_0149.py](waffle_backend/survey/migrations/0002_auto_20200912_0149.py) 는
   여러분이 과제 1을 진행하며 직접 생성해 migration하신 파일 이름과 달라서, 과제 1의 migration 부분을 정상적으로 진행하셨든 그렇지 않든,
   Django의 migration 관리가 번거로워질 수 있습니다. 때문에 [settings.py](waffle_backend/waffle_backend/settings.py) 를
