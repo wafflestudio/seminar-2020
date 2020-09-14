@@ -16,7 +16,8 @@ Waffle Studio Frontend Assignment - 2
 
 - 리액트를 사용하여 구현을 완료한 후에, **HTML과 Javascript만을** 이용하여, 동일한 사이트를 만드시면 됩니다.
 
-![image](https://im.ezgif.com/tmp/ezgif-1-22d9b960d4e8.gif)
+![ezgif-2-b2e7f6f3448e](https://user-images.githubusercontent.com/48665265/93062907-7f619500-f6b0-11ea-8704-87262548f574.gif)   
+화질은 양해 부탁드립니다 ㅎㅎㅎ
 
 
 ## 주의사항
