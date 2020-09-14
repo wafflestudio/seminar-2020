@@ -5,8 +5,9 @@
 ### due: 2020.09.27.(일) 23:59
 
 ### 과제 목적
-- Django REST framework의 Serializers과 ViewSet을 익힙니다.
-- ...
+- Django REST framework의 Serializers과 ViewSet을 익혀 API에 따라 적절한 사용을 하도록 합니다.
+- one-to-many(many-to-one), one-to-one, many-to-many 등 다양한 table 간의 관계를 고려해 좀 더 주체적인 구현을 고민합니다.
+- 여러 API에서 각종 권한 및 예외 처리를 익히고, 좀 더 복합적인 서비스 로직을 놓고 다양한 경우를 고려하는 연습을 합니다.
 
 ### 주의할 점
 - https://github.com/davin111/waffle-rookies-18.5-backend-1 또는 이 repo를 clone하되 로컬에 생성된 [waffle_backend](waffle_backend) 에서 바로 작업하지 마세요.
@@ -44,7 +45,7 @@ grace day 3일을 고려한 9/14(월)이 지나면 이 rookies repository에도 
 - Seminar와 User는 기본적으로 다음과 같은 관계를 가집니다. 한 User는 여러 Seminar와 관계할 수 있고, 하나의 Seminar는 여러 User를 포함할 수 있습니다.
 - Django의 `ManyToManyField`를 이용하지 말고, mapping table에 해당하는 `UserSeminar`를 seminar app 내부에 직접 정의하고 `ForeignKey`를 이용해 Seminar와 User 관계를 구현하세요.
 연결된 Seminar 또는 User가 삭제되는 경우에는 UserSeminar도 따라 삭제되게 합니다.
-- SeminarUser model 모두 생성 시점과 수정 시점을 `DateTimeField`로 저장하는 created_at(`joined_at`이 아님), updated_at column을 가집니다.
+- UserSeminar model 모두 생성 시점과 수정 시점을 `DateTimeField`로 저장하는 created_at(`joined_at`이 아님), updated_at column을 가집니다.
 - 그 외의 column들은 아래의 과제 내용을 참고하여 자유롭게 구현해도 좋습니다. 직접 정보를 관리하고 로직을 만들기 좋은 구조를 생각해 이용하되, API의 request와 response에 대한
 스펙은 정확히 지켜야 합니다. 관련 migration은 여러 번 해도 되는데, 결과적으로 완성되는 서비스 로직상 옳지 않은 데이터가 DB에 존재하지 않도록 하세요.
 
@@ -266,3 +267,12 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
 - 추후 점진적으로 추가 예정입니다.
 - https://github.com/davin111/waffle-rookies-18.5-backend-1 의 README.md 또는 [waffle_backend_README.md](waffle_backend_README.md) 참고
 - https://www.django-rest-framework.org/api-guide/requests/#query_params
+- 앞으로도 늘 그렇겠지만, 과제를 진행하며 모르는 것들과 여러 난관에 부딪히리라 생각됩니다. 당연히 그 지점을 기대하고 과제를 드리는 것이고, 기본적으로 스스로 구글링을
+통해 여러 내용을 확인하고 적절한 수준까지 익숙해지실 수 있도록 하면 좋겠습니다.
+- [Issues](https://github.com/wafflestudio/rookies/issues) 에 질문하는 것을 어려워하지 마시길 바랍니다. 필요하다면 본인의 환경에 대한 정보를 잘 포함시켜주세요.
+또한 Issue 제목에 과제 내용의 번호 등을 사용하시기보다, 궁금한 내용의 키워드가 포함되도록 해주세요. 답이 정해져있지 않은 설계에 대한 고민 공유도 좋습니다.
+- 문제를 해결하기 위해 질문하는 경우라면, 질문을 통해 기대하는 바, (가급적 스크린샷 등을 포함한) 실제 문제 상황, 이를 해결하기 위해 시도해본 것, 예상해본 원인 등을 포함시켜 주시는 것이 자신과 질문을 답변하는 사람, 제3자 모두에게 좋습니다.
+- 저는 직장을 다니고 있으므로 아주 빠른 답변은 어려울 수 있고, 특히 과제 마감 직전에 여러 질문이 올라오거나 하면 마감 전에 모든 답변을 드릴 수 있다는 것은
+보장하기 어렵다는 점 이해해주시면 좋겠습니다. 그리고 세미나 진행자들이 아니어도, 참여자 분들 모두가 자신이 아는 선에서 서로 답변을 하고 도우시려고 하면 아주 좋을 것 같습니다.
+- 과제의 핵심적인 스펙은 바뀌지 않을 것이며 설령 있다면 공지를 따로 드릴 것입니다. 하지만 문구나 오타 수정 등의 변경은 수시로 있을 수 있고,
+특히 '참고하면 좋을 것들'에는 추가 자료들을 첨부할 수도 있습니다. 때문에 종종 이 repository를 pull 받아주시거나, 이 페이지를 GitHub에서 종종 다시 확인해주시기 바랍니다.
