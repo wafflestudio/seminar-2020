@@ -1,6 +1,6 @@
 # 와플스튜디오 Backend Seminar[2] 과제
 
-### NOTE: 과제가 완전히 제시되었으며, [private reposiitory](https://github.com/davin111/waffle-rookies-18.5-backend-1) 에 있던 코드가 [waffle_backend](waffle_backend)에도 반영되었습니다.
+### NOTE: 과제가 완전히 제시되었으며, [private repository](https://github.com/davin111/waffle-rookies-18.5-backend-1) 에 있던 코드가 [waffle_backend](waffle_backend)에도 반영되었습니다.
 
 ### due: 2020.09.27.(일) 23:59
 
