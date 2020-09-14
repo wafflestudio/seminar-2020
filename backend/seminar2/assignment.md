@@ -266,6 +266,10 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
 - 추후 점진적으로 추가 예정입니다.
 - https://github.com/davin111/waffle-rookies-18.5-backend-1 의 README.md 또는 [waffle_backend_README.md](waffle_backend_README.md) 참고
 - https://www.django-rest-framework.org/api-guide/requests/#query_params
+- https://www.django-rest-framework.org/api-guide/permissions/#custom-permissions
+- https://www.django-rest-framework.org/api-guide/generic-views/#generic-views
+- https://www.django-rest-framework.org/api-guide/generic-views/#get_serializer_classself
+
 - 앞으로도 늘 그렇겠지만, 과제를 진행하며 모르는 것들과 여러 난관에 부딪히리라 생각됩니다. 당연히 그 지점을 기대하고 과제를 드리는 것이고, 기본적으로 스스로 구글링을
 통해 여러 내용을 확인하고 적절한 수준까지 익숙해지실 수 있도록 하면 좋겠습니다.
 - [Issues](https://github.com/wafflestudio/rookies/issues) 에 질문하는 것을 어려워하지 마시길 바랍니다. 필요하다면 본인의 환경에 대한 정보를 잘 포함시켜주세요.
