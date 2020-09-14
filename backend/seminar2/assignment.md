@@ -169,26 +169,26 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
 세미나 생성 API와 동일한 구조의 body와 함께 `200`으로 응답합니다.
 
 - `GET /api/v1/seminar/`로 여러 Seminar의 정보를 가져올 수 있으며, status code는 `200`입니다. 이 때, 선택적으로 request에 query params를 포함할 수 있습니다.
-- `GET /api/v1/seminar/?name={name}`으로 query param이 주어지면, {name} str을 포함하는 name을 가진 Seminar들을 모두 가져옵니다.
+  - `GET /api/v1/seminar/?name={name}`으로 query param이 주어지면, {name} str을 포함하는 name을 가진 Seminar들을 모두 가져옵니다.
 해당하는 Seminar가 없으면 `[]`를 body로 합니다.
-- response는 아래와 같으며, 기본적으로 Seminar의 created_at을 기준으로 가장 최근에 만들어진 Seminar가 위에 오도록 body를 구성합니다.
-````
-[
-    {
-        "id": Seminar id,
-        "name": Seminar name,
-        "instructors": [
-            "id": User id,
-            "username": User username,
-            "email": User email,
-            "first_name": User first_name,
-            "last_name": User last_name
-        ],
-        "participant_count": Seminar에 Participant로 참여 중인 User의 수
-    }
-]
-````
-- `GET /api/v1/seminar/?order=earliest`으로 query param이 주어지면, Seminar의 created_at을 기준으로 가장 오래된 Semninar가 위에
+  - response는 아래와 같으며, 기본적으로 Seminar의 created_at을 기준으로 가장 최근에 만들어진 Seminar가 위에 오도록 body를 구성합니다.
+    ````
+    [
+        {
+            "id": Seminar id,
+            "name": Seminar name,
+            "instructors": [
+                "id": User id,
+                "username": User username,
+                "email": User email,
+                "first_name": User first_name,
+                "last_name": User last_name
+            ],
+            "participant_count": Seminar에 Participant로 참여 중인 User의 수
+        }
+    ]
+    ````
+  - `GET /api/v1/seminar/?order=earliest`으로 query param이 주어지면, Seminar의 created_at을 기준으로 가장 오래된 Semninar가 위에
 오도록 body를 구성합니다. order에 `earliest`가 아닌 값들이 오는 경우는 무시하고 기본적인 최신 순으로 정렬하면 됩니다.
 그 외 name, order가 아닌 query param key가 포함되는 경우도 무시하면 됩니다. name, order는 함께 적용할 수 있으며, 두 param 모두 없으면
 전체 Seminar를 최신 순으로 정렬하면 됩니다.
