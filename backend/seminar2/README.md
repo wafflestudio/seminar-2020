@@ -49,7 +49,7 @@ RDB 설계와 Model & View 및 Auth
 
 ## 과제
 - [assignment.md](assignment.md) 참고.
-- due: -
+- due: 2020.09.27.(일) 23:59
 
 ---
 
