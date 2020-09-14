@@ -269,7 +269,7 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
   - **waffle-rookies-18.5-backend-2 디렉토리에서 `git checkout -b workspace` 로 이번 과제를 진행할 새로운 브랜치를 만들고 이동합니다**<br>Git Desktop과 같은 GUI 툴을 사용하신다면 workspace라는 이름으로 New branch를 생성해주세요.
   - 해당 branch에서 작업을 완료해주세요. (**master branch에 push하면 안됩니다. git push origin workspace로 workspace branch에만 변경사항을 업로드해주세요.**)
   - 과제를 마치셨으면 마지막으로 workspace branch에 push 해주시고 Pull Request를 날려주시면 됩니다. (master <- workspace)
-  - 만약 master에 변경사항을 업로드한 경우 workspace branch에서 git merge master를 통해 master의 변경사항을 workspace branch로 가져오고 `git checkout master`를 이용해 master branch로 이동 <br>
+  - 만약 master에 변경사항을 업로드한 경우 workspace branch에서 `git merge master`를 통해 master의 변경사항을 workspace branch로 가져오고 `git checkout master`를 이용해 master branch로 이동 <br>
     ```
     git revert --no-commit HEAD~1..
     git commit
