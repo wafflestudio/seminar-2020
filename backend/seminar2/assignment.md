@@ -200,6 +200,7 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
 - `role`이 둘 중 하나의 값이 아닌 경우 `400`으로 적절한 에러 메시지와 함께 응답하며,
 해당하는 자격을 가지지 못한(ParticipantProfile이 없는 User가 `participant`로 요청하는 등) User가 요청하는 경우 `403`으로 적절한 에러 메시지와 함께 응답합니다.
 - Participant 자격을 갖고 있다고 하더라도, accepted가 False인 User가 세미나에 참여하는 요청을 하는 경우 `403`으로 적절한 에러 메시지와 함께 응답합니다.
+- `participant`로 Seminar에 참여할 때, Seminar의 capacity가 해당 Seminar에 참여자로서 있는 User들로 인해 이미 가득 찬 경우 `400`으로 응답하며 적절한 에러 메시지를 포함합니다.
 - Instructor 자격을 갖고 있다고 하더라도, 자신이 이미 담당하고 있는 세미나가 있는 경우 `400`으로 적절한 에러 메시지와 함께 응답합니다.
 - 이미 어떤 자격으로든 해당 세미나에 참여하고 있다면 `400`으로 적절한 에러 메시지와 함께 응답합니다.
 - 성공적으로 처리된 경우, 해당 세미나에 대해 세미나 생성 API와 동일한 구조의 body와 함께 `201`로 응답합니다.
@@ -217,6 +218,8 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
 ### 10
 - `waffle-rookies-18.5-backend-2`의 `README.md`에 과제 관련 하고 싶은 말, 어려웠던 점 등을 남겨주세요. 물론 적극적으로 해결되어야 할 피드백이나
 질문 사항은 [Issues](https://github.com/wafflestudio/rookies/issues) 등을 이용해주세요!
+- `GET /api/v1/survey/` API에 관련해, Django Debug Toolbar를 이용하여 query를 보고 느낀 점이나 이를 통해 조금이라도 query를 개선한 부분을 남겨주세요.
+물론 다른 API들에 대해서 추가적으로 포함하셔도 좋습니다.
 - 개발 과정의 흐름이나 시행 착오를 알아보기 좋게 작성해주셔도 좋습니다.
 - 구현을 하다가 과제 내용에 명시되지 않은 경우가 있다고 생각되면 [Issues](https://github.com/wafflestudio/rookies/issues) 에서 질문해주세요.
 
