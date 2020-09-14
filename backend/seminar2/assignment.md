@@ -276,7 +276,7 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
     git push origin master
     ```
     를 이용해 commit을 돌리시면 됩니다. (HEAD~ 뒤의 숫자는 되돌릴 commit의 수)
-  - git이 어려운 경우 [../../wafflestudio 18.5 rookies OT](OT자료), https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html 등을 참고해주세요.
+  - git이 어려운 경우 [OT자료](../../wafflestudio 18.5 rookies OT), https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html 등을 참고해주세요.
 
 7. 마감 시점에 PR을 기준으로 collaborator로 지정된 세미나 운영진들이 확인할 것입니다. GitHub repository에 반영되도록 commit, push해두는 것을 잊지 마세요.
 
