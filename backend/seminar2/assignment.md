@@ -265,19 +265,18 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
 
 6. 과제 진행은 다음 절차를 따라주세요
 
-- 현재 디렉토리에 있는 [waffle_backend](waffle_backend) 를 clone 후 waffle-rookies-18.5-backend-2 에 복사합니다.
-- **waffle-rookies-18.5-backend-2 디렉토리에서 `git checkout -b workspace` 로 이번 과제를 진행할 새로운 브랜치를 만들고 이동합니다**<br>Git Desktop과 같은 GUI 툴을 사용하신다면 workspace라는 이름으로 New branch를 생성해주세요.
-- 해당 branch에서 작업을 완료해주세요. (**master branch에 push하면 안됩니다. git push origin workspace로 workspace branch에만 변경사항을 업로드해주세요.**)
-- 과제를 마치셨으면 마지막으로 workspace branch에 push 해주시고 Pull Request를 날려주시면 됩니다. (master <- workspace)
-
-- 만약 master에 변경사항을 업로드한 경우 workspace branch에서 git merge master를 통해 master의 변경사항을 workspace branch로 가져오고 `git checkout master`를 이용해 master branch로 이동 <br>
-  ```
-  git revert --no-commit HEAD~1..
-  git commit
-  git push origin master
-  ```
-  를 이용해 commit을 돌리시면 됩니다. (HEAD~ 뒤의 숫자는 되돌릴 commit의 수)
-- git이 어려운 경우 [../../wafflestudio 18.5 rookies OT](OT자료), https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html 등을 참고해주세요.
+  - 현재 디렉토리에 있는 [waffle_backend](waffle_backend) 를 clone 후 waffle-rookies-18.5-backend-2 에 복사합니다.
+  - **waffle-rookies-18.5-backend-2 디렉토리에서 `git checkout -b workspace` 로 이번 과제를 진행할 새로운 브랜치를 만들고 이동합니다**<br>Git Desktop과 같은 GUI 툴을 사용하신다면 workspace라는 이름으로 New branch를 생성해주세요.
+  - 해당 branch에서 작업을 완료해주세요. (**master branch에 push하면 안됩니다. git push origin workspace로 workspace branch에만 변경사항을 업로드해주세요.**)
+  - 과제를 마치셨으면 마지막으로 workspace branch에 push 해주시고 Pull Request를 날려주시면 됩니다. (master <- workspace)
+  - 만약 master에 변경사항을 업로드한 경우 workspace branch에서 git merge master를 통해 master의 변경사항을 workspace branch로 가져오고 `git checkout master`를 이용해 master branch로 이동 <br>
+    ```
+    git revert --no-commit HEAD~1..
+    git commit
+    git push origin master
+    ```
+    를 이용해 commit을 돌리시면 됩니다. (HEAD~ 뒤의 숫자는 되돌릴 commit의 수)
+  - git이 어려운 경우 [../../wafflestudio 18.5 rookies OT](OT자료), https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html 등을 참고해주세요.
 
 7. 마감 시점에 PR을 기준으로 collaborator로 지정된 세미나 운영진들이 확인할 것입니다. GitHub repository에 반영되도록 commit, push해두는 것을 잊지 마세요.
 
