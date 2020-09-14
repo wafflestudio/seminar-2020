@@ -218,7 +218,7 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
 ### 10
 - `waffle-rookies-18.5-backend-2`의 `README.md`에 과제 관련 하고 싶은 말, 어려웠던 점 등을 남겨주세요. 물론 적극적으로 해결되어야 할 피드백이나
 질문 사항은 [Issues](https://github.com/wafflestudio/rookies/issues) 등을 이용해주세요!
-- `GET /api/v1/survey/` API에 관련해, Django Debug Toolbar를 이용하여 query를 보고 느낀 점이나 이를 통해 조금이라도 query를 개선한 부분을 남겨주세요.
+- `GET /api/v1/seminar/` API에 관련해, Django Debug Toolbar를 이용하여 query를 보고 느낀 점이나 이를 통해 조금이라도 query를 개선한 부분을 남겨주세요.
 물론 다른 API들에 대해서 추가적으로 포함하셔도 좋습니다.
 - 개발 과정의 흐름이나 시행 착오를 알아보기 좋게 작성해주셔도 좋습니다.
 - 구현을 하다가 과제 내용에 명시되지 않은 경우가 있다고 생각되면 [Issues](https://github.com/wafflestudio/rookies/issues) 에서 질문해주세요.
