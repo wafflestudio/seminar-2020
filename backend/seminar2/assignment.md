@@ -44,7 +44,7 @@ grace day 3일을 고려한 9/14(월)이 지난 후 이 rookies repository에도
 - Seminar와 User는 기본적으로 다음과 같은 관계를 가집니다. 한 User는 여러 Seminar와 관계할 수 있고, 하나의 Seminar는 여러 User를 포함할 수 있습니다.
 - Django의 `ManyToManyField`를 이용하지 말고, mapping table에 해당하는 `UserSeminar`를 seminar app 내부에 직접 정의하고 `ForeignKey`를 이용해 Seminar와 User 관계를 구현하세요.
 연결된 Seminar 또는 User가 삭제되는 경우에는 UserSeminar도 따라 삭제되게 합니다.
-- UserSeminar model 모두 생성 시점과 수정 시점을 `DateTimeField`로 저장하는 created_at(`joined_at`이 아님), updated_at column을 가집니다.
+- Seminar와 UserSeminar model 모두 생성 시점과 수정 시점을 `DateTimeField`로 저장하는 created_at(`joined_at`이 아님), updated_at column을 가집니다.
 - 그 외의 column들은 아래의 과제 내용을 참고하여 자유롭게 구현해도 좋습니다. 직접 정보를 관리하고 로직을 만들기 좋은 구조를 생각해 이용하되, API의 request와 response에 대한
 스펙은 정확히 지켜야 합니다. 관련 migration은 여러 번 해도 되는데, 결과적으로 완성되는 서비스 로직상 옳지 않은 데이터가 DB에 존재하지 않도록 하세요.
 
