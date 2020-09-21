@@ -27,6 +27,6 @@ Waffle Studio Frontend Seminar - 1
 
 ## 과제
 - [assignment.md](assignment.md)
-- due: 2020.09.11.(금) 23:59
+- due: ~~2020.09.11.(금)~~ 2020.09.13(일) 23:59
 
 
