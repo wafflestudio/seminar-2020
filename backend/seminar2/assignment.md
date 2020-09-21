@@ -110,7 +110,7 @@ null이 가능하다고 명시하지 않은 값엔 null이 들어가면 안 됩�
 - 위의 정보와 함께, 기존에 `PUT /api/v1/user/me/` 수정 가능하던 모든 정보 또는 일부를 마찬가지로 수정할 수 있어야 합니다.
 - 참여자 또는 진행자인 User는 Participant의 accepted를 제외하고는 해당하는 정보들을 모두 수정할 수 있습니다. 당연히 created_at, updated_at은 request로 받아 수정하면 안됩니다.
 - 참여자인 User가 request body에 company를 포함하는 등, 자신의 유형과 맞지 않는 정보가 들어오면 그냥 무시하면 됩니다. body가 완전히 비어있어도 무시하면 됩니다.
-- university와 company에 0글자가 오는 경우(사후 수정 - 해당 key의 value가 0글자인 오는 경우에는 ""으로 수정하면 됩니다.([#170 issue](https://github.com/wafflestudio/rookies/issues/170) 참고)), year에 0 또는 양의 정수가 아닌 값이 오는 경우는 `400`으로 응답하며, 적절한 에러 메시지를 포함합니다.
+- university와 company에 0글자가 오는 경우(사후 수정 - 해당 key의 value가 0글자로 오는 경우에는 ""으로 수정하면 됩니다.([#170 issue](https://github.com/wafflestudio/rookies/issues/170) 참고)), year에 0 또는 양의 정수가 아닌 값이 오는 경우는 `400`으로 응답하며, 적절한 에러 메시지를 포함합니다.
 
 ### 6
 - User는 진행자로 가입한 경우, 사후적으로 참여자로 등록할 수 있습니다. `POST /api/v1/user/participant/`를 통해 가능하며, 이때 `university`를 함께
