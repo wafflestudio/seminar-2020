@@ -45,13 +45,17 @@
 저는 개인적으로 vscode를 사용합니다. 프로그램이 텍스트 에디터인지라 가벼울 뿐만 아니라   
 개발하는 데 있어서 편리함을 더해주는 익스텐션들이 상당히 많거든요   
 아래에 몇 가지 추천해드릴테니 한 번 직접 읽어보시고 맘에 드는 것은 사용하시면 될 것 같습니다.(수업 진도에 따라 추가될 에정입니다.)
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) 
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)  
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) 
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-
-
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+- [JS code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+- [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ## 주의 사항
 ----------------------------------
