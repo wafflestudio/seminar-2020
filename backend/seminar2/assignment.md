@@ -185,7 +185,8 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
                     "first_name": User first_name,
                     "last_name": User last_name,
                     "joined_at": UserSeminar joined_at(datetime)
-                }
+                },
+                ...
             ],
             "participant_count": Seminar에 Participant로 참여 중인 User의 수
         }
