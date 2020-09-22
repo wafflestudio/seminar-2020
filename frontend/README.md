@@ -8,8 +8,9 @@
 
 | 링크 | 주제 | 날짜 | 장소 |
 | --- | --- | --- | --- |
-| [semniar1](seminar-1) | HTML/CSS | 2020.09.05 | zoom |
-| [semniar2](seminar-2) | React basic | 2020.09.12 | zoom |
+| [seminar1](seminar-1) | HTML/CSS | 2020.09.05 | zoom |
+| [seminar2](seminar-2) | React basic | 2020.09.12 | zoom |
+| [seminar3](seminar-3) | TBA | 2020.09.26 | zoom|
 
 
 ## 필수 사항
