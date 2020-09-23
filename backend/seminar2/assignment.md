@@ -59,6 +59,11 @@ one-to-one 관계를 가집니다. 두 model을 정의해서 User와 연결시�
 ### 4
 - 회원가입 API인 `POST /api/v1/user/`는 이미 정의되어 있습니다. request의 body에 `role`의 값이 `participant`인지,
 `instructor`인지에 따라 ParticipantProfile 또는 InstructorProfile이 User와 함께 생성되도록 하세요. `role`이 둘 중 하나의 값이 아닌 경우 `400`으로 적절한 에러 메시지와 함께 응답합니다.
+- 회원가입 API에 대한 아래의 내용은 [#186 issue](https://github.com/wafflestudio/rookies/issues/186)에 따라 명시되었습니다. 기본적으로 5.의 관련 내용과 같다고 생각하시면 됩니다.
+  - `role`이 `participant`인 User는 소속 대학에 대한 정보(university)를 저장할 수 있습니다. 정보가 없는 경우, `""`으로 DB에 저장됩니다.
+  - `role`이 `instructor`인 User는 소속 회사에 대한 정보(company)와 자신이 몇 년차 경력인지(year)를 저장할 수 있습니다. 정보가 없는 경우, 각각 `""`과 null으로 DB에 저장됩니다.
+  - 참여자인 User가 request body에 company를 포함하는 등, 자신의 유형과 맞지 않는 정보가 들어오면 그냥 무시하면 됩니다. body가 완전히 비어있어도 무시하면 됩니다.
+  - year에 0 또는 양의 정수가 아닌 값이 오는 경우는 `400`으로 응답하며, 적절한 에러 메시지를 포함합니다.
 - `POST /api/v1/user/`, `PUT /api/v1/user/login/`, `PUT /api/v1/user/me/`, `GET /api/v1/user/{user_id}/`의 response body는 `UserSerializer`를 그대로 이용하되,
 아래와 같이 확장 하세요. 이번 과제에서 정의하는 model의 column 이름은 자유롭게 정해도 되지만, response는 하나의 차이도 없이 같아야 합니다.
 값의 위치에 `Participant university` 등으로 적혀있는 것은, 어떤 model에 해당 정보를 어떤 type으로 저장하면 될지 힌트를 제공하는 것이고, 실제 저장은 다른 구조로 다른 이름으로 해도 됩니다.
@@ -110,7 +115,8 @@ null이 가능하다고 명시하지 않은 값엔 null이 들어가면 안 됩�
 - 위의 정보와 함께, 기존에 `PUT /api/v1/user/me/` 수정 가능하던 모든 정보 또는 일부를 마찬가지로 수정할 수 있어야 합니다.
 - 참여자 또는 진행자인 User는 Participant의 accepted를 제외하고는 해당하는 정보들을 모두 수정할 수 있습니다. 당연히 created_at, updated_at은 request로 받아 수정하면 안됩니다.
 - 참여자인 User가 request body에 company를 포함하는 등, 자신의 유형과 맞지 않는 정보가 들어오면 그냥 무시하면 됩니다. body가 완전히 비어있어도 무시하면 됩니다.
-- university와 company에 0글자가 오는 경우(사후 수정 - 해당 key의 value가 0글자로 오는 경우에는 ""으로 수정하면 됩니다.([#170 issue](https://github.com/wafflestudio/rookies/issues/170) 참고)), year에 0 또는 양의 정수가 아닌 값이 오는 경우는 `400`으로 응답하며, 적절한 에러 메시지를 포함합니다.
+- university와 company에 0글자가 오는 경우에는 ""으로 수정하면 됩니다.(사후 수정 - [#170 issue](https://github.com/wafflestudio/rookies/issues/170) 참고)
+- year에 0 또는 양의 정수가 아닌 값이 오는 경우는 `400`으로 응답하며, 적절한 에러 메시지를 포함합니다.
 
 ### 6
 - User는 진행자로 가입한 경우, 사후적으로 참여자로 등록할 수 있습니다. `POST /api/v1/user/participant/`를 통해 가능하며, 이때 `university`를 함께
@@ -123,7 +129,7 @@ request body로 제공할 수 있습니다. 이것이 포함되는 경우, 서�
 - request body는 세미나 이름(name), 정원(capacity), 세미나 횟수(count), 정기 세미나 시간(time), 온라인 여부(online)를 포함해야 합니다.
 online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절한 에러 메시지를 포함합니다. name에 0글자가 오는 경우, capacity와 count에
 양의 정수가 아닌 값이 오는 경우, time이 `14:30`과 같은 형태가 아닌 경우는 `400`으로 응답합니다. time은 24시간제로 받아들이며, `TimeField`를
-이용해 저장하세요. online은 True 또는 False와 같은 대소문자 무관한 문자열이어야 하며, 아닌 경우 `400`으로 응답합니다. online이 request body에 포함되지
+이용해 저장하세요. online은 True 또는 False와 같은 대소문자 무관한 문자열([#183 issue](https://github.com/wafflestudio/rookies/issues/183) 참고)이어야 하며, 아닌 경우 `400`으로 응답합니다. online이 request body에 포함되지
 않는 경우, `True`를 기본으로 합니다. response는 아래와 같아야 하며, `201`로 응답합니다. model의 column 이름은 자유롭게 정해도 되지만, response는 하나의 차이도 없이 같아야 합니다.
 세미나 진행자 자격을 가진 User만 요청할 수 있으며, 그렇지 않은 경우 `403`으로 응답합니다. 요청한 User가 기본적으로 해당 Seminar의 담당자가 됩니다.
 ````
