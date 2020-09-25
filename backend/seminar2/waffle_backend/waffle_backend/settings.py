@@ -95,7 +95,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',
         'PORT': 3306,
-        'NAME': 'waffle_backend',  # database name
+        'NAME': 'waffle_backend_assignment_2',
         'USER': 'waffle-backend',
         'PASSWORD': 'seminar',
     }
