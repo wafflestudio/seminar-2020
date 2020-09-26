@@ -13,6 +13,7 @@ TBA
 - [자바스크립트 공부](https://learnjs.vlpt.us/)
   ```
   React를 하면서 필수적으로 사용하게 될 javascript입니다.
+  언제나 공부해놓으시면 좋습니다
   ```
   
 
@@ -21,7 +22,7 @@ TBA
 ## 세미나 자료
 ------------------
 
-[세미나 자료](https://github.com/wafflestudio/rookies/blob/master/frontend/seminar-2/Waffle%20Studio%20Frontend%20Seminar%20-%202.pdf)
+[세미나 자료](https://github.com/wafflestudio/rookies/blob/master/frontend/seminar-3/Waffle%20Studio%20Frontend%20Seminar%20-%203.pdf)
 
 
 ## 세미나 중 질문
