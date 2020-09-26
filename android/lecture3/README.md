@@ -6,7 +6,6 @@
 - Asynchronous Task in Android
   - LiveData
   - RxJava
-  - corountine
 - Network I/O (HTTP) in Android
   - retrofit
   - Gson
@@ -26,7 +25,7 @@
 ---
 
 ## PPT
-
+- https://docs.google.com/presentation/d/1C-kq1bmOIrFNEMlfaQKVPGFSzxx-BDZTgxiJhJiD67U/edit?usp=sharing
 ---
 
 ## 출처 / 읽을거리
