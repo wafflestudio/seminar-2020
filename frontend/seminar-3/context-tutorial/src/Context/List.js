@@ -9,12 +9,10 @@ import React, { createContext, useState, useContext } from 'react';
 */
 
 /*
-  Context(전역 state)의 default 값
-  이 default 형식을 벗어나지 않음
-  addItem/onToggle 함수가 삭제된다거나
-  이 외의 함수가 추가된다거나 하지 않음
-  list 배열에 값이 추가될 수는 있어도,
-  list 외의 다른 변수가 추가되지는 않음
+  1. Context(전역 state)의 default 값이 default 형식을 벗어나지 않아야 함
+  2. addItem/onToggle 함수가 삭제된다거나 이 외의 함수가 추가된다거나 하지 않아야 함
+  3. list 배열에 값이 추가될 수는 있어도, list 외의 다른 변수가 추가되지는 않아야 함
+
   정확히 말하면, 추가/삭제한다고 해서 에러가 발생하지는 않지만,
   context를 사용하는 데 있어 user가 지켜야하는 Rule
 */
@@ -83,12 +81,6 @@ const ListProvider = (props) => {
     /*
       value: 값이 변하면 하위 컴포넌트에 반영
       children: 하위 컴포넌트
-        아래의 경우에는 div의 children은 <a><img>
-       ex) 
-        <div>
-          <a>
-          <img>
-        </div>
     */
     <ListContext.Provider value={state}>
       {children}
