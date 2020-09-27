@@ -93,7 +93,7 @@ null이 가능하다고 명시하지 않은 값엔 null이 들어가면 안 됩�
                 "dropped_at": UserSeminar dropped_at(datetime, 정보가 없는 경우 null)
             },
             ...
-        ] (참여하는 Seminar가 없는 경우 [])
+        ] (참여하는 Seminar가 없는 경우 [], is_active가 false인 Seminar도 포함)
     } (ParticipantProfile이 없는 경우 null),
     "instructor": {
         "id": InstructorProfile id,
@@ -163,11 +163,11 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
             "dropped_at": UserSeminar dropped_at(datetime, 정보가 없는 경우 null)
          },
          ...
-    ]
+    ] (참여하는 Participant가 없는 경우 [], is_active가 false인 Participant도 포함)
 }
 ````
 - `PUT /api/v1/seminar/{seminar_id}/`로 Seminar의 정보 일부를 수정할 수 있습니다. body가 완전히 비어있어도 무시하면 됩니다. 성공적인 경우 세미나
-생성 API와 동일한 구조의 body와 함께 `200`으로 응답합니다. 단, 현재 해당 Seminar에 참여 중인 참여자 수보다 적은 값으로 capacity를 수정하려고 하면 `400`으로 응답하며
+생성 API와 동일한 구조의 body와 함께 `200`으로 응답합니다. 단, 현재 해당 Seminar에 참여 중인 참여자 수(is_active가 false인 Participant는 참여 중인 것이 아니므로 제외)보다 적은 값으로 capacity를 수정하려고 하면 `400`으로 응답하며
 적절한 에러 메시지를 포함합니다. `seminar_id`에 해당하는 Seminar가 없는 경우 `404`로 응답합니다. 이 동작은 해당 Seminar의 담당자들만이 요청할 수 있으며,
 세미나 진행자(Instructor)더라도 담당이 아니면 참여자에게와 마찬가지로 `403`으로 적절한 에러 메시지와 함께 응답합니다.
 
@@ -194,7 +194,7 @@ online 여부 외에는 하나라도 빠지면 `400`으로 응답하며, 적절�
                 },
                 ...
             ],
-            "participant_count": Seminar에 Participant로 참여 중인 User의 수
+            "participant_count": Seminar에 Participant로 참여 중인 User의 수 (is_active가 false인 Participant는 참여 중인 것이 아니므로 제외)
         }
     ]
     ````
