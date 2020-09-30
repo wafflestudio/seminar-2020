@@ -54,7 +54,7 @@ test를 작성하세요. 이미 작성되어 있는 일부 API에 대해서도 t
 그 내부에서도 test method를 나누세요. 하나의 Django app 내에서도 test 파일을 여러 개로 나누어 작성해도 좋습니다. 예를 들어 user app에서 test 파일을
 여러 개로 나누려고 한다면 `/waffle_backend/user/tests` 라는 directory를 생성하고 여기에 user app의 test 파일들을 포함시키세요.
 - 본인이 생각하기에 적절한 test method 이름을 붙여야 하며, test code의 의미를 이해하기 어려울 수 있다고 여겨지는 부분에 대해서는 주석을 포함시키세요.
-- 각 API들에 대해, 최소 한 번 이상은 response body의 모든 부분들을 간단히라도 체크해야 합니다. 이 때 `null`, `[]` 등의 차이에 대해서도 엄밀하게 test하세요.
+- 각 API들에 대해, 최소 한 번 이상은 response body의 모든 부분들을 간단히라도 체크해야 합니다. 이 때 `null`, `""`, `[]` 등의 차이에 대해서도 엄밀하게 test하세요.
 - response body만 항상 test하지 말고, 직접 DB를 Django code로 직접 조회해 값이나 개수 등을 확인하는 test 코드도 포함시키도록 하세요.
 예를 들어 `PUT /api/v1/user/me/`의 경우 response body만 보면 `User` 등의 정보가 수정된 것처럼 보이더라도, model instance에 대해 `save()`를 하지 않는 등의 실수로 인해
 실제 DB에는 수정이 안 되었을 수 있다는 등 여러 최악의 경우를 고려해야 합니다.
