@@ -12,7 +12,7 @@
 `workspace` branch의 최신 상황에서 `git checkout -b test` 등으로 새로운 branch를 생성해 진행하세요.
 - 과제 2를 온전히 완료한 상황에서 진행해야 합니다. 과제 3을 진행하며 과제 2 제출 당시의 부족한 지점을 발견하더라도, 과제 2 당시의 `workspace`
 branch에 추가적인 변경을 가해서는 안됩니다.
-- Django에서 기본적으로 test를 위해 사용하는 database는 별개로 생성됩니다. 이에 대해 관련 문서를 참조하고, MySQL의 `waffle-backend` 사용자에게 관련 권한을 부여하는 것을 잊지 마세요.
+- Django에서 기본적으로 test를 위해 사용하는 database는 별개로 생성됩니다. 이에 대해 [관련 문서](https://docs.djangoproject.com/en/3.1/topics/testing/overview/#the-test-database) 등을 참조하고, MySQL의 `waffle-backend` 사용자에게 관련 권한을 부여하는 것을 잊지 마세요.
 
 ## 과제 내용
 ### 1
