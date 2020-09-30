@@ -100,8 +100,6 @@ test를 실행할 때 자신이 개발해둔 코드 중 몇 %가 실행되는지
 1. 과제 2를 통해 생성한 GitHub 개인 계정의 `waffle-rookies-18.5-backend-2` private repository에서 이어 작업합니다.
 
 2. 과제 진행은 다음 절차를 따라주세요
-
-  - 현재 디렉토리에 있는 [waffle_backend](waffle_backend) 를 clone 후 waffle-rookies-18.5-backend-2 에 복사합니다.
   - **waffle-rookies-18.5-backend-2 의 `workspace`에서 `git checkout -b test` 로 이번 과제를 진행할 새로운 브랜치를 만들고 이동합니다.**
   - 해당 branch에서 작업을 완료해주세요. (**master, workspace branch에 push하면 안됩니다. test branch에만 변경사항을 반영해주세요.**)
   - 과제를 진행하면서 test branch에 commit, push 해주시고 Pull Requests를 생성하시면 됩니다. (master(workspace 아님) <- test)
