@@ -125,7 +125,7 @@ timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또�
 
 6. 가급적 repository 생성과 collaborator 지정은 미리 해둬주세요! 제출 방식을 다들 올바로 이해하고 계신지와 함께, 가능하다면 대략적인 진행상황을 보면서 필요하면 몇 가지 말씀을 더 드릴 수도 있습니다.
 
-### 참고하면 좋은 것들
+## 참고하면 좋은 것들
 - 추후 점진적으로 추가 예정입니다.
 - Django의 모든 [공식 문서](https://docs.djangoproject.com/en/3.1/). 1번째 세미나에서도 강조한 문서들인
 [QuerySet](https://docs.djangoproject.com/en/3.1/ref/models/querysets/), [Django auth system](https://docs.djangoproject.com/en/3.1/topics/auth/default/) 가

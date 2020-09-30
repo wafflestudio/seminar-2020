@@ -103,7 +103,7 @@ test를 실행할 때 자신이 개발해둔 코드 중 몇 %가 실행되는지
 
 4. master, workspace branch의 상태는 반드시 본인 과제 2의 제출 시점과 동일해야합니다. 
 
-### 참고하면 좋은 것들
+## 참고하면 좋은 것들
 - 관련 문서(추후 점진적으로 추가 예정입니다.)
     - https://docs.djangoproject.com/en/3.1/topics/testing/overview/
     - https://docs.djangoproject.com/en/3.1/topics/testing/tools/
@@ -111,6 +111,7 @@ test를 실행할 때 자신이 개발해둔 코드 중 몇 %가 실행되는지
     - https://docs.python.org/3/library/unittest.html
     - https://docs.djangoproject.com/en/3.1/topics/testing/advanced/#integration-with-coverage-py
     - https://coverage.readthedocs.io/en/coverage-5.3/
+
 - 앞으로도 늘 그렇겠지만, 과제를 진행하며 모르는 것들과 여러 난관에 부딪히리라 생각됩니다. 당연히 그 지점을 기대하고 과제를 드리는 것이고, 기본적으로 스스로 구글링을
 통해 여러 내용을 확인하고 적절한 수준까지 익숙해지실 수 있도록 하면 좋겠습니다.
 - [Issues](https://github.com/wafflestudio/rookies/issues) 에 질문하는 것을 어려워하지 마시길 바랍니다. 필요하다면 본인의 환경에 대한 정보를 잘 포함시켜주세요.
