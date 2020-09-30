@@ -52,7 +52,8 @@ DBMS의 query 실행과 배포 기초
 ---
 
 ## 과제
-- 추후 공지 예정
+- [assignment.md](assignment.md) 참고.
+- due: 2020.10.11.(일) 23:59
 
 ---
 
