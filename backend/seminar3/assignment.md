@@ -22,7 +22,7 @@ branch에 추가적인 변경을 가해서는 안됩니다.
 - `tests_user.py`에는 `POST /api/v1/user/`, `PUT /api/v1/user/me/` API에 대한 기본적인 test들이 포함되어 있습니다.
 우선 해당 test를 `python manage.py test` 또는 `python manage.py test user`으로 실행시켜 보세요.
 - 만약 실패한다면 `test` branch에서 그대로, 관련 API의 개발 내용을 수정하시면 됩니다. 이후 본인이 작성하시는 test를 이용하면서 부족한 점을 스스로 발견하고
-고쳐나가는 것 자체가 이번 과제의 핵심입니다.
+고쳐나가는 것 자체가 이번 과제의 핵심입니다. (InstructorProfile, ParticipantProfile을 다른 위치에 정의해서 생기는 문제에 대해서는 해당 [import line](https://github.com/wafflestudio/rookies/blob/master/backend/seminar3/tests_user.py#L7)을 수정하셔도 좋습니다.
 
 ### 2
 - 아래 모든 API들에 대해 [과제 2](https://github.com/wafflestudio/rookies/blob/master/backend/seminar2/assignment.md) 의 명세를 참고해,
@@ -39,6 +39,7 @@ test를 작성하세요. 이미 작성되어 있는 일부 API에 대해서도 t
     - GET /api/v1/seminar/
     - POST /api/v1/seminar/{seminar_id}/user/
     - DELETE /api/v1/seminar/{seminar_id}/user/
+
 - `tests_user.py`를 보시면서 또는 스스로 test를 작성하시면서 느끼시겠지만, 모든 경우에 대해 완벽한 test를 작성하는 것에는 무리가 있습니다. 예를 들어,
 `PUT /api/v1/user/me/`에 대해 미리 작성해둔 test들만 해도, request body가 불충분해서 `400`이 발생해야 하는 경우가 실제로는 훨씬 많은 경우의 수가 있을 것입니다.
 - 때문에 충분한 test를 작성하려고 하되 적정선을 스스로 찾아야할 필요는 있습니다. 기본적으로는 모든 로직을 test해야 한다는 것을 기본 마인드로 가지셔야 합니다.
