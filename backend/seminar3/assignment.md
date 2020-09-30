@@ -22,7 +22,7 @@ branch에 추가적인 변경을 가해서는 안됩니다.
 - `tests_user.py`에는 `POST /api/v1/user/`, `PUT /api/v1/user/me/` API에 대한 기본적인 test들이 포함되어 있습니다.
 우선 해당 test를 `python manage.py test` 또는 `python manage.py test user`으로 실행시켜 보세요.
 - 만약 실패한다면 `test` branch에서 그대로, 관련 API의 개발 내용을 수정하시면 됩니다. 이후 본인이 작성하시는 test를 이용하면서 부족한 점을 스스로 발견하고
-고쳐나가는 것 자체가 이번 과제의 핵심입니다. (InstructorProfile, ParticipantProfile을 다른 위치에 정의해서 생기는 문제에 대해서는 해당 [import line](https://github.com/wafflestudio/rookies/blob/master/backend/seminar3/tests_user.py#L7)을 수정하셔도 좋습니다.
+고쳐나가는 것 자체가 이번 과제의 핵심입니다. (`InstructorProfile`, `ParticipantProfile`을 다른 위치에 정의해서 생기는 문제에 대해서는 해당 [import line](https://github.com/wafflestudio/rookies/blob/master/backend/seminar3/tests_user.py#L7)을 수정하셔도 좋습니다.)
 
 ### 2
 - 아래 모든 API들에 대해 [과제 2](https://github.com/wafflestudio/rookies/blob/master/backend/seminar2/assignment.md) 의 명세를 참고해,
@@ -52,7 +52,7 @@ test를 작성하세요. 이미 작성되어 있는 일부 API에 대해서도 t
 - 본인이 생각하기에 적절한 test method 이름을 붙여야 하며, test code의 의미를 이해하기 어려울 수 있다고 여겨지는 부분에 대해서는 주석을 포함시키세요.
 - 각 API들에 대해, 최소 한 번 이상은 response body의 모든 부분들을 간단히라도 체크해야 합니다. 이 때 `null`, `[]` 등의 차이에 대해서도 엄밀하게 test하세요.
 - response body만 항상 test하지 말고, 직접 DB를 Django code로 직접 조회해 값이나 개수 등을 확인하는 test 코드도 포함시키도록 하세요.
-예를 들어 `PUT /api/v1/user/me/`의 경우 response body만 보면 User의 정보가 수정된 것처럼 보이더라도, model instance에 대해 `save()`를 하지 않는 등의 실수로 인해
+예를 들어 `PUT /api/v1/user/me/`의 경우 response body만 보면 `User` 등의 정보가 수정된 것처럼 보이더라도, model instance에 대해 `save()`를 하지 않는 등의 실수로 인해
 실제 DB에는 수정이 안 되었을 수 있다는 등 여러 최악의 경우를 고려해야 합니다.
 
 ### 3
@@ -66,10 +66,10 @@ test 역시 별도로 작성하기도 합니다. 이 과제에서 그만큼 요�
 ### 4
 - test를 열심히 작성하고 꼼꼼히 생각할 수록, 더 오래 걸리고 번거로운 과제가 될 가능성이 높습니다. 세미나 전체적으로도 당연한 말이지만, 이것이 완료 자체에만 목적을 두는 과정이 아닌,
 개발 자체에 능숙해지기 위한 공부 과정이라는 것을 잊지 마시고 스스로에게 엄격해지시기를 바랍니다. 그럴수록 당연히 본인 실력에 큰 도움이 될 것이에요.
-- 과제 2 당시에 부족하게 구현했던 부분을 test를 이용한 개발 과정에서 발견하셨다면 `test` branch의 `README.md`에 기록해나가 주세요. 알아보기 좋게 API 단위로
+- 과제 2 당시에 부족하게 구현했던 부분을 test를 이용한 개발 과정에서 발견하셨다면 `test` branch의 `README.md`에 기록해나가 주세요.(필수) 알아보기 좋게 API 단위로
 구분해서 적어주시는 등의 방식을 포함해주세요.
 - 과제 3을 진행하시는 중에 과제 2에 대한 피드백을 드리게 될텐데, 과제 3 진행 과정에서 해당 피드백을 반영하시면 좋습니다.
-- test를 통해 발견하긴 했으나 test와는 무관한 개발 질문이나 tip 등을 Issues에 공유하는 상황에는 `HW2` label을 달아주시기 바랍니다.
+- test를 통해 발견하긴 했으나 test와는 무관한 개발 질문이나 tip 등을 [Issues](https://github.com/wafflestudio/rookies/issues) 에 공유하는 상황에는 `HW2` label을 달아주시기 바랍니다.
 
 ### 5
 - 본인이 test를 최소한의 수준으로는 잘 작성해가고 있는지 도움을 받을 수 있는 도구들도 여럿 있습니다. 그중 하나는 Python package인 coverage입니다.
