@@ -61,6 +61,7 @@ one-to-one 관계를 가집니다. 두 model을 정의해서 User와 연결시�
 `instructor`인지에 따라 ParticipantProfile 또는 InstructorProfile이 User와 함께 생성되도록 하세요. `role`이 둘 중 하나의 값이 아닌 경우 `400`으로 적절한 에러 메시지와 함께 응답합니다.
 - 회원가입 API에 대한 아래의 내용은 [#186 issue](https://github.com/wafflestudio/rookies/issues/186)에 따라 명시되었습니다. 기본적으로 5.의 관련 내용과 같다고 생각하시면 됩니다.
   - `role`이 `participant`인 User는 소속 대학에 대한 정보(university)를 저장할 수 있습니다. 정보가 없는 경우, `""`으로 DB에 저장됩니다.
+  - `role`이 `participant`인 User는 Seminar에 참여할 수 있는지에 대한 정보(accepted)를 받을 수 있습니다. 정보가 없는 경우, `True`로 받아들이면 됩니다.(사후 수정 - [#218 issue](https://github.com/wafflestudio/rookies/issues/218) 참고)
   - `role`이 `instructor`인 User는 소속 회사에 대한 정보(company)와 자신이 몇 년차 경력인지(year)를 저장할 수 있습니다. 정보가 없는 경우, 각각 `""`과 null으로 DB에 저장됩니다.
   - 참여자인 User가 request body에 company를 포함하는 등, 자신의 유형과 맞지 않는 정보가 들어오면 그냥 무시하면 됩니다. body가 완전히 비어있어도 무시하면 됩니다.
   - year에 0 또는 양의 정수가 아닌 값이 오는 경우는 `400`으로 응답하며, 적절한 에러 메시지를 포함합니다.
@@ -120,7 +121,7 @@ null이 가능하다고 명시하지 않은 값엔 null이 들어가면 안 됩�
 
 ### 6
 - User는 진행자로 가입한 경우, 사후적으로 참여자로 등록할 수 있습니다. `POST /api/v1/user/participant/`를 통해 가능하며, 이때 `university`를 함께
-request body로 제공할 수 있습니다. 이것이 포함되는 경우, 서버는 이를 저장해야합니다. university의 입력이 없는 경우 ""으로 저장하면 됩니다.
+request body로 제공할 수 있습니다. 이것이 포함되는 경우, 서버는 이를 저장해야합니다. university의 입력이 없는 경우 `""`으로 저장하면 됩니다. accepted의 입력이 없는 경우, `True`로 받아들이면 됩니다.(사후 수정 - [#218 issue](https://github.com/wafflestudio/rookies/issues/218) 참고)
 이미 참여자인 사람이 또 요청하면 `400`으로 응답하며, 적절한 에러 메시지를 포함합니다. 성공적인 경우 `201`로 응답하고 4.의 response body와 같은 구조를 가지면 됩니다.
 - 한 번 진행자 또는 참여자가 된 User는 서비스 로직상 해당 Profile을 잃지 않습니다.
 

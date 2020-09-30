@@ -27,6 +27,8 @@ branch에 추가적인 변경을 가해서는 안됩니다.
 우선 해당 test를 `python manage.py test` 또는 `python manage.py test user`으로 실행시켜 보세요.
 - 만약 실패한다면 `test` branch에서 그대로, 관련 API의 개발 내용을 수정하시면 됩니다. 이후 본인이 작성하시는 test를 이용하면서 부족한 점을 스스로 발견하고
 고쳐나가는 것 자체가 이번 과제의 핵심입니다. (`InstructorProfile`, `ParticipantProfile`을 다른 위치에 정의해서 생기는 문제에 대해서는 해당 [import line](https://github.com/wafflestudio/rookies/blob/master/backend/seminar3/tests_user.py#L7)을 수정하셔도 좋습니다.)
+(과제 2의 관련 명세가 엄밀하지 않아, `accepeted`를 request body에서 optional하지 않은 것으로 전제했거나, optional하더라도 default 값이 `False`인 것으로 전제했을 수 있습니다.
+이 경우 무언가를 잘못했던 것은 아니고, 과제 3을 위해서는 test가 전제하는대로 수정해주시면 됩니다. - [#221 issue](https://github.com/wafflestudio/rookies/issues/221) 참고)
 
 ### 2
 - 아래 모든 API들에 대해 [과제 2](https://github.com/wafflestudio/rookies/blob/master/backend/seminar2/assignment.md) 의 명세를 참고해,
