@@ -31,7 +31,7 @@ branch에 추가적인 변경을 가해서는 안됩니다.
 이 경우 무언가를 잘못했던 것은 아니고, 과제 3을 위해서는 test가 전제하는대로 수정해주시면 됩니다. - [#221 issue](https://github.com/wafflestudio/rookies/issues/221) 참고)
 
 ### 2
-- 아래 모든 API들에 대해 [과제 2](https://github.com/wafflestudio/rookies/blob/master/backend/seminar2/assignment.md) 의 명세를 참고해,
+- 아래 모든 API들(일부 API가 없는 것은 의도된 것으로, 물론 그에 대해서도 test 작성하셔도 좋습니다.)에 대해 [과제 2](https://github.com/wafflestudio/rookies/blob/master/backend/seminar2/assignment.md) 의 명세를 참고해,
 test를 작성하세요. 이미 작성되어 있는 일부 API에 대해서도 test를 보강할 필요가 있다고 여겨지면 수정 및 추가하셔도 좋습니다.(실제로 부족한 부분이 있습니다.)
     - POST /api/v1/user/
     - PUT /api/v1/user/login/
