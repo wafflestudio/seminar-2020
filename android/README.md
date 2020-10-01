@@ -11,4 +11,12 @@
 | [lecture0](lecture0) | Android 시작하기 | 2020.8.29 | zoom |
 | [lecture1](lecture1) | Android MVVM | 2020.9.5 | zoom |
 | [lecture2](lecture2) | Room Database & RecyclerView | 2020.9.12 | zoom |
-| [lecture3](lecture3) | HTTP with Retrofit  | 2020.9.19 | zoom |
+| [lecture3](lecture3) | HTTP with Retrofit  | 2020.9.26 | zoom |
+
+## 세미나 과제
+
+| 링크 | 주제 | 기한 |
+| --- | --- | --- |
+| [assign1](assign1) | TicTacToe | ~2020.9.12 |
+| [assign2](assign2) | SimpleTodo | ~2020.9.26 |
+| [assign3](assign3) | MovieDB | ~2020.10.10 |
