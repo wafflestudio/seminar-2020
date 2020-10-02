@@ -14,7 +14,7 @@ Waffle Studio Frontend Assignment - 3
   - 리스트 정렬 방식을 바꿀 수 있는 버튼이 존재해야 합니다 ex) `id로 정렬`, `name으로 정렬 `
   - 정렬 방식은 브라우저의 주소를 통해 확인할 수 있어야 합니다.
   -  각 `item`을 클릭하면, 해당 `item`에 맞는 **Item Detail Page**(`/items/:id`)로 이동해야 합니다.
-  -  `items`를 출력할 때, `ul` 태그와 `li` 태그 필수적으로 사용해주세요.
+  -  ~~`items`를 출력할 때, `ul` 태그와 `li` 태그 필수적으로 사용해주세요.~~
 - Item Create Page(`/items/create`)
   - `추가` 버튼을 누르면 `item`이 추가돼야 합니다.
   - `item`이 추가되면 해당 `item`의 **Detail Page**(`/items/:id`)로 이동해야 합니다.
