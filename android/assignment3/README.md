@@ -124,6 +124,7 @@ interface MovieService {
 
 ### #6 UI 와 바인딩, RecyclerView 와 연결, 마무리
 - 이제 만들어진 Service 를 Repository 에서 가져다 사용하면 됩니다. (뼈대코드의 DI 모듈에서 알아서 `MovieRepository` 로 inject 됩니다.)
+- url을 사용한 이미지 로딩의 경우 [Glide](https://github.com/bumptech/glide) 를 사용합니다. Glide 경우 BindingUtils 에 `setImageUrl` 으로 이미 구현해 놓았으므로 xml 에서 잘 연결해서 사용하시면 될 것 같습니다.
 - DataBinding, RecyclerView 등 이전 세미나에서 배웠던 내용들이나 stackoverflow 등의 도움을 받으며 과제를 완성하세요.
 
 ### #7 추가 구현 (도전해보세요)
@@ -131,8 +132,8 @@ interface MovieService {
   - Discover Activity 에서 현재는 20개의 영화만을 보여줍니다.
   - 스크롤이 끝에 닿으면 자동으로 추가로 20개의 영화를 로드해서 보여주도록 구현해봅시다. (이 경우 discover endpoint query 의 `page` 를 1이 아닌 2, 3, 4 ... 로 주면 다음 페이지의 값들이 로드 되겠죠?)
   - 참고자료
-    - https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView.OnScrollListener
-    - https://acaroom.net/ko/blog/youngdeok/%EC%97%B0%EC%9E%AC-%EC%BD%94%ED%8B%80%EB%A6%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-02-6%EB%8B%A8%EA%B3%84-infinite-scroll%EA%B3%BC-ui%EC%9D%98-%EA%B0%9C%EC%84%A0
+    - [RecyclerView.OnScrollListener](https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView.OnScrollListener)
+    - [RecyclerView Infinite Scroll](https://acaroom.net/ko/blog/youngdeok/%EC%97%B0%EC%9E%AC-%EC%BD%94%ED%8B%80%EB%A6%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-02-6%EB%8B%A8%EA%B3%84-infinite-scroll%EA%B3%BC-ui%EC%9D%98-%EA%B0%9C%EC%84%A0)
 - Detail Activity 추가 구현
   - 과제 스펙의 detail activity 는 title, backdrop, overview 만 있어서 심심합니다.
   - tag 나 video 등등 response 에서 들어오는 다양한 값들을 활용해 detail activity 를 영화에 대한 더 자세한 정보를 담을 수 있도록 만들어보세요.
