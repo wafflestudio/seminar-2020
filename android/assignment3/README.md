@@ -107,7 +107,7 @@ data class DiscoverResponse (
     // ...
 )
 ```
-- 이렇게 작성된 class 의 경우 `[Gson](https://github.com/google/gson)` converter 를 통해 class 의 field 와 response 의 json 값의 key에 따라 자동으로 json -> kotlin object conversion 이 일어납니다.
+- 이렇게 작성된 class 의 경우 [Gson](https://github.com/google/gson) converter 를 통해 class 의 field 와 response 의 json 값의 key에 따라 자동으로 json -> kotlin object conversion 이 일어납니다.
 - response 에 명시된 모든 json key value 쌍을 class에 적지 않아도 괜찮습니다. 필요한 값들만 class 의 field 로 만들어도 잘 작동합니다.
 
 ### #5 Retrofit Service 만들기
