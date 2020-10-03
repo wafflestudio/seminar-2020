@@ -11,14 +11,12 @@
   - 2*n 격자 모양의 Recycler View 를 사용한다. ([GridLayoutManager](https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/GridLayoutManager))
 - 리스트의 아이템을 클릭 시 해당 영화에 관련된 자세한 정보를 보여주는 `Detail Activity` 로 전환한다.
   - Detail Activity 는 각 영화의 backdrop image 와 title, overview text 를 보여주어야 한다.
-- 영화 정보들은 [TMdb API](https://www.themoviedb.org/?language=ko) 를 통해 Retrofit 으로 가져온다.
+- 영화 정보들은 [TMdb API](https://www.themoviedb.org/?language=ko)의 [Discover Endpoint](https://developers.themoviedb.org/3/discover/movie-discover) 를 통해 Retrofit 으로 가져온다.
   - 이때 query string 은 기본적으로 `page=1&sort_by=popularity.desc` 을 사용해 인기도 순으로 20개의 영화 데이터를 가져와 보여준다.
   - `page` 의 경우 과제 추가 구현을 위해 1이 아닌 값을 사용해도 좋다.
-- 뼈대 코드의 경우 이 레포지토리의 Movie DB 폴더에 제공된다.
-- 뼈대 코드는 사용해도 좋고, 직접 a-z를 만들어 보아도 좋다.
-- 과제의 채점은 pass / fail 로 구체적인 기준은 두지 않고, 앞서 언급된 Simple Todo Application의 명세를 만족하면 pass 이다.
-  - 다만, Repository Pattern 과 Room Database 를 활용하여 완결성 있는 MVVM pattern의 앱을 작성해야 한다.
-  - 위 사항은 뼈대 코드에서 이미 잘 작성되어 있다.
+- 뼈대 코드의 경우 이 레포지토리의 MovieDb 폴더에 제공된다.
+- 과제의 채점은 pass / fail 로 구체적인 기준은 두지 않고, 앞서 언급된 Application의 명세를 만족하면 pass 이다.
+  - 단, Retrofit 을 사용하여 HTTP 통신하는 완결성 있는 MVVM pattern의 앱을 구현해야 한다.
 
 ## 앱 데모
 ![Demo](demo.gif)
@@ -71,7 +69,7 @@ buildConfigField "String", "TMDB_API_KEY", '"your-api-key"'
 ### #3 API 문서 확인하기
 - 이번 과제에서는 인기있는 영화 목록을 가져오는 api endpoint, 영화 id 에 따라 상세한 영화 정보를 가져오는 api endpoint (Optional), 총 두개의 endpoint 를 사용해야 합니다.
 - 각 endpoint 는 [TMdb API 문서](https://developers.themoviedb.org/3) 에서 확인할 수 있습니다.
-- 문서에서 우리가 원하는 endpoint 를 찾습니다. 위 두 개의 endpoint 는 각각 [Discover](https://developers.themoviedb.org/3/discover/movie-discover), [Movie](https://developers.themoviedb.org/3/movies/get-movie-details) 가 되겠군요.
+- 문서에서 우리가 원하는 endpoint 를 찾습니다. 위 두 개의 endpoint 는 각각 [Discover](https://developers.themoviedb.org/3/discover/movie-discover), [Movie](https://developers.themoviedb.org/3/movies/get-movie-details)(optional) 가 되겠군요.
 - 이제 해당 api 에 어떻게 요청을 보내고, 어떤 응답이 돌아오는지 문서를 통해 함께 확인해 봅니다.
   - `GET` [/discover/movie](https://developers.themoviedb.org/3/discover/movie-discover)
     - request 
