@@ -119,7 +119,7 @@ test, build 등이 진행되어 이러한 문제를 어느 정도 방지 할 수
 우리의 Django app을 위한 자동화된 test를 만들어보세요. 생각보다 직접 작성할 부분 거의 없이, 각 부분이 무슨 내용인지만 이해하면 다른 사람이 만든 것을
 거의 그대로 갖다 써서 필요한 부분만 고쳐 쓰기 쉽습니다.
 
-![스크린샷 2020-10-10 19 04 07](https://user-images.githubusercontent.com/35535636/95652378-73d88100-0b2b-11eb-8915-f85f05cf18b4.png)
+  ![스크린샷 2020-10-10 19 04 07](https://user-images.githubusercontent.com/35535636/95652378-73d88100-0b2b-11eb-8915-f85f05cf18b4.png)
 
 - `waffle-rookies-18.5-backend-2`의 최상위에 `.github/workflows` directory를 만들고 `django.yml`로 workflow를 작성하고,
 처음 몇 줄이 다음과 같게 하세요.

@@ -29,6 +29,10 @@ Caching과 Transaction, 배포 완료
 [Issues](https://github.com/wafflestudio/rookies/issues) 에 자유롭게 공유해주세요!
 
 - [seminar 4](https://youtu.be/jCcMteXd5go)
+- 본 세미나 진행 중에 Redis를 이용한 caching 관련해서, 그리고 배포 마지막 상황 관련해서 실시간으로 동작하는 것을 제대로 보여드리지 못해
+참여자 없이 따로 촬영해 영상을 업로드 했습니다. 단순히 시연 장면 외에도 본 세미나에서 미처 다하지 못한 좀 더 상세한 내용과 광고(?)를 포함하고 있으니 많은
+참여 부탁 드립니다!
+- [seminar 4 - 보완](https://youtu.be/fuU9LgSibzw)
 
 ## 세미나 중 질문
 - 1번째 세미나부터 세미나 직후 참여가 자유인 질의응답 시간을 따로 가지고 있습니다. 물론 개인 일정, 안드로이드 세미나 등으로 참여가 어려운 분이 있을 수 있습니다.
