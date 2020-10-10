@@ -106,9 +106,9 @@ test를 실행할 때 자신이 개발해둔 코드 중 몇 %가 실행되는지
 버릴 수 있습니다. GitHub에 CI 도구를 적용시키면 PR이 open되었을 때, 각 branch에 push가 발생할 때마다 자동으로 설정한 스크립트 등에 따라
 test, build 등이 진행되어 이러한 문제를 어느 정도 방지 할 수 있습니다.
 
-![스크린샷 2020-10-10 18 45 38](https://user-images.githubusercontent.com/35535636/95652208-71295c00-0b2a-11eb-8dac-10e1c36ce953.png)
+![스크린샷 2020-10-10 19 22 27](https://user-images.githubusercontent.com/35535636/95652700-f2ceb900-0b2d-11eb-85d8-cc896922b912.png)
 
-![스크린샷 2020-10-10 18 47 15](https://user-images.githubusercontent.com/35535636/95652209-71c1f280-0b2a-11eb-858d-a30cb9df891b.png)
+![스크린샷 2020-10-10 18 47 15](https://user-images.githubusercontent.com/35535636/95652209-71c1f280-0b2a-11eb-858d-a30cb9df891b.png)
 
 - CI 도구에는 Travis, Jenkins 등 다양한 것이 있고 각자가 초점을 맞추고 있는 것도 조금씩 다르지만, 여기서는 GitHub이 최근에 도입한
 [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) 를 이용해보도록 합시다.
@@ -117,21 +117,21 @@ test, build 등이 진행되어 이러한 문제를 어느 정도 방지 할 수
 우리의 Django app을 위한 자동화된 test를 만들어보세요. 생각보다 직접 작성할 부분 거의 없이, 각 부분이 무슨 내용인지만 이해하면 다른 사람이 만든 것을
 거의 그대로 갖다 써서 필요한 부분만 고쳐 쓰기 쉽습니다.
 
-![스크린샷 2020-10-10 19 04 07](https://user-images.githubusercontent.com/35535636/95652378-73d88100-0b2b-11eb-8915-f85f05cf18b4.png)
+![스크린샷 2020-10-10 19 04 07](https://user-images.githubusercontent.com/35535636/95652378-73d88100-0b2b-11eb-8915-f85f05cf18b4.png)
 
 - `waffle-rookies-18.5-backend-2`의 최상위에 `.github/workflows` directory를 만들고 `django.yml`로 workflow를 작성하고,
 처음 몇 줄이 다음과 같게 하세요.
 
-```
-name: Django CI
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-```
-[최근 GitHub 정책](https://github.com/github/renaming) 에 따라 새로 만들어지는 repository는 default branch가 `main`이기도 하다는 점에 주의하세요.
+  ```
+  name: Django CI
+  
+  on:
+    push:
+      branches: [ master ]
+    pull_request:
+      branches: [ master ]
+  ```
+  [최근 GitHub 정책](https://github.com/github/renaming) 에 따라 새로 만들어지는 repository는 default branch가 `main`이기도 하다는 점에 주의하세요.
 
 - Python 버전은 당연히 가상환경에서 사용하고 있는 버전(3.8.3)에 호환되어야 하며, 일련의 설정과 준비 과정을 통해 결과적으로 PR을 열고, branch에 push할 때마다
 GitHub Actions workflow를 통해 `python manage.py test`가 자신이 작성한 모든 테스트를 자동으로 잘 실행시키면 됩니다.
