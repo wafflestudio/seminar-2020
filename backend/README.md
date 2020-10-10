@@ -12,5 +12,5 @@
 | [seminar[1]](seminar1) | Model 및 QuerySet과 안전한 서버 개발 | 2020.09.05.(토) 13:00 | Zoom | 변다빈([@davin111](https://github.com/davin111)) |
 | [seminar[2]](seminar2) | RDB 설계와 Model & View 및 Auth | 2020.09.12.(토) 13:00 | Zoom | 변다빈([@davin111](https://github.com/davin111)) |
 | [seminar[3]](seminar3) | DBMS의 query 실행과 배포 기초 | 2020.09.26.(토) 12:30 | Zoom | 변다빈([@davin111](https://github.com/davin111)) |
-| [seminar[4]](seminar4) | 준비 중 | 2020.10.10.(토) 13:00 | Zoom | 변다빈([@davin111](https://github.com/davin111)) |
+| [seminar[4]](seminar4) | Caching과 Transaction, 배포 완료 | 2020.10.10.(토) 13:00 | Zoom | 변다빈([@davin111](https://github.com/davin111)) |
 | [seminar[5]](seminar5) | 준비 중 | 2020.11.07.(토) 13:00 | 코로나19 관련 상황에 따라 변동 가능 | 변다빈([@davin111](https://github.com/davin111)) |
