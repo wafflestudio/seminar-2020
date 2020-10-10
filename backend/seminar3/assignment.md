@@ -106,9 +106,11 @@ test를 실행할 때 자신이 개발해둔 코드 중 몇 %가 실행되는지
 버릴 수 있습니다. GitHub에 CI 도구를 적용시키면 PR이 open되었을 때, 각 branch에 push가 발생할 때마다 자동으로 설정한 스크립트 등에 따라
 test, build 등이 진행되어 이러한 문제를 어느 정도 방지 할 수 있습니다.
 
-![스크린샷 2020-10-10 19 22 27](https://user-images.githubusercontent.com/35535636/95652700-f2ceb900-0b2d-11eb-85d8-cc896922b912.png)
+  - CI 동작 결과를 기다리는 상황
+    ![스크린샷 2020-10-10 19 22 27](https://user-images.githubusercontent.com/35535636/95652700-f2ceb900-0b2d-11eb-85d8-cc896922b912.png)
 
-![스크린샷 2020-10-10 18 47 15](https://user-images.githubusercontent.com/35535636/95652209-71c1f280-0b2a-11eb-858d-a30cb9df891b.png)
+  - CI 동작이 모두 완료된 상황(성공)
+    ![스크린샷 2020-10-10 18 47 15](https://user-images.githubusercontent.com/35535636/95652209-71c1f280-0b2a-11eb-858d-a30cb9df891b.png)
 
 - CI 도구에는 Travis, Jenkins 등 다양한 것이 있고 각자가 초점을 맞추고 있는 것도 조금씩 다르지만, 여기서는 GitHub이 최근에 도입한
 [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) 를 이용해보도록 합시다.
