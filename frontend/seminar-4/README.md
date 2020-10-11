@@ -27,7 +27,7 @@ Waffle Studio Frontend Seminar - 4
 
 ## 세미나 자료
 ------------------
-
+[세미나 자료](https://github.com/wafflestudio/rookies/blob/master/frontend/seminar-4/Waffle%20Studio%20Frontend%20Seminar%20-%204.pdf)
 ## 세미나 중 질문
 ------------------
 

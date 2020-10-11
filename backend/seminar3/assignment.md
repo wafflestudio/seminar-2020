@@ -18,6 +18,8 @@ branch에 추가적인 변경을 가해서는 안됩니다.
 그러나 단 하나의 실수를 방지하기 위해 수백 개의 동작을 반복해 확인하는 것이며, 무엇보다 test는 test 작성 시점 자체보다도
 이후 기능 추가, 유지 보수 등의 과정에서 기존에 개발해둔 의도가 훼손되지 않도록 하는 강력한 도구라는 점을 기억하도록 합시다. 또한 협업에서 다른 개발자가
 기존 코드의 맥락을 잘 모르고 수정해 오작동하게 하는 상황을 사전에 방지해 줍니다.
+- 제출 방식을 잘 지켜주세요. 제출 방식 때문에 자신이 의도한 마감 시점보다 이후에 commit하게 되는 경우에는, `test` branch의 `README.md`에 해당 특이 사항을 기재해주세요.
+이러한 내용이 적절한 위치에 없으면 그러한 사유에도 인정하지 않겠습니다.
 
 ## 과제 내용
 ### 1
@@ -93,9 +95,79 @@ test를 실행할 때 자신이 개발해둔 코드 중 몇 %가 실행되는지
 - 개발 과정의 흐름이나 시행 착오를 알아보기 좋게 작성해주셔도 좋습니다.
 - 과제 2 당시에 부족하게 구현했던 부분을 test를 이용한 개발 과정에서 발견하셨다면 간단히 README.md에 기록해나가 주세요.
 
-### 7
-- 과제 2를 충분히 완벽히 수행해서 과제 3의 진행 속도가 훨씬 빠르거나, 추가적인 개발 동기 부여를 얻고 싶은 분들을 위해 과제 3 기간 중반부가 넘었을 때
-필수가 아닌 추가 과제를 드릴 수 있습니다.
+### 7 (자유 과제: GitHub Actions로 Django test에 대한 CI 진행하기)
+- 과제 2를 충분히 완벽히 수행해서 과제 3의 진행 속도가 훨씬 빠르거나, 추가적인 개발 동기 부여를 얻고 싶은 분들을 위해 과제 3 기간 후반부에
+필수가 아닌 추가 과제를 공유드렸습니다.
+
+- CI(Continuous Integration)는 지속적인 통합으로, 개발자를 위한 자동화 프로세스라고 할 수 있습니다. CI를 성공적으로 구현할 경우
+애플리케이션에 대한 변경 사항이 자동으로 테스트되어 repository에 통합되므로 여러 개발자가 동시에 작업을 할 경우 서로 충돌할 수 있는 문제를 좀 더
+똑똑하게 방지할 수 있습니다. 또한, 애초에 개발자 스스로가 branch에 commit, push할 때 test를 철저히 하여 문제의 소지가 없게 해야하지만,
+게을러서 또는 실수로 충분한 검토 없이 branch에 push를 하여 Pull Request를 만들고, 이것이 실제 서비스 배포를 진행하는 branch에 merge되어
+버릴 수 있습니다. GitHub에 CI 도구를 적용시키면 PR이 open되었을 때, 각 branch에 push가 발생할 때마다 자동으로 설정한 스크립트 등에 따라
+test, build 등이 진행되어 이러한 문제를 어느 정도 방지 할 수 있습니다.
+
+  - CI 동작 결과를 기다리는 상황
+    ![스크린샷 2020-10-10 19 22 27](https://user-images.githubusercontent.com/35535636/95652700-f2ceb900-0b2d-11eb-85d8-cc896922b912.png)
+
+  - CI 동작이 모두 완료된 상황(성공)
+    ![스크린샷 2020-10-10 18 47 15](https://user-images.githubusercontent.com/35535636/95652209-71c1f280-0b2a-11eb-858d-a30cb9df891b.png)
+
+- CI 도구에는 Travis, Jenkins 등 다양한 것이 있고 각자가 초점을 맞추고 있는 것도 조금씩 다르지만, 여기서는 GitHub이 최근에 도입한
+[GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) 를 이용해보도록 합시다.
+
+- 위 링크의 공식 문서와, 여러 자료들, 그리고 자신의 repository의 Actions 탭을 눌렀을 때 나오는 제안되는 workflows 등을 참고해
+우리의 Django app을 위한 자동화된 test를 만들어보세요. 생각보다 직접 작성할 부분 거의 없이, 각 부분이 무슨 내용인지만 이해하면 다른 사람이 만든 것을
+거의 그대로 갖다 써서 필요한 부분만 고쳐 쓰기 쉽습니다.
+
+  ![스크린샷 2020-10-10 19 04 07](https://user-images.githubusercontent.com/35535636/95652378-73d88100-0b2b-11eb-8915-f85f05cf18b4.png)
+
+- `waffle-rookies-18.5-backend-2`의 최상위에 `.github/workflows` directory를 만들고 `django.yml`로 workflow를 작성하고,
+처음 몇 줄이 다음과 같게 하세요.
+
+  ```
+  name: Django CI
+  
+  on:
+    push:
+      branches: [ master ]
+    pull_request:
+      branches: [ master ]
+  ```
+  [최근 GitHub 정책](https://github.com/github/renaming) 에 따라 새로 만들어지는 repository는 default branch가 `main`이기도 하다는 점에 주의하세요.
+
+- Python 버전은 당연히 가상환경에서 사용하고 있는 버전(3.8.3)에 호환되어야 하며, 일련의 설정과 준비 과정을 통해 결과적으로 PR을 열고, branch에 push할 때마다
+GitHub Actions workflow를 통해 `python manage.py test`가 자신이 작성한 모든 테스트를 자동으로 잘 실행시키면 됩니다.
+
+- `test` branch로 만들었던 PR에 `.github/workflows/django.yml`을 그대로 포함시키면 됩니다. Actions를 통해 test가 정상적으로 실행되었다면(fail, pass와 무관하게),
+PR 하단의 merge 버튼 위에 생기는 CI에 대한 정보의 `Details`를 눌러 내용을 살펴보세요. 이를 통해 로그를 보고, 관련 스크린샷을 촬영하세요.
+`waffle-rookies-18.5-backend-2`의 최상위에 `/results` directory를 만들어 적절한 이름으로 포함시키세요.
+
+- 자유 과제는 마감, grace day 등에 상관이 없습니다. 자유 과제를 위해 자신이 의도한 마감 시점보다 이후에 commit하게 되는 경우에는,
+`test` branch의 `README.md`에 해당 특이 사항을 기재해주세요. 자유 과제를 수행하셨다는 내용 자체도 적어주세요.
+
+- 관련한 질문이 있으면 [Issues](https://github.com/wafflestudio/rookies/issues) 에 `HW3+` label을 포함하여 올려주시면 됩니다.
+
+### 8 (자유 과제: React로 만든 웹 frontend와 local 환경에서 연결하기)
+- 과제 2를 충분히 완벽히 수행해서 과제 3의 진행 속도가 훨씬 빠르거나, 추가적인 개발 동기 부여를 얻고 싶은 분들을 위해 과제 3 기간 후반부에
+필수가 아닌 추가 과제를 공유드렸습니다.
+
+- 한결([@Hank-Choi](https://github.com/Hank-Choi)) 씨가 만들어주신 과제 2 및 3의 명세에 따른 웹 프론트엔드가
+https://github.com/Hank-Choi/wba2_client 에 공개되어 있습니다.
+
+- 해당 repository를 local 환경의 별도의 위치에 clone한 후,
+Node.js와 npm을 설치하세요. `npm install -g yarn` 등을 통해 yarn을 설치하고, `package.json`이 있는 위치에서 `yarn start`를 통해
+실행하시면 localhost의 `3000` port로 접근하실 수 있습니다. [여기](https://github.com/Hank-Choi/wba2_client/blob/e49e9f0de47e33d27e47039a60714c827edffc86/package.json#L5) 를
+보면 아실 수 있듯, Django 서버가 `8000` port에서 실행된다는 상황이 전제되어 있습니다. 
+
+- 웹 브라우저로 React app에 접근하여, instructor로 Seminar를 만들고 participant 3명 이상이 참여한 상황을 만들어보세요. 해당 스크린샷을
+`waffle-rookies-18.5-backend-2`의 최상위에 `/results` directory를 만들어 적절한 이름으로 포함시키세요.
+
+- 추가 과제이지만, 편리한 프론트엔드 화면을 통해 자신이 만든 서버를 재미있게 테스트해볼 수 있어 과제 3 진행 자체에 도움이 될 수 있습니다.
+
+- 자유 과제는 마감, grace day 등에 상관이 없습니다. 자유 과제를 위해 자신이 의도한 마감 시점보다 이후에 commit하게 되는 경우에는,
+`test` branch의 `README.md`에 해당 특이 사항을 기재해주세요. 자유 과제를 수행하셨다는 내용 자체도 적어주세요.
+
+- 관련한 질문이 있으면 [Issues](https://github.com/wafflestudio/rookies/issues) 에 `HW3+` label을 포함하여 올려주시면 됩니다.
 
 ## 제출 방식
 1. 과제 2를 통해 생성한 GitHub 개인 계정의 `waffle-rookies-18.5-backend-2` private repository에서 이어 작업합니다.
