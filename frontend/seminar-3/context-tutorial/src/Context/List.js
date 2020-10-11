@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext } from "react";
 
 /*
   context는 전역에서 사용가능한, 하나의 객체라고 생각하면 됩니다.
@@ -19,23 +19,24 @@ import React, { createContext, useState, useContext } from 'react';
 const defaultList = {
   list: [
     {
-      name: '김기완',
-      seminar: '프론트엔드',
-      on: false
+      name: "김기완",
+      seminar: "프론트엔드",
+      on: false,
     },
     {
-      name: '김상민',
-      seminar: '안드로이드',
-      on: false
-    },{
-      name: '변다빈',
-      seminar: '백엔드',
-      on: false
-    }
+      name: "김상민",
+      seminar: "안드로이드",
+      on: false,
+    },
+    {
+      name: "변다빈",
+      seminar: "백엔드",
+      on: false,
+    },
   ],
   addItem: () => {},
-  onToggle: () => {}
-}
+  onToggle: () => {},
+};
 
 //Context 초기화
 const ListContext = createContext(defaultList);
@@ -45,49 +46,43 @@ const ListContext = createContext(defaultList);
   Context changer 함수들을 정의하여 제공
 */
 const ListProvider = (props) => {
-  const { children } = props
+  const { children } = props;
 
   const addItem = ({ name, seminar }) => {
-    setState({
-      ...state,
-      list: [
-        ...state.list,
-        { name, seminar, on: false }
-      ]
-    })
-  }
+    setState((state) => {
+      return {
+        ...state,
+        list: [...state.list, { name, seminar, on: false }],
+      };
+    });
+  };
 
   const onToggle = (name) => {
-    setState({
+    setState((state) => {
+      return {
         ...state,
-        list: state.list.map(item => {
-          return item.name === name ?
-          { ...item, on: !item.on } :
-          { ...item }
-        })
-      }
-    )
-  }
+        list: state.list.map((item) => {
+          return item.name === name ? { ...item, on: !item.on } : { ...item };
+        }),
+      };
+    });
+  };
 
   const listState = {
     ...defaultList,
     onToggle,
-    addItem
-
-  }
-  const [state, setState] = useState(listState)
+    addItem,
+  };
+  const [state, setState] = useState(listState);
 
   return (
     /*
       value: 값이 변하면 하위 컴포넌트에 반영
       children: 하위 컴포넌트
     */
-    <ListContext.Provider value={state}>
-      {children}
-    </ListContext.Provider>
-  )
-
-}
+    <ListContext.Provider value={state}>{children}</ListContext.Provider>
+  );
+};
 
 /*
   다른 컴포넌트에서 listContext를 사용할 때,
@@ -111,5 +106,4 @@ const useListContext = () => useContext(ListContext);
   하위 컴포넌트들에게 context를 사용할 수 있도록 함.
   useListContext는 하위 컴포넌트에서 context의 값을 불러올 수 있도록 함
 */
-export { useListContext, ListProvider }
-
+export { useListContext, ListProvider };
