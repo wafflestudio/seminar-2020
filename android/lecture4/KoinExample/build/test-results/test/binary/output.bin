@@ -1,0 +1,9 @@
+1[INFO] [Koin] loaded 4 definitions - 1.035133 ms
+([DEBUG] [Koin] - [Factory:'CoffeeShop']
++[INFO] [Koin] create context - 3.833406 ms
+0[DEBUG] [Koin] instances started in 0.216292 ms
+ DEBUG: heater in pump 916119763
+ Cannot pump with cold heater...
+ DEBUG: heater in pump 916119763
+Pump with Hot Heater!
+%[INFO] [Koin] closing scope:'-Root-'
