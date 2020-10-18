@@ -189,6 +189,7 @@ EC2 instance 내에서 certbot을 이용하면 명령어만으로 모든 작업�
 - 관련 문서(추후 점진적으로 추가 예정입니다.)
     - 세미나 3, 세미나 4 슬라이드의 참고 링크들
     - 과제 내용의 본문에서 언급된 링크들
+    - https://stackoverrun.com/ko/q/8703618
     - https://docs.djangoproject.com/en/3.1/howto/static-files/deployment/
     - https://nachwon.github.io/django-deploy-4-static/
     - https://lahuman.github.io/nginx_location_options/
