@@ -41,7 +41,7 @@ cache가 만료되어 cache key가 사라진 경우에 대해서도 마찬가지
 에서 나눠주시면 됩니다.
 - AWS 계정이 없는 경우에는 새로 생성하여 주시고, [Free Tier](https://aws.amazon.com/ko/free/free-tier-faqs/) 를 사용 가능하다면 1달의 EC2, RDS 사용량을 초과하지 않도록 `t2.micro`를 instance type으로 선택하시면 됩니다.
 위의 링크와 기타 [관련 설명](https://aws.amazon.com/ko/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc) 등에도 있듯, EC2와 RDS
-에 대해 t2.micro 기준 각각 750시간을 이용할 수 있으며, 따라서 t2.micro라도 각 서비스 내에서 복수 개의 instance를 동시에 운영하면 해당 범위를 초과하게 됩니다.
+에 대해 t2.micro 기준 각각 한 달에 750시간(약 24 * 31)을 이용할 수 있으며, 따라서 t2.micro라도 각 서비스 내에서 복수 개의 instance를 동시에 운영하면 해당 범위를 초과하게 됩니다.
 기타 AWS 사용 방식에 대해 충분히 알아보지 않고 사용해, 의도치 않게 비용이 부과되는 경우에 대해서는 본인 책임입니다.
 
 - EC2의 AMI를 택할 때, OS는 `Amazon Linux 2 AMI (HVM), SSD Volume Type`를 선택해주세요.
