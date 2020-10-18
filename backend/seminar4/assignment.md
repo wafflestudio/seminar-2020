@@ -145,7 +145,7 @@ default Security Group 등을 사용하지 말고, 앞서 생성한 Security Gro
   - 변경에 따라 배포된 환경에 잘 반영되는지 쉽게 확인하기 위해서, `GET /` API를 생성하고 매우 간단한 응답을 주도록 만들어두는 것이 좋습니다.
   [여기](https://github.com/davin111/waffle-rookies-18.5-backend-2/commit/00ba8c05d1a82e93be3f3b51fee98ec180763ee2) 를 참고하세요.
 
-- `deploy.sh` 파일을 복사해 `waffle-rookies-18.5-backend-2/deployment` directory에 해당 파일들을 포함시키고, commit과 push하세요. 과제를 진행하며 최신 상황을 잊지 않고 반영하시기 바랍니다.
+- `deploy.sh` 파일을 복사해 `waffle-rookies-18.5-backend-2/deployment` directory에 포함시키고, commit과 push하세요. 과제를 진행하며 최신 상황을 잊지 않고 반영하시기 바랍니다.
 
 ### 6
 - 예쁘지 않고 외우기도 어려운 IP 주소나 EC2에서 자동으로 생성해주는 domain 말고, 직접 domain을 만들어 우리의 EC2 instance에 연결해봅시다.
