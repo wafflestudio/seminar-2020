@@ -115,7 +115,6 @@ default Security Group 등을 사용하지 말고, 앞서 생성한 Security Gro
 웹 프론트가 예쁘게 보이는 상황이 아닙니다. 이것은 세미나 보완 영상에서도 언급했듯, static file이 제대로 배포되지 못한 상황이기 때문에 그렇습니다. 이 문제를 해결해봅시다.
 - 상황이 꼬이지 않도록 위의 내용을 모두 완료한 다음에 진행하시기를 강하게 권장드립니다.
 - 배포 환경의 `settings.py`에서 [STATIC_URL](https://docs.djangoproject.com/en/3.1/ref/settings/#static-url) 이 정의된 곳 line 근처에 `STATIC_ROOT = os.path.join(BASE_DIR, 'static')`을 추가합시다.
-- [여기](https://docs.djangoproject.com/en/3.1/howto/static-files/deployment/) 등을 참고하세요.
 - 배포 환경에서 `python manage.py collectstatic`를 실행하고, `manage.py`가 존재하는 위치에 `static` directory와 그 하위 파일들이 생성된 것을 확인하세요.
 - 우리는 기존에 직접 생성한 static 파일이 없어서 와닿지 않을 수 있지만, DRF가 만들어주는 예쁜 웹 프론트는 내부적으로 `/static` 위치에 접근해 해당하는 CSS 파일 등에 접근하여 그것을 이용하는 것입니다.
 - [4번째 세미나](https://github.com/wafflestudio/rookies/blob/master/backend/seminar4) 에서 정적/동적인 것을 배포하는 것에 대해 이야기한 적이 있습니다.
@@ -190,6 +189,7 @@ EC2 instance 내에서 certbot을 이용하면 명령어만으로 모든 작업�
 - 관련 문서(추후 점진적으로 추가 예정입니다.)
     - 세미나 3, 세미나 4 슬라이드의 참고 링크들
     - 과제 내용의 본문에서 언급된 링크들
+    - https://docs.djangoproject.com/en/3.1/howto/static-files/deployment/
     - https://nachwon.github.io/django-deploy-4-static/
     - https://lahuman.github.io/nginx_location_options/
 
