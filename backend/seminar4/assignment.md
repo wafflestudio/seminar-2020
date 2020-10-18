@@ -94,7 +94,7 @@ default Security Group 등을 사용하지 말고, 앞서 생성한 Security Gro
     ```
 
 - Nginx, uWSGI를 위해 추가해야 하는 파일들 외에도, 배포 환경에서는 `DATABASES`가 RDS에 연결되도록 하고 `DEBUG=False`가 되도록 설정하는 등 `settings.py`를 수정해야 함을 잊지 마세요.
-- 1.에서 만들었던 caching 로직이 동작하기 위해서는 EC2 instance에도 Redis가 설치되어 Django 서버와 연결되어야 할 것입니다. 실제 서비스에서는 AWS의 ElastiCache 등을 사용해 DB의 경우와 마찬가지로 원격 연결을 많이 합니다.
+- 1.에서 만들었던 caching 로직이 동작하기 위해서는 EC2 instance에도 Redis가 설치되어 Django 서버와 연결되어야 할 것입니다. 단순히 `redis-server` 등으로 실행해둘 수 없고, 백그라운드로 실행해두어야 함을 깨달아야 합니다. 실제 서비스에서는 AWS의 ElastiCache 등을 사용해 DB의 경우와 마찬가지로 원격 연결을 많이 합니다.
 - EC2 instance의 메모리 한계를 경험하게 되는 경우가 있을 수 있는데, AWS console에서 해당 instance를 reboot하고 기다렸다가 다시 접근하면 일반적으로 해결됩니다.
 
 - `/etc/nginx/sites-available/`의 conf 파일을 수정하면, `/etc/nginx/sites-enabled/`에 symbolic link로 생성되었던 것을 지우고 다시 symbolic link를 생성한 후, Nginx를 재시작해야하는 것을 잊지 마세요.
