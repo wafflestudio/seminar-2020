@@ -53,14 +53,14 @@ Step 2 직후 바로 `Review and Launch`를 통해 완료하지 말고, `Configu
 default Security Group 등을 사용하지 말고, 앞서 생성한 Security Group을 택해서 두 자원이 하나의 Security Group에 포함되도록 해주세요.
 해당 Security Group에서 절대 SSH port를 모든 IP(`0.0.0.0/0` 등)에 노출하지 마세요. 또한 자신의 집 IP 등을 저장할 때 Description을 잘 기입하는 습관을 들이도록 합시다.
 - EC2, RDS의 각 자원을 성공적으로 생성했다면 해당 instance들이 실행되고 있는 것을 AWS console에서 캡처해 `/results`에 해당 스크린샷을 적절한 이름으로 포함시키세요. 아래는 EC2의 예시입니다.
-  - ![스크린샷 2020-10-18 18 33 55](https://user-images.githubusercontent.com/35535636/96363627-888ec780-1170-11eb-8478-33e086f8bd95.png)
+  - ![스크린샷 2020-10-18 18 33 55](https://user-images.githubusercontent.com/35535636/96363627-888ec780-1170-11eb-8478-33e086f8bd95.png)
 - 이 시점에서(아직 동작하지 않는 상황이라도), 생성된 EC2의 Public IPv4 address, Public IPv4 DNS를 복사하여 [rookies](https://github.com/wafflestudio/rookies) 의
 [assignment-servers.md](https://github.com/wafflestudio/rookies/blob/master/backend/seminar4/assignment-servers.md) 에 반영하는 Pull Requests를 open하시기 바랍니다.
 (마치 [rookies.txt](https://github.com/wafflestudio/rookies/blob/master/rookies.txt) 에 대해 그렇게 했던 것처럼)
 서로의 서버에 수시로 접근해보는 것도 재밌을 것입니다.
-- 배포를 성공적으로 진행한 시점의 해당 Security Group의 Inbound rules를 캡처해 `/results`에 해당 스크린샷을 적절한 이름으로 포함시키세요. 집 IP 등을 노출하기 꺼려진다면 해당 부분을 가리시면 됩니다.
+  - ![스크린샷 2020-10-18 20 08 27](https://user-images.githubusercontent.com/35535636/96365748-b75f6a80-117d-11eb-9291-8308090d8ed1.png)
 
-  - ![스크린샷 2020-10-18 20 08 27](https://user-images.githubusercontent.com/35535636/96365748-b75f6a80-117d-11eb-9291-8308090d8ed1.png)
+- 배포를 성공적으로 진행한 시점의 해당 Security Group의 Inbound rules를 캡처해 `/results`에 해당 스크린샷을 적절한 이름으로 포함시키세요. 집 IP 등을 노출하기 꺼려진다면 해당 부분을 가리시면 됩니다.
 - 만약 자신의 local 환경에 있는 MySQL 데이터를 RDS의 database에 그대로 옮기고 싶다면, mysqldump에 관해 찾아보시기 바랍니다.
 
 ### 3
