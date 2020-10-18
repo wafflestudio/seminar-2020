@@ -17,6 +17,6 @@
 
 | 링크 | 주제 | 기한 |
 | --- | --- | --- |
-| [assignment1](assignment1) | TicTacToe | ~2020.9.12 |
-| [assignment2](assignment2) | SimpleTodo | ~2020.9.26 |
-| [assignment3](assignment3) | MovieDB | ~2020.10.10 |
+| [assignment1](assignment1) | TicTacToe | ~2020.9.12 23:59 |
+| [assignment2](assignment2) | SimpleTodo | ~2020.9.26 23:59 |
+| [assignment3](assignment3) | MovieDB | ~2020.10.20 23:59 |
