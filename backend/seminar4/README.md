@@ -52,7 +52,8 @@ Caching과 Transaction, 배포 완료
 ---
 
 ## 과제
-- 준비 중
+- [assignment.md](assignment.md) 참고.
+- due: 2020.11.15.(일) 23:59
 
 ---
 
