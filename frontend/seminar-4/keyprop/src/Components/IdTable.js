@@ -74,9 +74,11 @@ const IdTable = () => {
 const IdList = ({ list }) => {
   return (
     <>
-     {
-       list.map((item) => <Item key={item.id} {...item} />)
-     }
+      {
+        list.map((item) => 
+          <Item key={item.id} {...item} />
+        )
+      }
     </>
   )
 }

@@ -66,9 +66,11 @@ const IndexTable = () => {
 const IndexList = ({ list }) => {
   return (
     <>
-      {list.map((item, index) => (
-        <Item key={index} {...item} />
-      ))}
+      {
+        list.map((item, index) => 
+          <Item key={index} {...item} />
+        )
+      }
     </>
   );
 };
