@@ -16,5 +16,5 @@
 - 한 마디: VPC는 엄청난 도구이군요...
 - Public IPv4 address: 3.35.68.140
 - Public IPv4 DNS: ec2-3-35-68-140.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain: 
-- HTTPS Domain: 
+- HTTP Domain: http://waffle-backend-sanggyu.shop
+- HTTPS Domain: https://waffle-backend-sanggyu.shop
