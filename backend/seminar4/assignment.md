@@ -182,7 +182,7 @@ EC2 instance 내에서 certbot을 이용하면 명령어만으로 모든 작업�
 
 3. 마감 시점에 PR을 기준으로 collaborators로 지정된 세미나 운영진들이 확인할 것입니다. GitHub repository에 반영되도록 commit, push해두는 것을 잊지 마세요.
 
-4. master, workspace, test branch의 상태는 반드시 본인 과제 2의 제출 시점과 동일해야합니다. 
+4. master, workspace, test branch의 상태는 반드시 본인 과제 3의 제출 시점과 동일해야합니다. 
 
 ## 참고하면 좋은 것들
 - 관련 문서(추후 점진적으로 추가 예정입니다.)
