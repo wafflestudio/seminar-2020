@@ -17,6 +17,7 @@
 ## 자료
 - [ppt](https://docs.google.com/presentation/d/10Mja9HqOHgOj-v6U2z7v7bklydCzGjBiIh4cMvZVfwk/edit?usp=sharing)
 - RotatingCounter
+- TwoTypeRecycler
 
 ---
 
