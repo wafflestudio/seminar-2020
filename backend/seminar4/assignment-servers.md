@@ -18,3 +18,10 @@
 - Public IPv4 DNS: http://ec2-3-35-68-140.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://waffle-backend-sanggyu.shop
 - HTTPS Domain: https://waffle-backend-sanggyu.shop
+
+### 고영현([@yeonghyeonKO](https://github.com/yeonghyeonKO))
+- 한 마디: 깃헙 맞팔로 소통해요~^^
+- Public IPv4 address: http://54.180.155.219
+- Public IPv4 DNS: http://ec2-54-180-155-219.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain: 
