@@ -5,7 +5,7 @@
 - API 문서를 읽으며 백엔드 서버의 스펙을 확인하고 직접 기능을 구현해본다.
 
 ## 과제 명세
-- 이번 과제는 백엔드 assignment 0, 1, 2 에서 명시된 api 서버를 활용해 세미나 참여자, 진행자를 관리하는 SeminarManager Application 을 제작하는 것입니다.
+- 이번 과제는 백엔드 [assignment 0](../../backend/seminar0/assignment), [assignment 1](../../backend/seminar1/assignment), [assignment 2](../../backend/seminar2/assignment) 에서 명시된 api 서버를 활용해 세미나 참여자, 진행자를 관리하는 SeminarManager Application 을 제작하는 것입니다.
     - 유저의 회원 가입과 토큰을 persist 하게 저장하며 유저의 인증 정보를 앱에서 가지고 로그인 할 수 있어야 합니다.
     - 회원 가입된 유저는 유저의 타입(Instructor, Participant) 에 따라 다른 행동을 할 수 있습니다.
         - Instructor 는 세미나를 만들고 수정할 수 있습니다.
@@ -49,7 +49,7 @@
 - **TBD, Api 가 아직 준비되지 않았습니다.** ~~List 를 Recycler View 로 구현하고, Infinate Scroll 을 통해 data 를 로딩합니다.~~
 - 사용가능한 Endpoint
     - GET `api/v1/seminar/`
-    - **TBD** `api/v1/seminar/?page={page}`
+    - GET `api/v1/seminar/?page={page}` (**TBD**)
 
 ### 2. User Fragment
 - 현재 회원의 이름 정보(username, first_name, last_name) 를 보여줍니다.
@@ -60,6 +60,9 @@
     - 각 세미나 item 을 클릭시 해당 세미나의 DetailSeminarActivity 로 넘어갑니다.
 - 현재 진행중인 세미나의 목록을 horizontal list 로 보여줍니다. 진행 중인 세미나가 없을 시 표시하지 않습니다.
     - 각 세미나 item 을 클릭시 해당 세미나의 DetailSeminarActivity 로 넘어갑니다.
+- 사용가능한 Endpoint
+    - GET `api/v1/user/me/`
+    - PUT `api/v1/user/me/`
 
 ### CreateSeminarActivity
 - instructor 자격이 있을 때만 진입할 수 있습니다.
@@ -67,12 +70,19 @@
 - `생성`  Button 을 누를 시
     - 성공했다면 해당 seminar 의 DetailSeminarActivity 로 이동합니다.
     - 실패했다면 해당 실패 메세지를 Toast 로 출력합니다.
+- 사용가능한 Endpoint
+    - POST `api/v1/seminar/`
 
 ### DetailSeminarActivity
 - 세미나의 상세 정보를 보여줍니다.
 - 세미나의 이름 등의 정보를 보여줍니다.
 - 세미나의 진행자를 vertical list 로 보여줍니다. username 만 표시해도 좋습니다. 진행자가 없을 경우 "Empty" 와 같은 Text 를 대신 출력합니다.
 - 세미나의 참여자를 vertical list 로 보여줍니다. username 만 표시해도 좋습니다. 참여자가 없을 경우 "Empty" 와 같은 Text 를 대신 출력합니다.
+- 현재 유저가 Instructor 의 경우 `Join` Button 을 누를 시 해당 세미나의 진행자로 추가됩니다.
+- 현재 유저가 Participant 의 경우 `Join` Button 을 누를 시 해당 세미나의 참여자로 추가됩니다.
+- 사용가능한 Endpoint
+    - GET `api/v1/seminar/{seminar_id}/`
+    - POST `api/v1/seminar/{seminar_id}/user/`
 
 ## **제출 방식**
 - 자신의 waffle-android-assign 의 seminar-manager branch에 파일을 성공적으로 올렸다면 해당 브랜치(seminar-manager) 에서 master 브랜치로 pull request 를 날린다. 이때, assignee 에 `sanggggg` 를 꼭 기입한다.
