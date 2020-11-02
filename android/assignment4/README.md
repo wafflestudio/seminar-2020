@@ -18,17 +18,20 @@
 
 ## 백엔드 서버
 - 백엔드 서버에 대한 모든 상세 사항(api endpoint, request format, response format)은 백엔드 assignment 0, 1, 2 에 제공되어 있습니다.
+- 백엔드 서버 주소(baseUrl): http://ec2-3-34-178-249.ap-northeast-2.compute.amazonaws.com/
 - 백엔드 api 서버 / docs 가 제공됩니다.
     - `baseurl + /docs/` => redoc 문서
         - 실제로 리퀘스트는 날릴 수 없지만, 깔끔한 UI 와 spec을 확인 할 수 있음
+        
 ![스크린샷 2020-11-03 오전 3 58 22](https://user-images.githubusercontent.com/37951125/97907662-f51cdf80-1d88-11eb-8382-ef97b29d4da4.png)
     - `baseurl + /swagger/` => swagger 문서
         - 실제로 리퀘스트를 날려 볼 수 있음.
         - 리퀘스트를 날릴 때 login 을 제외한 대부분의 api 는 token 을 필요로 합니다.
         - 따라서 login api (또는 sign up) 으로 swagger 로 요청을 날려보고 반환값을 받았다면 swagger 의 authentication 에 "Token {받은 토큰 문자열}" 을 등록시켜야 정상적으로 다른 endpoint 를 사용할 수 있습니다.
+        
  ![스크린샷 2020-11-03 오전 4 11 05](https://user-images.githubusercontent.com/37951125/97908883-a708db80-1d8a-11eb-98d4-ebc8ad8f425a.png)
 
-    - 현재 나오는 url 중 os, survey 는 무시하시면 됩니다.
+    - 현재 나오는 url 중 os, survey 과제 진행에 있어서 필요없는 endpoint 이므로 무시하시면 됩니다.
     
 
 ## 상세 구현 가이드
@@ -103,3 +106,4 @@
 - 백엔드 서버 base url
 - demo apk
 - 백엔드 서버 docs
+
