@@ -1,5 +1,5 @@
 # Wafflestudio Android Seminar Assignment #4
-
+Due: 2020.11.21 23:59
 ## 과제의 목표
 - 뼈대코드 없이 스크래치 부터 새로운 앱을 만들어본다.
 - API 문서를 읽으며 백엔드 서버의 스펙을 확인하고 직접 기능을 구현해본다.
