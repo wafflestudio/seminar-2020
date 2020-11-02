@@ -19,7 +19,7 @@
 ## 백엔드 서버
 - 백엔드 서버에 대한 모든 상세 사항(api endpoint, request format, response format)은 백엔드 assignment 0, 1, 2 에 제공되어 있습니다.
 - 백엔드 서버 주소(baseUrl): http://ec2-3-34-178-249.ap-northeast-2.compute.amazonaws.com/
-- 백엔드 api 서버 / docs 가 제공됩니다.
+- 백엔드 api 서버 / docs 가 제공됩니다. (현재 디플로이 되기 전입니다. 곧 디플로이 되면 이 문구는 취소선 긋도록 하겠습니다)
     - `baseurl + /docs/` => redoc 문서
         - 실제로 리퀘스트는 날릴 수 없지만, 깔끔한 UI 와 spec을 확인 할 수 있음
         
