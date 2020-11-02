@@ -27,7 +27,7 @@
     - `baseurl + /swagger/` => swagger 문서
         - 실제로 리퀘스트를 날려 볼 수 있음.
         - 리퀘스트를 날릴 때 login 을 제외한 대부분의 api 는 token 을 필요로 합니다.
-        - 따라서 login api (또는 sign up) 으로 swagger 로 요청을 날려보고 반환값을 받았다면 swagger 의 authentication 에 "Token {받은 토큰 문자열}" 을 등록시켜야 정상적으로 다른 endpoint 를 사용할 수 있습니다.
+        - 따라서 login api (또는 sign up) 으로 swagger 로 요청을 날려보고 반환값을 받았다면 swagger 의 `authorization` 버튼을 눌러 "Token {받은 토큰 문자열}" 을 등록시켜야 정상적으로 다른 endpoint 를 사용할 수 있습니다.
         
  ![스크린샷 2020-11-03 오전 4 11 05](https://user-images.githubusercontent.com/37951125/97908883-a708db80-1d8a-11eb-98d4-ebc8ad8f425a.png)
 
@@ -60,10 +60,8 @@
 - 각 List 의 item 은 세미나 이름과 세미나 의 시간 (`hh:mm`) 름 보여줍니다.
 - List item 의 background 색상은 내가 진행자인 세미나일 시 녹색(#dcedc8), 내가 참여자인 세미나일 시 푸른 색(#b3e5fc) 으로, 둘 다 아닐 경우 흰 색 (#ffffff) 으로 보입니다.
 - Seminar Fragment 가 화면에 위치하고 현재 유저가 instructor 자격이 있을 경우 Activity 의 ActionBar 에 `+` 아이콘을 띄웁니다. 아이콘을 누를 시 `CreateSeminarActivity` 로 전환합니다.
-- **TBD, Api 가 아직 준비되지 않았습니다.** ~~List 를 Recycler View 로 구현하고, Infinate Scroll 을 통해 data 를 로딩합니다.~~
 - 사용가능한 Endpoint
     - GET `api/v1/seminar/`
-    - GET `api/v1/seminar/?page={page}` (**TBD**)
 
 ### 2. User Fragment
 - 현재 회원의 이름 정보(username, first_name, last_name) 를 보여줍니다.
