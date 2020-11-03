@@ -5,7 +5,7 @@ Due: 2020.11.21 23:59
 - API 문서를 읽으며 백엔드 서버의 스펙을 확인하고 직접 기능을 구현해본다.
 
 ## 과제 명세
-- 이번 과제는 백엔드 [assignment 0](../../backend/seminar0/assignment), [assignment 1](../../backend/seminar1/assignment), [assignment 2](../../backend/seminar2/assignment) 에서 명시된 api 서버를 활용해 세미나 참여자, 진행자를 관리하는 SeminarManager Application 을 제작하는 것입니다.
+- 이번 과제는 백엔드 [assignment 0](../../backend/seminar0/assignment.md), [assignment 1](../../backend/seminar1/assignment.md), [assignment 2](../../backend/seminar2/assignment.md) 에서 명시된 api 서버를 활용해 세미나 참여자, 진행자를 관리하는 SeminarManager Application 을 제작하는 것입니다.
     - 유저의 회원 가입과 토큰을 persist 하게 저장하며 유저의 인증 정보를 앱에서 가지고 로그인 할 수 있어야 합니다.
     - 회원 가입된 유저는 유저의 타입(Instructor, Participant) 에 따라 다른 행동을 할 수 있습니다.
         - Instructor 는 세미나를 만들고 수정할 수 있습니다.
