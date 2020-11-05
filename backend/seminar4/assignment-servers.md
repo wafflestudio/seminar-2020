@@ -25,3 +25,10 @@
 - Public IPv4 DNS: http://ec2-54-180-155-219.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain:
 - HTTPS Domain: 
+
+### 김미승([@mieseung](https://github.com/mieseung))
+- 한 마디: AWS 가입하고 정말 기본적인 것들만 눌러보고 꽤 오랫동안 방치해뒀었는데 드디어 의미있는 걸 하게 되네요..!
+- Public IPv4 address:  http://3.16.161.242
+- Public IPv4 DNS: ec2-3-16-161-242.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
