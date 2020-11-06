@@ -32,3 +32,10 @@
 - Public IPv4 DNS: ec2-3-16-161-242.us-east-2.compute.amazonaws.com
 - HTTP Domain:
 - HTTPS Domain:
+
+### 정승빈([@gnarmeister](https://github.com/gnarmeister))
+- 한 마디: 신기해요
+- Public IPv4 address: http://13.125.223.96
+- Public IPv4 DNS: http://ec2-13-125-223-96.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-backend-seungbin.shop
+- HTTPS Domain: https://waffle-backend-seungbin.shop
