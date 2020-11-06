@@ -39,3 +39,10 @@
 - Public IPv4 DNS: http://ec2-13-125-223-96.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://waffle-backend-seungbin.shop
 - HTTPS Domain: https://waffle-backend-seungbin.shop
+
+### 김진욱([@jusjinuk](https://github.com/jusjinuk))
+- 한 마디: 많이 배우고 있습니다!
+- Public IPv4 address: http://15.164.222.218
+- Public IPv4 DNS: http://ec2-15-164-222-218.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: 
+- HTTPS Domain: 
