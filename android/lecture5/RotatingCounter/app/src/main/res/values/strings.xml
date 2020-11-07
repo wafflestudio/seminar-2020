@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RotatingCounter</string>
+
+    <string name="case_1">Simple Counter</string>
+    <string name="case_2">SavedInstance Counter</string>
+    <string name="case_3">My ViewModel Counter</string>
+    <string name="case_4">Android ViewModel Counter</string>
+</resources>

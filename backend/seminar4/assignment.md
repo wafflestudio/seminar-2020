@@ -97,7 +97,7 @@ default Security Group 등을 사용하지 말고, 앞서 생성한 Security Gro
 - 1.에서 만들었던 caching 로직이 동작하기 위해서는 EC2 instance에도 Redis가 설치되어 Django 서버와 연결되어야 할 것입니다. 단순히 `redis-server` 등으로 실행해둘 수 없고, 백그라운드로 실행해두어야 함을 깨달아야 합니다. 실제 서비스에서는 AWS의 ElastiCache 등을 사용해 DB의 경우와 마찬가지로 원격 연결을 많이 합니다.
 - EC2 instance의 메모리 한계를 경험하게 되는 경우가 있을 수 있는데, AWS console에서 해당 instance를 reboot하고 기다렸다가 다시 접근하면 일반적으로 해결됩니다.
 
-- `/etc/nginx/sites-available/`의 conf 파일을 수정하면, `/etc/nginx/sites-enabled/`에 symbolic link로 생성되었던 것을 지우고 다시 symbolic link를 생성한 후, Nginx를 재시작해야하는 것을 잊지 마세요.
+- `/etc/nginx/sites-available/`의 conf 파일을 변경하면, `/etc/nginx/sites-enabled/`에 symbolic link로 생성되었던 것을 지우고 다시 symbolic link를 생성한 후, Nginx를 재시작해야하는 것을 잊지 마세요.(`/etc/nginx/sites-available/`의 동일 conf 파일을 단순히 수정하는 경우에는 link를 재생성할 필요가 없습니다.([#249 Issue](https://github.com/wafflestudio/rookies/issues/249) 참고))
 - Django 서버 쪽이 수정되었을 경우에는 uWSGI 역시 재시작해야하는 것을 잊지 마세요.
 - 변경에 따라 배포된 환경에 잘 반영되는지 쉽게 확인하기 위해서, `GET /` API를 생성하고 매우 간단한 응답을 주도록 만들어두는 것이 좋습니다.
 [여기](https://github.com/davin111/waffle-rookies-18.5-backend-2/commit/00ba8c05d1a82e93be3f3b51fee98ec180763ee2) 를 참고하세요.
@@ -138,7 +138,6 @@ default Security Group 등을 사용하지 말고, 앞서 생성한 Security Gro
   - RDS의 database에 migration(최신 변경에서 migration 내용이 추가되었을 수 있으므로)
   - `python manage.py check --deploy` (deploy하기 적절한지 체크합니다.)
   - uWSGI를 ini 파일을 통해 재시작
-  - `/etc/nginx/sites-enabled/`에 symbolic link로 생성되었던 것을 지우고 다시 `/etc/nginx/sites-available/` 내 conf 파일의 symbolic link를 생성
   - Nginx 설정 파일 체크
   - Nginx를 재시작
 - 자신의 local에서 `deploy` branch에 서버 코드를 살짝 변경하는 commit을 한 후, EC2 instance에 접속해 `bash deploy.sh`만 입력하고 위의 과정이 모두 자동으로 잘 이뤄지는지 확인해보세요.
@@ -183,7 +182,7 @@ EC2 instance 내에서 certbot을 이용하면 명령어만으로 모든 작업�
 
 3. 마감 시점에 PR을 기준으로 collaborators로 지정된 세미나 운영진들이 확인할 것입니다. GitHub repository에 반영되도록 commit, push해두는 것을 잊지 마세요.
 
-4. master, workspace, test branch의 상태는 반드시 본인 과제 2의 제출 시점과 동일해야합니다. 
+4. master, workspace, test branch의 상태는 반드시 본인 과제 3의 제출 시점과 동일해야합니다. 
 
 ## 참고하면 좋은 것들
 - 관련 문서(추후 점진적으로 추가 예정입니다.)
