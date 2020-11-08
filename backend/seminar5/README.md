@@ -1,4 +1,4 @@
-# 와플스튜디오 Backend Seminar[4]
+# 와플스튜디오 Backend Seminar[5]
 
 > Instructor 변다빈([@davin111](https://github.com/davin111))
 > 2020.11.07.(토) 12:30
