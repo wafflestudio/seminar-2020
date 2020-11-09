@@ -46,3 +46,11 @@
 - Public IPv4 DNS: http://ec2-15-164-222-218.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: 
 - HTTPS Domain: 
+
+
+### 조승한([@pasa3232](https://github.com/pasa3232))
+- 한 마디: 너무 신기해요
+- Public IPv4 address: http://13.58.215.218/
+- Public IPv4 DNS: http://ec2-13-58-215-218.us-east-2.compute.amazonaws.com
+- HTTP Domain: s
+- HTTPS Domain: 
