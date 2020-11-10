@@ -54,6 +54,13 @@
 - HTTP Domain: Not Yet
 - HTTPS Domain: Not Yet
 
+### 조승한([@pasa3232](https://github.com/pasa3232))
+- 한 마디: 너무 신기해요
+- Public IPv4 address: http://13.58.215.218/
+- Public IPv4 DNS: http://ec2-13-58-215-218.us-east-2.compute.amazonaws.com
+- HTTP Domain: 
+- HTTPS Domain: 
+
 ### 김정환([@canoneod](https://github.com/canoneod))
 - 한 마디: 많이 배우는중입니다!
 - Public IPv4 address: http://3.21.162.66
