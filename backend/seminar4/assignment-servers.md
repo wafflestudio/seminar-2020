@@ -53,3 +53,10 @@
 - Public Ipv4 DNS: http://ec2-3-23-64-213.us-east-2.compute.amazonaws.com
 - HTTP Domain: Not Yet
 - HTTPS Domain: Not Yet
+
+### 김정환([@canoneod](https://github.com/canoneod))
+- 한 마디: 많이 배우는중입니다!
+- Public IPv4 address: http://3.21.162.66
+- Public IPv4 DNS: http://ec2-3-21-162-66.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
