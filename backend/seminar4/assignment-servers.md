@@ -67,3 +67,10 @@
 - Public IPv4 DNS: http://ec2-3-21-162-66.us-east-2.compute.amazonaws.com
 - HTTP Domain:
 - HTTPS Domain:
+
+### 정대용([@GanziDaeyong](https://github.com/GanziDaeyong))
+- 한 마디: 와플스튜디오에선 컴맹도 서버를 배포하는 기적이 일어나는군요!
+- Public IPv4 address: http://15.164.98.32 
+- Public IPv4 DNS: http://ec2-15-164-98-32.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: 금방 할게요!
+- HTTPS Domain: 이것도요!
