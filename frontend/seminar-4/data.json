@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "김기완",
+      "email": "dkwanm1@wafflestudio.com",
+      "password": "1234",
+      "logged_in": false
+    },
+    {
+      "id": 1,
+      "name": "변다빈",
+      "email": "davin111@wafflestudio.com",
+      "password": "1234",
+      "logged_in": false
+    },
+    {
+      "id": 2,
+      "name": "김상민",
+      "email": "sanggggg@wafflestudio.com",
+      "password": "1234",
+      "logged_in": false
+    }
+
+  ],
+  "items": [
+    {
+      "id":0,
+      "year":2020,
+      "title":"Tenet",
+      "producer":"Christopher Nolan",
+      "src":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRwQZ2s5TKxJm8pAGaRDt0VehyvikwU3zgd1I1iR-KD7QsNHmcN",
+      "user_id": 0
+    },
+    {
+      "id":1,
+      "year":2013,
+      "title":"About Time",
+      "producer":"Richard Curtis",
+      "src":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9iKMpedwgBIdUBaW-9GppzoQsFmQhLlsnW-34AM1tCl8PPqqa",
+      "user_id": 2
+    },
+    {
+      "id":2,
+      "year":1990,
+      "title":"Home Alone",
+      "producer":"Chris Columbus",
+      "src":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIgzfRNCJH4LHXl82vI1d7dBCxhlFw4bXWEWiNLtUZzl3YqmHd",
+      "user_id": 1
+    },
+    {
+      "id":3,
+      "year":2019,
+      "title":"Avengers: Endgame",
+      "producer":"Joe Russo, Anthony Russo",
+      "src":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQA_-tL18_rj9zEcjN6n41NEaJm-kRNF9UeOtvksZ4z_OW6jRA9",
+      "user_id": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "user_id": 0,
+      "item_id": 0,
+      "content": "재밋네요"
+    },
+    {
+      "id": 1,
+      "user_id": 1,
+      "item_id": 0,
+      "content": "재밋없어에ㅛ"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "item_id": 2,
+      "content": "이건 뭐지요"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "item_id": 2,
+      "content": "댓글댓글댓글댓댓글"
+    }
+  ]
+}
