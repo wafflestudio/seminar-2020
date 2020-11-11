@@ -72,5 +72,5 @@
 - 한 마디: 와플스튜디오에선 컴맹도 서버를 배포하는 기적이 일어나는군요!
 - Public IPv4 address: http://15.164.98.32 
 - Public IPv4 DNS: http://ec2-15-164-98-32.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain: http://www.waffle-backend-ganzidaeyong.shop/
-- HTTPS Domain: https://www.waffle-backend-ganzidaeyong.shop/ (https는 아직 작동 안합니다!)
+- HTTP Domain: http://www.waffle-backend-ganzidaeyong.shop
+- HTTPS Domain: https://www.waffle-backend-ganzidaeyong.shop (https는 아직 작동 안합니다!)
