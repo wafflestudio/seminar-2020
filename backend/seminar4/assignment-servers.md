@@ -21,14 +21,14 @@
 
 ### 고영현([@yeonghyeonKO](https://github.com/yeonghyeonKO))
 - 한 마디: 깃헙 맞팔로 소통해요~^^
-- Public IPv4 address: http://15.164.230.213
-- Public IPv4 DNS: http://ec2-15-164-230-213.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain: http://waffle-sugang.shop
-- HTTPS Domain: https://waffle-sugang.shop
+- Public IPv4 address: http://54.180.155.219
+- Public IPv4 DNS: http://ec2-54-180-155-219.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
 
 ### 김미승([@mieseung](https://github.com/mieseung))
 - 한 마디: AWS 가입하고 정말 기본적인 것들만 눌러보고 꽤 오랫동안 방치해뒀었는데 드디어 의미있는 걸 하게 되네요..!
-- Public IPv4 address:  http://3.16.161.242
+- Public IPv4 address: http://3.16.161.242
 - Public IPv4 DNS: http://ec2-3-16-161-242.us-east-2.compute.amazonaws.com
 - HTTP Domain:
 - HTTPS Domain:
@@ -44,8 +44,8 @@
 - 한 마디: 많이 배우고 있습니다!
 - Public IPv4 address: http://15.164.222.218
 - Public IPv4 DNS: http://ec2-15-164-222-218.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain: http://waffle-backend-jinuk.shop
-- HTTPS Domain: https://waffle-backend-jinuk.shop
+- HTTP Domain:
+- HTTPS Domain:
 
 ### 김홍균([@keepRainy](https://github.com/keepRainy))
 - 한 마디: '그래도 내가 쟤보단 낫지'의 '쟤'를 담당하고 있습니다.
@@ -58,8 +58,8 @@
 - 한 마디: 너무 신기해요
 - Public IPv4 address: http://13.58.215.218/
 - Public IPv4 DNS: http://ec2-13-58-215-218.us-east-2.compute.amazonaws.com
-- HTTP Domain: 
-- HTTPS Domain: 
+- HTTP Domain:
+- HTTPS Domain:
 
 ### 김정환([@canoneod](https://github.com/canoneod))
 - 한 마디: 많이 배우는중입니다!
@@ -68,9 +68,9 @@
 - HTTP Domain:
 - HTTPS Domain:
 
-### 정대용([@GanziDaeyong](https://github.com/GanziDaeyong))
-- 한 마디: 와플스튜디오에선 컴맹도 서버를 배포하는 기적이 일어나는군요!
-- Public IPv4 address: http://15.164.98.32 
-- Public IPv4 DNS: http://ec2-15-164-98-32.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain: 금방 할게요!
-- HTTPS Domain: 이것도요!
+### 박명훈([@eldpswp99](https://github.com/eldpswp99))
+- 한 마디: 예전에 aws가입해놓았을때는 진짜 막막했는데, 이런 기회가 있어서 좋네요 '-')=b
+- Public IPv4 address: 13.125.127.149
+- Public IPv4 DNS: ec2-13-125-127-149.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
