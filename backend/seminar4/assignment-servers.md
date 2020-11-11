@@ -44,5 +44,26 @@
 - 한 마디: 많이 배우고 있습니다!
 - Public IPv4 address: http://15.164.222.218
 - Public IPv4 DNS: http://ec2-15-164-222-218.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-backend-jinuk.shop
+- HTTPS Domain: https://waffle-backend-jinuk.shop
+
+### 김홍균([@keepRainy](https://github.com/keepRainy))
+- 한 마디: '그래도 내가 쟤보단 낫지'의 '쟤'를 담당하고 있습니다.
+- Public IPv4 address: http://3.23.64.213
+- Public Ipv4 DNS: http://ec2-3-23-64-213.us-east-2.compute.amazonaws.com
+- HTTP Domain: Not Yet
+- HTTPS Domain: Not Yet
+
+### 조승한([@pasa3232](https://github.com/pasa3232))
+- 한 마디: 너무 신기해요
+- Public IPv4 address: http://13.58.215.218/
+- Public IPv4 DNS: http://ec2-13-58-215-218.us-east-2.compute.amazonaws.com
 - HTTP Domain: 
 - HTTPS Domain: 
+
+### 김정환([@canoneod](https://github.com/canoneod))
+- 한 마디: 많이 배우는중입니다!
+- Public IPv4 address: http://3.21.162.66
+- Public IPv4 DNS: http://ec2-3-21-162-66.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
