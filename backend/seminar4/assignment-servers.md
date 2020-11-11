@@ -44,8 +44,8 @@
 - 한 마디: 많이 배우고 있습니다!
 - Public IPv4 address: http://15.164.222.218
 - Public IPv4 DNS: http://ec2-15-164-222-218.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain: 
-- HTTPS Domain: 
+- HTTP Domain: http://waffle-backend-jinuk.shop
+- HTTPS Domain: https://waffle-backend-jinuk.shop
 
 ### 김홍균([@keepRainy](https://github.com/keepRainy))
 - 한 마디: '그래도 내가 쟤보단 낫지'의 '쟤'를 담당하고 있습니다.
