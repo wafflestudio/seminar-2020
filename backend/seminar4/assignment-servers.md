@@ -21,10 +21,10 @@
 
 ### 고영현([@yeonghyeonKO](https://github.com/yeonghyeonKO))
 - 한 마디: 깃헙 맞팔로 소통해요~^^
-- Public IPv4 address: http://54.180.155.219
-- Public IPv4 DNS: http://ec2-54-180-155-219.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain: 
+- Public IPv4 address: http://15.164.230.213
+- Public IPv4 DNS: http://ec2-15-164-230-213.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-sugang.shop
+- HTTPS Domain: https://waffle-sugang.shop
 
 ### 김미승([@mieseung](https://github.com/mieseung))
 - 한 마디: AWS 가입하고 정말 기본적인 것들만 눌러보고 꽤 오랫동안 방치해뒀었는데 드디어 의미있는 걸 하게 되네요..!
