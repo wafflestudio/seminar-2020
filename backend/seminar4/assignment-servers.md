@@ -62,11 +62,11 @@
 - HTTPS Domain: 
 
 ### 김정환([@canoneod](https://github.com/canoneod))
-- 한 마디: 많이 배우는중입니다!
-- Public IPv4 address: http://3.21.162.66
-- Public IPv4 DNS: http://ec2-3-21-162-66.us-east-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain:
+- 한 마디: 실수로 종료눌러서 처음부터 다시...
+- Public IPv4 address: http://18.222.127.183
+- Public IPv4 DNS: http://ec2-18-222-127-183.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://chocolate-waffle-good.shop/
+- HTTPS Domain: https://chocolate-waffle-good.shop/
 
 ### 정대용([@GanziDaeyong](https://github.com/GanziDaeyong))
 - 한 마디: 와플스튜디오에선 컴맹도 서버를 배포하는 기적이 일어나는군요!
