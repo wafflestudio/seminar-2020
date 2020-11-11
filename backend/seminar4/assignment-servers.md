@@ -49,8 +49,8 @@
 
 ### 김홍균([@keepRainy](https://github.com/keepRainy))
 - 한 마디: '그래도 내가 쟤보단 낫지'의 '쟤'를 담당하고 있습니다.
-- Public IPv4 address: http://3.23.64.213
-- Public Ipv4 DNS: http://ec2-3-23-64-213.us-east-2.compute.amazonaws.com
+- Public IPv4 address: http://3.134.96.79
+- Public Ipv4 DNS: http://ec2-3-134-96-79.us-east-2.compute.amazonaws.com
 - HTTP Domain: Not Yet
 - HTTPS Domain: Not Yet
 
@@ -68,3 +68,9 @@
 - HTTP Domain:
 - HTTPS Domain:
 
+### 정대용([@GanziDaeyong](https://github.com/GanziDaeyong))
+- 한 마디: 와플스튜디오에선 컴맹도 서버를 배포하는 기적이 일어나는군요!
+- Public IPv4 address: http://15.164.98.32 
+- Public IPv4 DNS: http://ec2-15-164-98-32.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: 금방 할게요!
+- HTTPS Domain: 이것도요!
