@@ -57,7 +57,7 @@ Due: 2020.11.21 23:59
 ### 1. Seminar Fragment
 #### Room List
 - 현재 존재하는 모든 Seminar 를 List 로 보여줍니다.
-- 각 List 의 item 은 세미나 이름과 세미나 의 시간 (`hh:mm`) 름 보여줍니다.
+- 각 List 의 item 은 세미나 이름과 ~~세미나 의 시간 (`hh:mm`) 을~~ **세미나의 진행자 이름 (여러명 존재시 "," 으로 연결한 문자열) 을** 보여줍니다. [#258](https://github.com/wafflestudio/rookies/issues/258)
 - List item 의 background 색상은 내가 진행자인 세미나일 시 녹색(#dcedc8), 내가 참여자인 세미나일 시 푸른 색(#b3e5fc) 으로, 둘 다 아닐 경우 흰 색 (#ffffff) 으로 보입니다.
 - Seminar Fragment 가 화면에 위치하고 현재 유저가 instructor 자격이 있을 경우 Activity 의 ActionBar 에 `+` 아이콘을 띄웁니다. 아이콘을 누를 시 `CreateSeminarActivity` 로 전환합니다.
 - 사용가능한 Endpoint
