@@ -31,7 +31,7 @@
 - Public IPv4 address:  http://3.16.161.242
 - Public IPv4 DNS: http://ec2-3-16-161-242.us-east-2.compute.amazonaws.com
 - HTTP Domain: http://miseung-waffle.shop
-- HTTPS Domain:
+- HTTPS Domain: https://miseung-waffle.shop
 
 ### 정승빈([@gnarmeister](https://github.com/gnarmeister))
 - 한 마디: 신기해요
