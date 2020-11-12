@@ -102,7 +102,7 @@ API call을 하고, 그 결과에 대한 스크린샷 역시 `/results`에 적�
 
 6. 가급적 repository 생성과 collaborator 지정은 미리 해둬주세요! 제출 방식을 다들 올바로 이해하고 계신지와 함께, 가능하다면 대략적인 진행상황을 보면서 필요하면 몇 가지 말씀을 더 드릴 수도 있습니다.
 
-### 참고하면 좋은 것들
+## 참고하면 좋은 것들
 - https://education.github.com/pack 에서 학생 인증하여 education pack을 받으시면 무료로 좀 더 많은 GitHub 기능들을 이용할 수 있습니다.
 어차피 대부분의 기능들에 있어서는 거의 차이를 느낄 부분이 없긴 하지만, 미리 해두는 것이 좋습니다. 안 해두신 분들은 가급적 이번 과제 진행하시며 같이 완료하세요.
 - Django의 모든 [공식 문서](https://docs.djangoproject.com/en/3.1/). 위에 명시되지 않은 링크이면서 과제와 직접적으로 관련해 읽으면 좋을 내용들은 [DATABASES](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-DATABASES),
