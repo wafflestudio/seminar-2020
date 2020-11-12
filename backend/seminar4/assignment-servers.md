@@ -74,3 +74,11 @@
 - Public IPv4 DNS: http://ec2-15-164-98-32.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: 금방 할게요!
 - HTTPS Domain: 이것도요!
+
+### 박은천([@pullup-dip-burpee](https://github.com/pullup-dip-burpee))
+- 한 마디: 후다닥 따라가고 있습니다..!
+- Public IPv4 address: http://18.217.52.81
+- Public IPv4 DNS: http://ec2-18-217-52-81.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
+
