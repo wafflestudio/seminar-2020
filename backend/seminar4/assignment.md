@@ -105,7 +105,7 @@ default Security Group 등을 사용하지 말고, 앞서 생성한 Security Gro
 - 배포에 성공했다면, 웹 브라우저를 통해 해당 EC2 instance의 Public IPv4 address나 Public IPv4 DNS로 접근하여, DRF가 만들어주는 프론트 화면이 잘(예쁘지 않고 깨지는 것처럼 보이면 정상) 보이는지 확인하세요.
 - 웹 브라우저의 DRF 프론트 또는 Postman을 이용해, 배포한 서버(해당 주소를 이용하고 있음이 보여야 합니다)에 요청을 보내보세요.
 최소한 Participant, Instructor 각각으로 회원 가입을 하고, Instructor가 세미나를 생성하고, Participant가 그것에 참여하는 과정이 포함되게 하여 캡처해 `/results`에 해당 스크린샷을 적절한 이름으로 포함시키세요.
-- 또한 RDS의 database에 MySql CLI, MySQL Workbench, DataGrip 등으로 local 환경에서 연결해 `show tables`한 결과, 그리고 User, Seminar에 대항하는 table들 등을 몇 개 조회한 스크린샷도 `/results`에 적절한 이름으로 포함시키세요.
+- 또한 RDS의 database에 MySQL CLI, MySQL Workbench, DataGrip 등으로 local 환경에서 연결해 `show tables`한 결과, 그리고 User, Seminar에 대항하는 table들 등을 몇 개 조회한 스크린샷도 `/results`에 적절한 이름으로 포함시키세요.
 
 - 직접 수정하고 생성한 `/etc/nginx/nginx.conf`와 `/etc/nginx/sites-available/`의 conf 파일을 복사해 `waffle-rookies-18.5-backend-2`(`deploy` branch)의 최상위에 `/deployment` directory를 생성하고
 해당 파일들을 포함시키세요. 과제를 진행하며 최신 상황을 잊지 않고 반영하시기 바랍니다.
