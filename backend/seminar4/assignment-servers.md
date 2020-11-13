@@ -79,8 +79,8 @@
 - 한 마디: 예전에 aws가입해놓았을때는 진짜 막막했는데, 이런 기회가 있어서 좋네요 '-')=b
 - Public IPv4 address: http://13.125.127.149
 - Public IPv4 DNS: http://ec2-13-125-127-149.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain:
+- HTTP Domain: http://waffle-backend-eldpswp99.shop/
+- HTTPS Domain: https://waffle-backend-eldpswp99.shop/ 
 
 ### 박은천([@pullup-dip-burpee](https://github.com/pullup-dip-burpee))
 - 한 마디: 후다닥 따라가고 있습니다..!
