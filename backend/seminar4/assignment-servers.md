@@ -95,3 +95,10 @@
 - Public IPv4 DNS: http://ec2-3-35-135-58.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain:
 - HTTPS Domain:
+
+### 최종현([@201432420](https://github.com/201432420))
+- 한 마디: 계속 말로 듣기만 했던 AWS를 실제로 사용하는 법을 배우니까 재밌어요
+- Public IPv4 address: http://3.15.212.223
+- Public IPv4 DNS: http://ec2-3-15-212-223.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
