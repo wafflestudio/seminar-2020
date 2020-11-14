@@ -103,7 +103,7 @@ default Security Group 등을 사용하지 말고, 앞서 생성한 Security Gro
 [여기](https://github.com/davin111/waffle-rookies-18.5-backend-2/commit/00ba8c05d1a82e93be3f3b51fee98ec180763ee2) 를 참고하세요.
 
 - 배포에 성공했다면, 웹 브라우저를 통해 해당 EC2 instance의 Public IPv4 address나 Public IPv4 DNS로 접근하여, DRF가 만들어주는 프론트 화면이 잘(예쁘지 않고 깨지는 것처럼 보이면 정상) 보이는지 확인하세요.
-- 웹 브라우저의 DRF 프론트 또는 Postman을 이용해, 배포한 서버(해당 주소를 이용하고 있음이 보여야 합니다)에 요청을 보내보세요.
+- 웹 브라우저의 DRF 프론트(static 배포가 완료되지 않은 상황에서 Raw data 탭을 통해 body를 만드는 경우 원하는 JSON 형태대로 request가 잘 전달되지 않을 수 있습니다. - [#288 Issue](https://github.com/wafflestudio/rookies/issues/288) 참고) 또는 Postman을 이용해, 배포한 서버(해당 주소를 이용하고 있음이 보여야 합니다)에 요청을 보내보세요.
 최소한 Participant, Instructor 각각으로 회원 가입을 하고, Instructor가 세미나를 생성하고, Participant가 그것에 참여하는 과정이 포함되게 하여 캡처해 `/results`에 해당 스크린샷을 적절한 이름으로 포함시키세요.
 - 또한 RDS의 database에 MySQL CLI, MySQL Workbench, DataGrip 등으로 local 환경에서 연결해 `show tables`한 결과, 그리고 User, Seminar에 대항하는 table들 등을 몇 개 조회한 스크린샷도 `/results`에 적절한 이름으로 포함시키세요.
 
