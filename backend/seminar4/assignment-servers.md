@@ -51,8 +51,8 @@
 - 한 마디: '그래도 내가 쟤보단 낫지'의 '쟤'를 담당하고 있습니다.
 - Public IPv4 address: http://3.134.96.79
 - Public Ipv4 DNS: http://ec2-3-134-96-79.us-east-2.compute.amazonaws.com
-- HTTP Domain: Not Yet
-- HTTPS Domain: Not Yet
+- HTTP Domain: http://waffle-backend-gglifer.shop
+- HTTPS Domain: https://waffle-backend-gglifer.shop
 
 ### 조승한([@pasa3232](https://github.com/pasa3232))
 - 한 마디: 너무 신기해요
