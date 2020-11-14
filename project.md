@@ -49,4 +49,4 @@
 토이 프로젝트 팀 별 진행과 공지는 슬랙으로 진행될 예정이므로 아래 링크를 통해 참여해 주시기 바랍니다.
 슬랙을 통해 소통해주셔야 세미나 진행자들이 틈틈이 확인하고 도움을 줄 수 있으므로 따로 카톡방 등을 파서 소통하지 마시고 슬랙을 통해 소통해주시기 바랍니다.
 
-[https://join.slack.com/t/wafflestudiohq/shared_invite/zt-j4d9emgl-SZJ3TI2f6AUhgtg8~4zGVQ](https://join.slack.com/t/wafflestudiohq/shared_invite/zt-j4d9emgl-SZJ3TI2f6AUhgtg8~4zGVQ%EC%97%90%EC%84%9C)
+[https://join.slack.com/t/wafflestudio1-l3f6523/shared_invite/zt-j4d9emgl-SZJ3TI2f6AUhgtg8~4zGVQ](https://join.slack.com/t/wafflestudio1-l3f6523/shared_invite/zt-j4d9emgl-SZJ3TI2f6AUhgtg8~4zGVQ)
