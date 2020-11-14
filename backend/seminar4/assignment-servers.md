@@ -109,3 +109,10 @@
 - Public IPv4 DNS: http://ec2-3-134-92-213.us-east-2.compute.amazonaws.com
 - HTTP Domain:
 - HTTPS Domain:
+
+### 정지민([@tictactoeid](https://github.com/tictactoeid))
+- 한 마디: 신기하네요....
+- Public IPv4 address: http://3.131.96.251
+- Public IPv4 DNS: http://ec2-3-131-96-251.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
