@@ -102,3 +102,10 @@
 - Public IPv4 DNS: http://ec2-3-15-212-223.us-east-2.compute.amazonaws.com
 - HTTP Domain:
 - HTTPS Domain:
+
+### 정명구([@guzus](https://github.com/guzus))
+- 한 마디: 아마존이 엄청난 것을 만들었네요!
+- Public IPv4 address: http://3.134.92.213
+- Public IPv4 DNS: http://ec2-3-134-92-213.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
