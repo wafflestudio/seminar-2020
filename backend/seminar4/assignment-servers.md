@@ -107,5 +107,5 @@
 - 한 마디: 아마존이 엄청난 것을 만들었네요!
 - Public IPv4 address: http://3.134.92.213
 - Public IPv4 DNS: http://ec2-3-134-92-213.us-east-2.compute.amazonaws.com
-- HTTP Domain:
+- HTTP Domain: http://mint-choco.shop/
 - HTTPS Domain:
