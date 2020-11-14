@@ -61,4 +61,6 @@
 
 핸드폰과 데스크탑에 **슬랙 앱을 설치** 해주시기 바라며 가입 후 **프로필은 이름-세미나(ex 변다빈-백엔드)로 설정해주시기 바랍니다.**
 
+여러 세미나를 수강중이신 경우에도 프로젝트에서 맡을 분야 하나를 정해 프로필에 기입해주시기 바랍니다.
+
 [https://join.slack.com/t/wafflestudio1-l3f6523/shared_invite/zt-j4d9emgl-SZJ3TI2f6AUhgtg8~4zGVQ](https://join.slack.com/t/wafflestudio1-l3f6523/shared_invite/zt-j4d9emgl-SZJ3TI2f6AUhgtg8~4zGVQ)
