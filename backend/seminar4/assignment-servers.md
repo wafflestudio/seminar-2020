@@ -51,8 +51,8 @@
 - 한 마디: '그래도 내가 쟤보단 낫지'의 '쟤'를 담당하고 있습니다.
 - Public IPv4 address: http://3.134.96.79
 - Public Ipv4 DNS: http://ec2-3-134-96-79.us-east-2.compute.amazonaws.com
-- HTTP Domain: Not Yet
-- HTTPS Domain: Not Yet
+- HTTP Domain: http://waffle-backend-gglifer.shop
+- HTTPS Domain: https://waffle-backend-gglifer.shop
 
 ### 조승한([@pasa3232](https://github.com/pasa3232))
 - 한 마디: 너무 신기해요
@@ -116,3 +116,31 @@
 - Public IPv4 DNS: http://ec2-13-124-225-102.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain:
 - HTTPS Domain:
+
+### 정지민([@tictactoeid](https://github.com/tictactoeid))
+- 한 마디: 신기하네요....
+- Public IPv4 address: http://3.131.96.251
+- Public IPv4 DNS: http://ec2-3-131-96-251.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
+
+### 김민찬([@flux1126](https://github.com/flux1126))
+- 한 마디: AWS가 익숙해질 때까지 더 열심히 해야겠어요.
+- Public IPv4 address: http://15.164.129.129
+- Public IPv4 DNS: http://ec2-15-164-129-129.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain:
+
+### 박도현([@dodo4114](https://github.com/dodo4114))
+- 한 마디: 일단 주소부터 열었습니다 :)
+- Public IPv4 address: http://3.34.134.161
+- Public IPv4 DNS: http://ec2-3-34-134-161.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://www.dodo-waffle.shop/
+- HTTPS Domain: https://www.dodo-waffle.shop/
+
+### 문서윤([@symoon9](https://github.com/symoon9))
+- 한 마디: 어렵지만... 신기하네요ㅎㅎ
+- Public IPv4 address: http://54.180.143.96
+- Public IPv4 DNS: http://ec2-54-180-143-96.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: 
+- HTTPS Domain: 
