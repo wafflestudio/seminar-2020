@@ -133,7 +133,7 @@
 
 ### 박도현([@dodo4114](https://github.com/dodo4114))
 - 한 마디: 일단 주소부터 열었습니다 :)
-- Public IPv4 address: 3.34.134.161
-- Public IPv4 DNS: ec2-3-34-134-161.ap-northeast-2.compute.amazonaws.com
+- Public IPv4 address: http://3.34.134.161
+- Public IPv4 DNS: http://ec2-3-34-134-161.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://www.dodo-waffle.shop/
 - HTTPS Domain: https://www.dodo-waffle.shop/
