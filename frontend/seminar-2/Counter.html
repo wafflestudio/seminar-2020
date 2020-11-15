@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="counter">
+      <p id="number">0</p>
+      <button onclick="onClickMinus()">-</button>
+      <button onclick="onClickPlus()">+</button>
+    </div>
+    <script type="text/javascript">
+      function onClickMinus() {
+        let element = document.getElementById('number');
+        let number = +element.innerHTML;
+        element.innerHTML = number - 1;
+      }
+
+      function onClickPlus() {
+        let element = document.getElementById('number');
+        let number = +element.innerHTML;
+        element.innerHTML = number + 1;
+      }
+
+    </script>
+
+  </body>
+</html>
