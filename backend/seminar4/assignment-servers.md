@@ -152,6 +152,13 @@
 - HTTP Domain: 
 - HTTPS Domain: 
 
+### 임종원[@elijah0430](https://github.com/elijah0430))
+- 한 마디: 제가 이만큼 한 게 신기하면서도 갈 길이 멀다는 생각이 드네요.. 
+- Public IPv4 address: http://18.212.196.21
+- Public IPv4 DNS: http://ec2-18-212-196-21.compute-1.amazonaws.com
+- HTTP Domain: http://jongwonlim.shop/
+- HTTPS Domain: https://jongwonlim.shop/
+
 ### 박범규([@bumkyu00](https://github.com/bumkyu00))
 - 한 마디: 한줄 얹어봅니다ㅎㅎ
 - Public IPv4 address: http://3.129.10.94
