@@ -96,6 +96,13 @@
 - HTTP Domain:
 - HTTPS Domain:
 
+### 박은천([@pullup-dip-burpee](https://github.com/pullup-dip-burpee))
+- 한 마디: 후다닥 따라가고 있습니다..!
+- Public IPv4 address: http://18.217.52.81
+- Public IPv4 DNS: http://ec2-18-217-52-81.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://silverysky.shop
+- HTTPS Domain: https://silverysky.shop
+
 ### 최종현([@201432420](https://github.com/201432420))
 - 한 마디: 계속 말로 듣기만 했던 AWS를 실제로 사용하는 법을 배우니까 재밌어요
 - Public IPv4 address: http://13.59.19.70
