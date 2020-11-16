@@ -151,3 +151,10 @@
 - Public IPv4 DNS: http://ec2-54-180-143-96.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: 
 - HTTPS Domain: 
+
+### 박범규([@bumkyu00](https://github.com/bumkyu00))
+- 한 마디: 한줄 얹어봅니다ㅎㅎ
+- Public IPv4 address: http://3.129.10.94
+- Public IPv4 DNS: http://ec2-3-129-10-94.us-east-2.compute.amazonaws.com
+- HTTP Domain: 
+- HTTPS Domain: 
