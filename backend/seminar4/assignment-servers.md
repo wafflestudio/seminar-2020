@@ -152,10 +152,16 @@
 - HTTP Domain: 
 - HTTPS Domain: 
 
-
 ### 임종원[@elijah0430](https://github.com/elijah0430))
 - 한 마디: 제가 이만큼 한 게 신기하면서도 갈 길이 멀다는 생각이 드네요.. 
 - Public IPv4 address: http://52.91.122.169
 - Public IPv4 DNS: http://ec2-52-91-122-169.compute-1.amazonaws.com
 - HTTP Domain: http://jongwonlim.shop/
 - HTTPS Domain: 
+
+### 박범규([@bumkyu00](https://github.com/bumkyu00))
+- 한 마디: 한줄 얹어봅니다ㅎㅎ
+- Public IPv4 address: http://3.129.10.94
+- Public IPv4 DNS: http://ec2-3-129-10-94.us-east-2.compute.amazonaws.com
+- HTTP Domain: 
+
