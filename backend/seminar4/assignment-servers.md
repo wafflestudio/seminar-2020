@@ -111,11 +111,11 @@
 - HTTPS Domain: https://mint-choco.shop/
 
 ### 이승민([@veldic](https://github.com/veldic))
-- 한 마디: 신기하네요 요거...
-- Public IPv4 address: http://13.124.225.102
-- Public IPv4 DNS: http://ec2-13-124-225-102.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain:
+- 한 마디: https가 안되는데 으아악 일단 제출해놓고 고민...
+- Public IPv4 address: http://3.35.233.191
+- Public IPv4 DNS: http://ec2-3-35-233-191.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://veldic.shop
+- HTTPS Domain: https://veldic.shop
 
 ### 정지민([@tictactoeid](https://github.com/tictactoeid))
 - 한 마디: 신기하네요....
