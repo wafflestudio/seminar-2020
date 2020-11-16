@@ -164,4 +164,4 @@
 - Public IPv4 address: http://3.129.10.94
 - Public IPv4 DNS: http://ec2-3-129-10-94.us-east-2.compute.amazonaws.com
 - HTTP Domain: 
-
+- HTTPS Domain:
