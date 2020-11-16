@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TwoTypeRecycler</string>
+    <string name="user_id">User ID: %d</string>
+</resources>

@@ -56,7 +56,7 @@ username은 `desc auth_user;`를 MySQL에 실행해보면 알 수 있듯, unique
 이 API에 대해서는 물론 Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 response는 정상 처리되는 경우에만 `200 OK`와 함께 로그인 API의 body와 동일하게 처리하면 됩니다.
 
-6. 유저가 로그아웃할 수 있도록 내부적으로 Django의 `logout()`을 활용한 `GET /api/v1/user/logout/` API를 개발하세요. 로그인되어있지 않은 유저가
+6. 유저가 로그아웃할 수 있도록 내부적으로 Django의 `logout()`을 활용한 `GET` 또는 `POST` `/api/v1/user/logout/` API를 개발하세요.(`POST`에 대한 내용은 사후 추가되었습니다. [#118 issue](https://github.com/wafflestudio/rookies/issues/118)를 참고해주세요.) 로그인되어있지 않은 유저가
 로그아웃 시도하면 `403 FORBIDDEN` 처리해야 합니다. 정상 처리되는 경우에는 `200 OK`와 함께 body는 비어있도록 하세요.
 Postman 등으로 개발 과정에서 꾸준히 테스트하시되, 스크린샷을 포함시킬지는 자유이며 코드에 모든 내용을 반영하면 됩니다.
 
@@ -113,6 +113,7 @@ timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또�
 /waffle_backend/manage.py
 /waffle_backend/waffle_backend/*
 /waffle_backend/survey/*
+/waffle_backend/user/*
 /results/
 ```
 
@@ -124,19 +125,20 @@ timestamp에는 해당 시점의 값이 자동으로 들어가야합니다. 또�
 
 6. 가급적 repository 생성과 collaborator 지정은 미리 해둬주세요! 제출 방식을 다들 올바로 이해하고 계신지와 함께, 가능하다면 대략적인 진행상황을 보면서 필요하면 몇 가지 말씀을 더 드릴 수도 있습니다.
 
-### 참고하면 좋은 것들
+## 참고하면 좋은 것들
 - 추후 점진적으로 추가 예정입니다.
 - Django의 모든 [공식 문서](https://docs.djangoproject.com/en/3.1/). 1번째 세미나에서도 강조한 문서들인
 [QuerySet](https://docs.djangoproject.com/en/3.1/ref/models/querysets/), [Django auth system](https://docs.djangoproject.com/en/3.1/topics/auth/default/) 가
 이번 과제에서도 특히 중요합니다.
 - [세미나 슬라이드](https://github.com/wafflestudio/rookies/blob/master/backend/seminar1/wafflestudio%2018.5%20Rookies%20Backend%20Seminar%201.pdf) 의
 각 우측 상단에 포함된 링크들. 파일을 다운로드하시면 클릭 가능합니다.
-- migration 관련해서는 model, field, migrate 관련해 여러 내용을 찾아보시고 신중히 진행해보시면 좋겠습니다!
+- migration 관련해서는 model, field, migrate 관련해 여러 내용을 찾아보시고 신중히 진행해보시면 좋겠습니다! 특히 공식 문서의 [migrations](https://docs.djangoproject.com/en/3.1/topics/migrations/)와 [migrate](https://docs.djangoproject.com/en/3.1/ref/django-admin/#migrate)는 필수입니다.
 - Django와 관련해 기본적인 것부터 너무 막막하다면, [Django tutorial](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)을 따라가보시기 바랍니다. [한국어 버전](https://docs.djangoproject.com/ko/3.1/intro/tutorial01/)도 있습니다.
 다만, 우리는 DRF를 프로젝트에 결합해서 사용하고 있음을 잊지마세요!
 - [views.py](waffle_backend/survey/views.py)의 `list()`, `retrieve()`만으로 API endpoint가 만들어졌던 것처럼,
 DRF의 [ViewSets](https://www.django-rest-framework.org/api-guide/viewsets/) 등 관련 문서를 참고하시면
 어떤 식으로 POST, PUT method에 해당하는 view function을 정의할 수 있는지, logout에 해당하는 endpoint는 어떻게 만들 수 있는지 알 수 있습니다.
+- https://docs.djangoproject.com/en/3.1/topics/auth/ 의 MIDDLEWARE 관련 설명을 보시면, `login()`을 했을 때 Django가 이후 요청에 대해서 어떻게 그 user를 아는 것인지 참고하실 수 있습니다. 
 - 앞으로도 늘 그렇겠지만, 과제를 진행하며 모르는 것들과 여러 난관에 부딪히리라 생각됩니다. 당연히 그 지점을 기대하고 과제를 드리는 것이고, 기본적으로 스스로 구글링을
 통해 여러 내용을 확인하고 적절한 수준까지 익숙해지실 수 있도록 하면 좋겠습니다.
 - [Issues](https://github.com/wafflestudio/rookies/issues) 에 질문하는 것을 어려워하지 마시길 바랍니다. 필요하다면 본인의 환경에 대한 정보를 잘 포함시켜주세요.
