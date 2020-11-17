@@ -166,11 +166,9 @@
 - HTTP Domain: 
 - HTTPS Domain: 
 
-
 ### 류(유)남규([@Noaarhk](https://github.com/Noaarhk))
 - 한 마디: 끼룩끼룩 ^-^
 - Public IPv4 address: http://3.139.64.239
-- Public IPv4 DNS: ec2-3-139-64-239.us-east-2.compute.amazonaws.com
+- Public IPv4 DNS: http://ec2-3-139-64-239.us-east-2.compute.amazonaws.com
 - HTTP Domain: 
 - HTTPS Domain: 
-
