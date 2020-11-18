@@ -172,3 +172,10 @@
 - Public IPv4 DNS: http://ec2-3-139-64-239.us-east-2.compute.amazonaws.com
 - HTTP Domain: 
 - HTTPS Domain: 
+
+### 안유리([@yuri-0415](https://github.com/yuri-0415))
+- 한 마디: 종강까지 한달이 안남았네요! 다들 화이팅^~^
+- Public IPv4 address: http://3.34.183.36
+- Public IPv4 DNS: http://ec2-3-34-183-36.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: 
+- HTTPS Domain: 
