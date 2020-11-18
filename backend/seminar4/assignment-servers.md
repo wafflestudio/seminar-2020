@@ -177,5 +177,5 @@
 - 한 마디: 종강까지 한달이 안남았네요! 다들 화이팅^~^
 - Public IPv4 address: http://3.34.183.36
 - Public IPv4 DNS: http://ec2-3-34-183-36.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain: 
+- HTTP Domain:  
 - HTTPS Domain: 
