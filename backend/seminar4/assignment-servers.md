@@ -128,5 +128,5 @@
 - 한 마디: AWS가 익숙해질 때까지 더 열심히 해야겠어요.
 - Public IPv4 address: http://15.164.129.129
 - Public IPv4 DNS: http://ec2-15-164-129-129.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain:
+- HTTP Domain: http://waffle-backend-minchan.shop/
 - HTTPS Domain:
