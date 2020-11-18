@@ -178,6 +178,7 @@
 - Public IPv4 address: http://3.34.183.36
 - Public IPv4 DNS: http://ec2-3-34-183-36.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain:  
+- HTTPS Domain: 
 
 ### 박선재([@cs71107](https://github.com/cs71107))
 - 한 마디 : 갈길이 머네요...
