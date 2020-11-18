@@ -172,3 +172,10 @@
 - Public IPv4 DNS: http://ec2-3-139-64-239.us-east-2.compute.amazonaws.com
 - HTTP Domain: 
 - HTTPS Domain: 
+
+### 김민영([@kmy17518](https://github.com/kmy17518))
+- 한 마디: 어렵네요..
+- Public IPv4 address: http://18.188.234.146
+- Public IPv4 DNS: http://ec2-18-188-234-146.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://duckispretty.shop/
+- HTTPS Domain: 
