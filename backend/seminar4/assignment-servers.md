@@ -180,6 +180,13 @@
 - HTTP Domain: http://duckispretty.shop/
 - HTTPS Domain: 
 
+### 안유리([@yuri-0415](https://github.com/yuri-0415))
+- 한 마디: 종강까지 한달이 안남았네요! 다들 화이팅^~^
+- Public IPv4 address: http://3.34.183.36
+- Public IPv4 DNS: http://ec2-3-34-183-36.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain:  
+- HTTPS Domain: 
+
 ### 박선재([@cs71107](https://github.com/cs71107))
 - 한 마디 : 갈길이 머네요...
 - Public IPv4 address: http://3.131.142.10
@@ -190,6 +197,6 @@
 ### 최준호([@whiteruby02](https://github.com/whiteruby02))
 - 한 마디: 배포 어렵네여.. 그래도 신기
 - Public IPv4 address: http://15.164.50.81
-- Public IPv4 DNS: http:// ec2-15-164-50-81.ap-northeast-2.compute.amazonaws.com
+- Public IPv4 DNS: http://ec2-15-164-50-81.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://choijunho.shop
 - HTTPS Domain: 
