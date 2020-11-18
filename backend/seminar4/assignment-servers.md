@@ -96,6 +96,13 @@
 - HTTP Domain:
 - HTTPS Domain:
 
+### 박은천([@pullup-dip-burpee](https://github.com/pullup-dip-burpee))
+- 한 마디: 후다닥 따라가고 있습니다..!
+- Public IPv4 address: http://18.217.52.81
+- Public IPv4 DNS: http://ec2-18-217-52-81.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://silverysky.shop
+- HTTPS Domain: https://silverysky.shop
+
 ### 최종현([@201432420](https://github.com/201432420))
 - 한 마디: 계속 말로 듣기만 했던 AWS를 실제로 사용하는 법을 배우니까 재밌어요
 - Public IPv4 address: http://13.59.19.70
@@ -111,11 +118,11 @@
 - HTTPS Domain: https://mint-choco.shop/
 
 ### 이승민([@veldic](https://github.com/veldic))
-- 한 마디: 신기하네요 요거...
-- Public IPv4 address: http://13.124.225.102
-- Public IPv4 DNS: http://ec2-13-124-225-102.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain:
+- 한 마디: https가 안되는데 으아악 일단 제출해놓고 고민...
+- Public IPv4 address: http://3.35.233.191
+- Public IPv4 DNS: http://ec2-3-35-233-191.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://veldic.shop
+- HTTPS Domain: https://veldic.shop
 
 ### 정지민([@tictactoeid](https://github.com/tictactoeid))
 - 한 마디: 신기하네요....
@@ -130,3 +137,38 @@
 - Public IPv4 DNS: http://ec2-15-164-129-129.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://waffle-backend-minchan.shop/
 - HTTPS Domain:
+
+### 박도현([@dodo4114](https://github.com/dodo4114))
+- 한 마디: 일단 주소부터 열었습니다 :)
+- Public IPv4 address: http://3.34.134.161
+- Public IPv4 DNS: http://ec2-3-34-134-161.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://www.dodo-waffle.shop/
+- HTTPS Domain: https://www.dodo-waffle.shop/
+
+### 문서윤([@symoon9](https://github.com/symoon9))
+- 한 마디: 어렵지만... 신기하네요ㅎㅎ
+- Public IPv4 address: http://54.180.143.96
+- Public IPv4 DNS: http://ec2-54-180-143-96.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: 
+- HTTPS Domain: 
+
+### 임종원[@elijah0430](https://github.com/elijah0430))
+- 한 마디: 제가 이만큼 한 게 신기하면서도 갈 길이 멀다는 생각이 드네요.. 
+- Public IPv4 address: http://18.212.196.21
+- Public IPv4 DNS: http://ec2-18-212-196-21.compute-1.amazonaws.com
+- HTTP Domain: http://jongwonlim.shop/
+- HTTPS Domain: https://jongwonlim.shop/
+
+### 박범규([@bumkyu00](https://github.com/bumkyu00))
+- 한 마디: 한줄 얹어봅니다ㅎㅎ
+- Public IPv4 address: http://3.129.10.94
+- Public IPv4 DNS: http://ec2-3-129-10-94.us-east-2.compute.amazonaws.com
+- HTTP Domain: 
+- HTTPS Domain: 
+
+### 류(유)남규([@Noaarhk](https://github.com/Noaarhk))
+- 한 마디: 끼룩끼룩 ^-^
+- Public IPv4 address: http://3.139.64.239
+- Public IPv4 DNS: http://ec2-3-139-64-239.us-east-2.compute.amazonaws.com
+- HTTP Domain: 
+- HTTPS Domain: 
