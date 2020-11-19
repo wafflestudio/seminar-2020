@@ -193,3 +193,10 @@
 - Public IPv4 DNS: http://ec2-15-164-50-81.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://choijunho.shop
 - HTTPS Domain: 
+
+### 박윤수([@Junetrbl](https://github.com/Junetrbl))
+- 한 마디: 막차🤭
+- Public IPv4 address: http://3.34.134.136
+- Public IPv4 DNS: http://ec2-3-34-134-136.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-backend-darkbal.shop/
+- HTTPS Domain: https://waffle-backend-darkbal.shop/
