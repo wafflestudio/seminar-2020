@@ -98,7 +98,7 @@
 
 ### 최종현([@201432420](https://github.com/201432420))
 - 한 마디: 계속 말로 듣기만 했던 AWS를 실제로 사용하는 법을 배우니까 재밌어요
-- Public IPv4 address: http://18.221.254.99
-- Public IPv4 DNS: http://ec2-18-221-254-99.us-east-2.compute.amazonaws.com
-- HTTP Domain: http://waffle-backend-jonghyun.shop
-- HTTPS Domain: https://waffle-backend-jonghyun.shop
+- Public IPv4 address: http://13.59.19.70
+- Public IPv4 DNS: http://ec2-13-59-19-70.us-east-2.compute.amazonaws.com
+- HTTP Domain:
+- HTTPS Domain: 
