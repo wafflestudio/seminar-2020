@@ -163,8 +163,8 @@
 - 한 마디: 한줄 얹어봅니다ㅎㅎ
 - Public IPv4 address: http://3.129.10.94
 - Public IPv4 DNS: http://ec2-3-129-10-94.us-east-2.compute.amazonaws.com
-- HTTP Domain: 
-- HTTPS Domain: 
+- HTTP Domain: http://waffle-backend-bumkyu.shop
+- HTTPS Domain: https://waffle-backend-bumkyu.shop
 
 ### 류(유)남규([@Noaarhk](https://github.com/Noaarhk))
 - 한 마디: 끼룩끼룩 ^-^
