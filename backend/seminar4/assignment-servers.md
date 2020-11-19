@@ -140,7 +140,7 @@
 
 ### 문서윤([@symoon9](https://github.com/symoon9))
 - 한 마디: 어렵지만... 신기하네요ㅎㅎ
-- Public IPv4 address: http://54.180.143.96
-- Public IPv4 DNS: http://ec2-54-180-143-96.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain: 
-- HTTPS Domain: 
+- Public IPv4 address: http://3.34.48.125
+- Public IPv4 DNS: http://ec2-3-34-48-125.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://croffle-not-waffle.shop/
+- HTTPS Domain: https://croffle-not-waffle.shop/
