@@ -178,7 +178,7 @@
 - Public IPv4 address: http://18.188.234.146
 - Public IPv4 DNS: http://ec2-18-188-234-146.us-east-2.compute.amazonaws.com
 - HTTP Domain: http://duckispretty.shop/
-- HTTPS Domain: 
+- HTTPS Domain: https://duckispretty.shop/
 
 ### 안유리([@yuri-0415](https://github.com/yuri-0415))
 - 한 마디: 종강까지 한달이 안남았네요! 다들 화이팅^~^
