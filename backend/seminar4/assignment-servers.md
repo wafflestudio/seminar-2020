@@ -136,7 +136,7 @@
 - Public IPv4 address: http://15.164.129.129
 - Public IPv4 DNS: http://ec2-15-164-129-129.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://waffle-backend-minchan.shop/
-- HTTPS Domain:
+- HTTPS Domain: https://waffle-backend-minchan.shop/
 
 ### 박도현([@dodo4114](https://github.com/dodo4114))
 - 한 마디: 일단 주소부터 열었습니다 :)
