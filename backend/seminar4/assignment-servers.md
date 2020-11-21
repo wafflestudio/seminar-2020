@@ -138,6 +138,13 @@
 - HTTP Domain:
 - HTTPS Domain:
 
+### 임유진([@gina0605](https://github.com/gina0605))
+- 한 마디: 처음이라 막막하긴 하지만 열심히 해보겠습니다!
+- Public IPv4 address: http://3.35.135.58
+- Public IPv4 DNS: http://ec2-3-35-135-58.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://www.sweet-waffle-backend.shop
+- HTTPS Domain: https://www.sweet-waffle-backend.shop
+
 ### 박도현([@dodo4114](https://github.com/dodo4114))
 - 한 마디: 일단 주소부터 열었습니다 :)
 - Public IPv4 address: http://3.34.134.161
