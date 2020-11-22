@@ -121,8 +121,8 @@
 - 한 마디: 신기하네요....
 - Public IPv4 address: http://3.131.96.251
 - Public IPv4 DNS: http://ec2-3-131-96-251.us-east-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain:
+- HTTP Domain: http://waffle-jiminjung.shop
+- HTTPS Domain: https://waffle-jiminjung.shop
 
 ### 김민찬([@flux1126](https://github.com/flux1126))
 - 한 마디: AWS가 익숙해질 때까지 더 열심히 해야겠어요.
