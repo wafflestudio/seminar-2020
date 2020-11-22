@@ -175,8 +175,8 @@
 
 ### 박선재([@cs71107](https://github.com/cs71107)) 
 - 한 마디 : 갈길이 머네요... (https 는 아직 안 했습니다!)
-- Public IPv4 address: http://3.17.28.63
-- Public IPv4 DNS: http://ec2-3-17-28-63.us-east-2.compute.amazonaws.com
+- Public IPv4 address: http://18.191.220.193
+- Public IPv4 DNS: http://ec2-18-191-220-193.us-east-2.compute.amazonaws.com
 - HTTP Domain: http://waffle-backend-cs71107.shop/
 - HTTPS Domain: 
 
