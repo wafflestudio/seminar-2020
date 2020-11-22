@@ -180,3 +180,9 @@
 - HTTP Domain: http://waffle-backend-cs71107.shop/
 - HTTPS Domain: 
 
+### 최준호([@whiteruby02](https://github.com/whiteruby02))
+- 한 마디: 배포 어렵네여.. 그래도 신기
+- Public IPv4 address: http://15.164.50.81
+- Public IPv4 DNS: http:// ec2-15-164-50-81.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://choijunho.shop
+- HTTPS Domain: 
