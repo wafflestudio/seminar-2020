@@ -173,10 +173,10 @@
 - HTTP Domain: 
 - HTTPS Domain: 
 
-### 박선재([@cs71107](https://github.com/cs71107))
-- 한 마디 : 갈길이 머네요...
-- Public IPv4 address: http://3.131.142.10
-- Public IPv4 DNS: http://ec2-3-131-142-10.us-east-2.compute.amazonaws.com
-- HTTP Domain: 
+### 박선재([@cs71107](https://github.com/cs71107)) 
+- 한 마디 : 갈길이 머네요... (https 는 아직 안 했습니다!)
+- Public IPv4 address: http://3.17.28.63
+- Public IPv4 DNS: http://ec2-3-17-28-63.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-backend-cs71107.shop/
 - HTTPS Domain: 
 
