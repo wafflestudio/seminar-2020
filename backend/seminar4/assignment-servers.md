@@ -58,8 +58,8 @@
 - 한 마디: 너무 신기해요
 - Public IPv4 address: http://13.58.215.218/
 - Public IPv4 DNS: http://ec2-13-58-215-218.us-east-2.compute.amazonaws.com
-- HTTP Domain: 
-- HTTPS Domain: 
+- HTTP Domain: http://pasa3232-first-server.shop
+- HTTPS Domain: https://pasa3232-first-server.shop
 
 ### 김정환([@canoneod](https://github.com/canoneod))
 - 한 마디: 실수로 종료눌러서 처음부터 다시...
@@ -98,10 +98,10 @@
 
 ### 최종현([@201432420](https://github.com/201432420))
 - 한 마디: 계속 말로 듣기만 했던 AWS를 실제로 사용하는 법을 배우니까 재밌어요
-- Public IPv4 address: http://13.59.19.70
-- Public IPv4 DNS: http://ec2-13-59-19-70.us-east-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain:
+- Public IPv4 address: http://18.221.254.99
+- Public IPv4 DNS: http://ec2-18-221-254-99.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-backend-jonghyun.shop
+- HTTPS Domain: https://waffle-backend-jonghyun.shop
 
 ### 정명구([@guzus](https://github.com/guzus))
 - 한 마디: 아마존이 엄청난 것을 만들었네요!
@@ -121,26 +121,89 @@
 - 한 마디: 신기하네요....
 - Public IPv4 address: http://3.131.96.251
 - Public IPv4 DNS: http://ec2-3-131-96-251.us-east-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain:
+- HTTP Domain: http://waffle-jiminjung.shop
+- HTTPS Domain: https://waffle-jiminjung.shop
 
 ### 김민찬([@flux1126](https://github.com/flux1126))
 - 한 마디: AWS가 익숙해질 때까지 더 열심히 해야겠어요.
 - Public IPv4 address: http://15.164.129.129
 - Public IPv4 DNS: http://ec2-15-164-129-129.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain:
-- HTTPS Domain:
+- HTTP Domain: http://waffle-backend-minchan.shop/
+- HTTPS Domain: https://waffle-backend-minchan.shop/
+
+### 임유진([@gina0605](https://github.com/gina0605))
+- 한 마디: 처음이라 막막하긴 하지만 열심히 해보겠습니다!
+- Public IPv4 address: http://3.35.135.58
+- Public IPv4 DNS: http://ec2-3-35-135-58.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://www.sweet-waffle-backend.shop
+- HTTPS Domain: https://www.sweet-waffle-backend.shop
 
 ### 박도현([@dodo4114](https://github.com/dodo4114))
-- 한 마디: 일단 주소부터 열었습니다 :)
-- Public IPv4 address: http://3.34.134.161
-- Public IPv4 DNS: http://ec2-3-34-134-161.ap-northeast-2.compute.amazonaws.com
+- 한 마디: PYTHONHOME error...다시는 만나고 싶지 않네요
+- Public IPv4 address: http://13.125.241.221
+- Public IPv4 DNS: http://ec2-13-125-241-221.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://www.dodo-waffle.shop/
 - HTTPS Domain: https://www.dodo-waffle.shop/
 
 ### 문서윤([@symoon9](https://github.com/symoon9))
 - 한 마디: 어렵지만... 신기하네요ㅎㅎ
-- Public IPv4 address: http://54.180.143.96
-- Public IPv4 DNS: http://ec2-54-180-143-96.ap-northeast-2.compute.amazonaws.com
+- Public IPv4 address: http://3.34.48.125
+- Public IPv4 DNS: http://ec2-3-34-48-125.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://croffle-not-waffle.shop/
+- HTTPS Domain: https://croffle-not-waffle.shop/
+
+### 임종원[@elijah0430](https://github.com/elijah0430))
+- 한 마디: 제가 이만큼 한 게 신기하면서도 갈 길이 멀다는 생각이 드네요.. 
+- Public IPv4 address: http://18.212.196.21
+- Public IPv4 DNS: http://ec2-18-212-196-21.compute-1.amazonaws.com
+- HTTP Domain: http://jongwonlim.shop/
+- HTTPS Domain: https://jongwonlim.shop/
+
+### 박범규([@bumkyu00](https://github.com/bumkyu00))
+- 한 마디: 한줄 얹어봅니다ㅎㅎ
+- Public IPv4 address: http://3.129.10.94
+- Public IPv4 DNS: http://ec2-3-129-10-94.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-backend-bumkyu.shop
+- HTTPS Domain: https://waffle-backend-bumkyu.shop
+
+### 류(유)남규([@Noaarhk](https://github.com/Noaarhk))
+- 한 마디: 날클립을 알고있니 0_0?
+- Public IPv4 address: http://3.139.64.239
+- Public IPv4 DNS: http://ec2-3-139-64-239.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://nalclip.shop/
+- HTTPS Domain: https://nalclip.shop/
+
+### 김민영([@kmy17518](https://github.com/kmy17518))
+- 한 마디: 어렵네요..
+- Public IPv4 address: http://18.188.234.146
+- Public IPv4 DNS: http://ec2-18-188-234-146.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://duckispretty.shop/
+- HTTPS Domain: https://duckispretty.shop/
+
+### 안유리([@yuri-0415](https://github.com/yuri-0415))
+- 한 마디: 종강까지 한달이 안남았네요! 다들 화이팅^~^
+- Public IPv4 address: http://3.34.183.36
+- Public IPv4 DNS: http://ec2-3-34-183-36.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain:  
+- HTTPS Domain: 
+
+### 박선재([@cs71107](https://github.com/cs71107))
+- 한 마디 : 갈길이 머네요...
+- Public IPv4 address: http://3.131.142.10
+- Public IPv4 DNS: http://ec2-3-131-142-10.us-east-2.compute.amazonaws.com
 - HTTP Domain: 
 - HTTPS Domain: 
+
+### 최준호([@whiteruby02](https://github.com/whiteruby02))
+- 한 마디: 배포 어렵네여.. 그래도 신기
+- Public IPv4 address: http://15.164.50.81
+- Public IPv4 DNS: http://ec2-15-164-50-81.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://choijunho.shop
+- HTTPS Domain: 
+
+### 박윤수([@Junetrbl](https://github.com/Junetrbl))
+- 한 마디: 막차🤭
+- Public IPv4 address: http://3.34.134.136
+- Public IPv4 DNS: http://ec2-3-34-134-136.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-backend-darkbal.shop/
+- HTTPS Domain: https://waffle-backend-darkbal.shop/
