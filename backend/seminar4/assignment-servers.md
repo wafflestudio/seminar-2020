@@ -187,12 +187,12 @@
 - HTTP Domain:  
 - HTTPS Domain: 
 
-### 박선재([@cs71107](https://github.com/cs71107))
-- 한 마디 : 갈길이 머네요...
-- Public IPv4 address: http://3.131.142.10
-- Public IPv4 DNS: http://ec2-3-131-142-10.us-east-2.compute.amazonaws.com
-- HTTP Domain: 
-- HTTPS Domain: 
+### 박선재([@cs71107](https://github.com/cs71107)) 
+- 한 마디 : 갈길이 머네요... (https 는 아직 안 했습니다! 주소만 적어놓을게요!)
+- Public IPv4 address: http://18.191.220.193
+- Public IPv4 DNS: http://ec2-18-191-220-193.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://waffle-backend-cs71107.shop/
+- HTTPS Domain: https://waffle-backend-cs71107.shop/
 
 ### 최준호([@whiteruby02](https://github.com/whiteruby02))
 - 한 마디: 배포 어렵네여.. 그래도 신기
