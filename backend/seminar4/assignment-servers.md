@@ -185,7 +185,7 @@
 - Public IPv4 address: http://3.34.122.1/
 - Public IPv4 DNS: http://ec2-3-34-122-1.ap-northeast-2.compute.amazonaws.com/
 - HTTP Domain: http://yuri-0415.shop
-- HTTPS Domain: https://yuri-0415.shop
+- HTTPS Domain: https://yuri-0415.shop 
 
 ### 최준호([@whiteruby02](https://github.com/whiteruby02))
 - 한 마디: 배포 어렵네여.. 그래도 신기
