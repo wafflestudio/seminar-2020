@@ -187,7 +187,7 @@
 - HTTP Domain: http://yuri-0415.shop
 - HTTPS Domain: https://yuri-0415.shop 
 
-### 박선재(@cs71107)
+### 박선재([@cs71107](https://github.com/cs71107))
 - 한 마디 : 갈길이 머네요... (https 는 아직 안 했습니다! 주소만 적어놓을게요!)
 - Public IPv4 address: http://18.191.220.193
 - Public IPv4 DNS: http://ec2-18-191-220-193.us-east-2.compute.amazonaws.com
