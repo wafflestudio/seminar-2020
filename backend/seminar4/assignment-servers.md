@@ -178,7 +178,7 @@
 - Public IPv4 address: http://3.34.122.1/
 - Public IPv4 DNS: http://ec2-3-34-122-1.ap-northeast-2.compute.amazonaws.com/
 - HTTP Domain: http://yuri-0415.shop
-- HTTPS Domain: 
+- HTTPS Domain: https://yuri-0415.shop
 
 ### 박선재([@cs71107](https://github.com/cs71107))
 - 한 마디 : 갈길이 머네요...
