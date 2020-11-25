@@ -182,12 +182,12 @@
 
 ### 안유리([@yuri-0415](https://github.com/yuri-0415))
 - 한 마디: 종강까지 한달이 안남았네요! 다들 화이팅^~^
-- Public IPv4 address: http://3.34.183.36
-- Public IPv4 DNS: http://ec2-3-34-183-36.ap-northeast-2.compute.amazonaws.com
-- HTTP Domain:  
-- HTTPS Domain: 
+- Public IPv4 address: http://3.34.122.1/
+- Public IPv4 DNS: http://ec2-3-34-122-1.ap-northeast-2.compute.amazonaws.com/
+- HTTP Domain: http://yuri-0415.shop
+- HTTPS Domain: https://yuri-0415.shop 
 
-### 박선재([@cs71107](https://github.com/cs71107)) 
+### 박선재([@cs71107](https://github.com/cs71107))
 - 한 마디 : 갈길이 머네요... (https 는 아직 안 했습니다! 주소만 적어놓을게요!)
 - Public IPv4 address: http://18.191.220.193
 - Public IPv4 DNS: http://ec2-18-191-220-193.us-east-2.compute.amazonaws.com
