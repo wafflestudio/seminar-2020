@@ -207,3 +207,10 @@
 - Public IPv4 DNS: http://ec2-3-34-134-136.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://waffle-backend-darkbal.shop/
 - HTTPS Domain: https://waffle-backend-darkbal.shop/
+
+### 최신혁([@shchoi94](https://github.com/shchoi94))
+- 한 마디: 와플 먹는게 쉽지는 않았지만 먹고나니 맛있고 배부르다.
+- Public IPv4 address: http://54.180.99.244
+- Public IPv4 DNS: http://ec2-54-180-99-244.ap-northeast-2.compute.amazonaws.com
+- HTTP Domain: http://shchoi.shop/
+- HTTPS Domain: 
