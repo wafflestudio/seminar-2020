@@ -213,4 +213,4 @@
 - Public IPv4 address: http://54.180.99.244
 - Public IPv4 DNS: http://ec2-54-180-99-244.ap-northeast-2.compute.amazonaws.com
 - HTTP Domain: http://shchoi.shop/
-- HTTPS Domain: 
+- HTTPS Domain: https://shchoi.shop/
