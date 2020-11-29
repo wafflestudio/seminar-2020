@@ -194,6 +194,13 @@
 - HTTP Domain: http://choijunho.shop
 - HTTPS Domain: 
 
+### 정민수([@j-min5u](https://github.com/j-min5u))
+- 한 마디: 늦게나마 완수하였습니다,, 
+- Public IPv4 address: http://18.222.253.126/
+- Public IPv4 DNS: http://ec2-18-222-253-126.us-east-2.compute.amazonaws.com
+- HTTP Domain: http://www.jmswafflea4.shop/
+- HTTPS Domain: https://www.jmswafflea4.shop/
+
 ### 박윤수([@Junetrbl](https://github.com/Junetrbl))
 - 한 마디: 막차🤭
 - Public IPv4 address: http://3.34.134.136
