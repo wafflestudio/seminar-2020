@@ -48,8 +48,8 @@ database를 선택하고 해당 database에 속한 table들을 출력하세요. 
 호출하고 그 결과가 보이는 화면이 포함된 스크린샷을 `/results`에 적절한 이름으로 포함시켜 주세요.
 
 8. [views.py](waffle_backend/survey/views.py) 와 [urls.py](waffle_backend/survey/urls.py) 를 수정하여 `GET /api/v1/os/`와
-`GET /api/v1/os/{operatingsystem_id}/`를 개발하세요. `OperatingSystemViewSet`을 새로 생성하시는 방식을 권장드립니다. 이미 [serializers.py](waffle_backend/survey/serializers.py)
-에 `OperatingSystemSerializer`를 정의해두었기에, 굳이 새로 [Serializer](https://www.django-rest-framework.org/api-guide/serializers/) 를 만들거나, response 형식에 대해 고민할 필요는 없습니다.
+`GET /api/v1/os/{operatingsystem_id}/`를 개발하세요. 이미 [serializers.py](waffle_backend/survey/serializers.py)
+에 `serialize_survey`, `serialize_os`를 정의해두었기에 response 형식에 대해 고민할 필요는 없습니다.
 `GET /api/v1/os/`는 DB의 모든 `survey_operatingsystem`을 클라이언트/프론트엔드에게 전달하는 API입니다. `GET /api/v1/os/{operatingsystem_id}/`는
 같은 table에서 `operatingsystem_id`에 해당하는 primary key를 가진 row의 정보만 전달하는 API입니다. 두 API의 status code는 정상적인 경우 `200 OK`로 해주세요.
 여기까지 개발한 내용을 아래 '제출 방식'에서 설명하는 repository에 `/waffle_backend` directory로 포함시켜 주세요. 또한 개발한 두 API 역시 7.에서처럼 Postman을
