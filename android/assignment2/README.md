@@ -19,9 +19,8 @@
   - 위 사항은 뼈대 코드에서 이미 잘 작성되어 있다.
 
 ## 앱 데모
+![Demo](demo.gif)
 
-https://user-images.githubusercontent.com/37951125/198086711-5c34fa23-7d4c-4107-b727-c68add8bb02f.mov
-  
 ## 과제 진행 방법
 #### 뼈대 코드 사용 시 (easy)
 - 이전 과제에서 만들었던 private repository(waffle-android-assign) 를 clone 받는다.
